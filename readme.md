@@ -12,7 +12,7 @@ CMS: [Kirby](http://getkirby.com)
 
 ###Features
 
-Pages are dynamically generated from the content folder. 
+Pages are dynamically generated. 
 
 ###Adding a new project
 
