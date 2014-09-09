@@ -145,7 +145,7 @@
 
                     <!-- View All Team Members Button -->  
                     <div class="padding-top padding-bottom">  
-                        <a href="team.html" class="btn black-btn">
+                        <a href="team" class="btn black-btn">
                             View All Team Members
                         </a>
                     </div>

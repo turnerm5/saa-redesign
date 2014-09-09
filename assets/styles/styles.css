@@ -29,6 +29,7 @@ Table of Contents:
 /* ----------------------------------------------------
   1) BOOTSTRAP OVERRIDE
 ------------------------------------------------------- */
+body { padding-top: 60px; }
 
 .navbar-nav{
   padding-top: 15px;
@@ -245,9 +246,11 @@ a:focus {
 }
 .project-title h3{
   font-family: 'Montserrat', sans-serif;
-  font-size: 16px;
+  font-size: 14px;
   text-transform: uppercase;
-  font-weight: 600; 
+  font-weight: 600;
+  margin-top: 5px;
+  margin-bottom: 5px; 
 }
 .title-devider{
   border-bottom: 2px solid #ff5733;
@@ -473,7 +476,13 @@ a:focus {
   padding: 10px;
   text-align: center;
   background-color: #f2f2f2;
+  font-size: 14px;
 }
+
+.project-inner-caption p {
+    margin: 0;
+  }
+
 .project-inner-caption i{
   color: #ff5733;
 }
@@ -508,6 +517,9 @@ a:focus {
 }
 .project-item{
   margin-bottom: 30px;
+  font-size: 10px;
+  text-align: justify;
+  /*padding: 0;*/
 }
 .project-item:hover .project-title {
   color: #ff5733;
@@ -622,7 +634,7 @@ a:focus {
 }
 .team-title h3{
   font-family: 'Montserrat', sans-serif;
-  font-size: 16px;
+  font-size: 14px;
   color: #282828;
   text-transform: uppercase;
   font-weight: 600; 
@@ -645,12 +657,20 @@ a:focus {
 }
 
 .team-caption-page{
-  margin-bottom: 35px;
+  margin-bottom: 20px;
 }
 
 .team-caption-page h3{
   margin-top: 5px;
+}
 
+.team-caption-page h4{
+  font-size: 13px;
+}
+
+.team-caption-page h5{
+  font-size: 12px;
+  margin-top: 2px;
 }
 
 .team-inner img{   

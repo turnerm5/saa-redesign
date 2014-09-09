@@ -58,7 +58,7 @@
             <div class="container text-center">
                 <!-- Section General Title -->
                 <div class="general-title">
-                    <h2>Featured Projects</h2>        
+                    <h2>Our Work</h2>        
                     <div class="title-devider"></div>
                 </div>
                 <div class="row">

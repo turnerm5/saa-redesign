@@ -1,0 +1,16 @@
+Title: Landscape Horticulture Building
+----
+Client: South Seattle College
+----
+Location: 6000 16th Ave SW, Seattle, WA 98106
+----
+Date: 2004
+----
+Tags: education, new-building
+----
+SF: 7,040
+----
+Text: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed vel tincidunt neque. Integer luctus sapien a mi aliquet, ornare rutrum quam luctus. Sed convallis enim sit amet posuere bibendum. Nam diam nibh, pellentesque et imperdiet nec, cursus egestas dui. Curabitur et erat at justo venenatis scelerisque. Vivamus at pellentesque orci. Nullam a metus id neque hendrerit efficitur. Praesent imperdiet purus eu vestibulum pellentesque. Nam non ligula id ante egestas tincidunt. Curabitur pharetra augue id lacus aliquet, ac bibendum ex aliquet. Proin massa libero, posuere et lectus vel, ultrices fermentum dui. Etiam porttitor dignissim dolor, vitae condimentum augue rhoncus sit amet.
+
+Mauris fringilla convallis risus, eu lacinia leo tincidunt eget. In mattis sed dui sit amet porttitor. Aenean accumsan leo ipsum, ut pretium metus ultricies quis. Vestibulum lacinia nunc et dui accumsan convallis. Etiam vulputate elit sit amet purus fringilla, vitae fringilla nibh placerat. Fusce tincidunt velit in ipsum feugiat, quis congue metus feugiat. Fusce aliquet nec lacus quis mattis. Morbi magna massa, faucibus finibus tortor sed, consequat viverra nisl. Duis leo mi, commodo sit amet neque eget, dictum bibendum est. Vestibulum rhoncus nulla non quam dictum blandit. Duis tincidunt aliquam leo a pulvinar. Cras laoreet lorem ex, in posuere ante pulvinar et.
+----

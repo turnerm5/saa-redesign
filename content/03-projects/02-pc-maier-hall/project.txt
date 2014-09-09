@@ -2,14 +2,15 @@ Title: Maier Hall
 ----
 Client: Peninsula College
 ----
-Location: Address Here
+Location: 1502 E Lauridsen Blvd, Port Angeles, WA 98362
 ----
-Date: 2011/10/30
+Date: 2011
 ----
 Tags: education, new-building
 ----
-Text: 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras non leo est. Nunc sed urna vitae metus luctus ultricies non ac arcu. Phasellus laoreet ligula metus, a imperdiet risus viverra non. Aenean sit amet tempus lacus. Interdum et malesuada fames ac ante ipsum primis in faucibus. Suspendisse eget neque pretium, volutpat lectus fringilla, tincidunt nibh. Cras non ipsum non augue ultrices ultrices sed sit amet eros. Sed ultrices, velit eget blandit ultricies, mi justo viverra massa, ac ultrices mi leo et risus. Curabitur ultricies molestie nulla, vitae luctus purus luctus eget. Maecenas a urna eget felis pellentesque efficitur ut nec dui. Mauris elit nibh, dictum eget tellus sit amet, tempus semper enim. Morbi convallis ipsum vitae eleifend rutrum. Vestibulum porta sit amet nunc a semper. Integer turpis nisl, faucibus a nunc quis, fermentum faucibus sem.
+SF: 65,000
+----
+Text: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed vel tincidunt neque. Integer luctus sapien a mi aliquet, ornare rutrum quam luctus. Sed convallis enim sit amet posuere bibendum. Nam diam nibh, pellentesque et imperdiet nec, cursus egestas dui. Curabitur et erat at justo venenatis scelerisque. Vivamus at pellentesque orci. Nullam a metus id neque hendrerit efficitur. Praesent imperdiet purus eu vestibulum pellentesque. Nam non ligula id ante egestas tincidunt. Curabitur pharetra augue id lacus aliquet, ac bibendum ex aliquet. Proin massa libero, posuere et lectus vel, ultrices fermentum dui. Etiam porttitor dignissim dolor, vitae condimentum augue rhoncus sit amet.
 
-
-Suspendisse sit amet lacus odio. Morbi lobortis interdum mauris, venenatis interdum ex porttitor id. Pellentesque in risus varius, porta velit sed, tincidunt ligula. Morbi quis urna et risus cursus pellentesque. Nulla facilisi. Mauris cursus, metus ut convallis posuere, lorem ante aliquet ipsum, vel viverra dui leo at lectus. Maecenas ornare velit at tellus dignissim, in fermentum eros consectetur. Aliquam fringilla sem non est vestibulum finibus. Nullam sit amet orci pharetra, consectetur leo quis, feugiat risus. Nulla aliquet, tellus gravida condimentum auctor, neque magna maximus magna, ac tincidunt tortor diam hendrerit ante. Proin augue lorem, cursus at purus quis, aliquam pharetra nibh. Curabitur pharetra nisl leo, in luctus justo interdum id. Cras volutpat cursus felis eu vestibulum. Proin suscipit ultricies efficitur.
+Mauris fringilla convallis risus, eu lacinia leo tincidunt eget. In mattis sed dui sit amet porttitor. Aenean accumsan leo ipsum, ut pretium metus ultricies quis. Vestibulum lacinia nunc et dui accumsan convallis. Etiam vulputate elit sit amet purus fringilla, vitae fringilla nibh placerat. Fusce tincidunt velit in ipsum feugiat, quis congue metus feugiat. Fusce aliquet nec lacus quis mattis. Morbi magna massa, faucibus finibus tortor sed, consequat viverra nisl. Duis leo mi, commodo sit amet neque eget, dictum bibendum est. Vestibulum rhoncus nulla non quam dictum blandit. Duis tincidunt aliquam leo a pulvinar. Cras laoreet lorem ex, in posuere ante pulvinar et.
+----

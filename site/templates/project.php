@@ -29,7 +29,31 @@
                                             <img src="<?php echo $image->url() ?>" alt="<?php echo html($page->title()) ?>">
                                         </a>
                                     </li>
+                                
                                 <?php endforeach ?>
+                            
+                            <?php else: ?>
+                                    <li>
+                                        <a href="http://placehold.it/800x600" data-lightbox="project_photos" data-title="Placeholder Image">
+                                            <img src="http://placehold.it/800x600" alt="Placeholder Image">
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="http://placehold.it/800x600" data-lightbox="project_photos" data-title="Placeholder Image">
+                                            <img src="http://placehold.it/800x600" alt="Placeholder Image">
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="http://placehold.it/800x600" data-lightbox="project_photos" data-title="Placeholder Image">
+                                            <img src="http://placehold.it/800x600" alt="Placeholder Image">
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="http://placehold.it/800x600" data-lightbox="project_photos" data-title="Placeholder Image">
+                                            <img src="http://placehold.it/800x600" alt="Placeholder Image">
+                                        </a>
+                                    </li>
+
                             <?php endif ?>
 
                         </ul>
@@ -46,12 +70,15 @@
 
                                 <!-- Location -->
                                 <li>
-                                    <b>Location:</b> <?php echo html($page->location()) ?>
+                                    <?php $loc = $page->location() ?>
+                                    <?php $map_address = str_replace(' ','+', $loc) ?>
+
+                                    <b>Location:</b> <a href="https://www.google.com/maps/search/<?php echo $map_address ?>"> <?php echo $loc ?> </a>
                                 </li>
 
                                 <!-- Date -->
                                 <li>
-                                    <b>Date:</b> <?php echo $page->date('Y-m-d') ?>
+                                    <b>Date:</b> <?php echo $page->date('Y') ?>
                                 </li>
 
                                 <!-- Category -->
