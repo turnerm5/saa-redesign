@@ -1,5 +1,10 @@
-#SAARCH Website
+##SAARCH Website
+
+###Summary
 
 Redesign of saarch.com.
 
-Bootstrap framework, Kirby as CMS.
+###New Features
+
+Framework: [Bootstrap](http://getbootstrap.com)
+CMS: [Kirby](http://getkirby.com)
