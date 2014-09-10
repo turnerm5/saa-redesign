@@ -10,9 +10,13 @@ Framework: [Bootstrap](http://getbootstrap.com)
 
 CMS: [Kirby](http://getkirby.com)
 
+Filtering: [MixItUp 2](http://mixitup.kunkalabs.com)
+
 ###Features
 
-Pages are dynamically generated. 
+Pages are dynamically generated from text files in the content folder. Each page template saved in site>templates pulls the appropriate text from the text file. Since there is no database to connect to, pages load extremely quickly, and it's very easy to change content.
+
+The project filtering is very robust. We can use any combination of tags we want to filter or sort projects.
 
 ###Adding a new project
 
