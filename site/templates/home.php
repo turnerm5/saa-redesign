@@ -225,7 +225,7 @@
 
             <!-- See All Our Work Button -->
             <div class="all-projects text-center">
-                <a href="projects.html" class="btn orange-btn">
+                <a href="projects" class="btn orange-btn">
                     See all our Projects
                 </a>
             </div>
@@ -294,7 +294,7 @@
 
                 <!-- View All Services Button -->  
                 <div class="padding-top padding-bottom">  
-                    <a href="services.html" class="btn black-btn">
+                    <a href="services" class="btn black-btn">
                         View all Services
                     </a> 
                 </div>
@@ -311,85 +311,42 @@
                         <div class="title-devider"></div>
                     </div>
                     <div class="row">
+                    
+                    <?php $articles = $pages->find('blog')->children()->visible()->flip()->paginate(3) ?>
+
+                    <?php foreach($articles as $article): ?>
 
                         <!-- Blog Item (image, title, description, link and date for your blog post) -->
                         <div class="col-sm-4 col-md-4">
                             <div class="thumbnail blog-post">
                                 <!-- Image -->                    
-                                <a href="blog-inner.html">
+                                <a href="<?php echo $article->url() ?>">
                                     <img src="http://placehold.it/800x600" alt="Specifie an alternate text for an image">
                                 </a>
                                 <!-- Title and Description -->
                                 <div class="caption">
                                     <div class="blog-inner-title">
-                                        <a href="blog-inner.html">
-                                            <h3>Curabitur auctor vulputate quam facilisis eu dolor</h3>                      
+                                        <a href="<?php echo $article->url() ?>">
+                                            <h3><?php echo html($article->title()) ?></h3>                      
                                         </a>
                                     </div>
-                                    <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>                        
+                                    <p><?php echo excerpt($article->text(), 150) ?></p>                        
                                     <div class="blog-meta">
-                                        <span><i class="fa fa-calendar"></i> <a href="blog-inner.html">April 01, 2014</a></span>
-                                        <span><i class="fa fa-comment"></i> <a href="blog-inner.html">03 Comments</a></span>
-                                        <span><i class="fa fa-eye"></i> 84 Views</span>
+                                        <span><i class="fa fa-calendar"></i> <a href="<?php echo $article->url() ?>"><?php echo $article->date('Y-m-d') ?></a></span>
+                                        <span><i class="fa fa-user"></i> <a href="<?php echo $article->url() ?>"><?php echo $article->author() ?></a></span>
                                     </div>
                                 </div>
                             </div>
                         </div>                        
 
-                        <!-- Blog Item (image, title, description, link and date for your blog post) -->
-                        <div class="col-sm-4 col-md-4">
-                            <div class="thumbnail blog-post">
-                                <!-- Image -->
-                                <a href="blog-inner.html">
-                                    <img src="http://placehold.it/800x600" alt="Specifie an alternate text for an image"> 
-                                </a>
-                                <!-- Title and Description -->
-                                <div class="caption">
-                                    <div class="blog-inner-title">
-                                        <a href="blog-inner.html">
-                                            <h3>Lorem ipsum dolor sit amet, magna adipiscing elit</h3>
-                                        </a>
-                                    </div>
-                                    <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>                        
-                                    <div class="blog-meta">
-                                        <span><i class="fa fa-calendar"></i> <a href="blog-inner.html">April 01, 2014</a></span>
-                                        <span><i class="fa fa-comment"></i> <a href="blog-inner.html">03 Comments</a></span>
-                                        <span><i class="fa fa-eye"></i> 84 Views</span>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>                        
-
-                        <!-- Blog Item (image, title, description, link and date for your blog post) -->
-                        <div class="col-sm-4 col-md-4">
-                            <div class="thumbnail blog-post">
-                                <!-- Image -->
-                                <a href="blog-inner.html">
-                                    <img src="http://placehold.it/800x600" alt="Specifie an alternate text for an image">
-                                </a>
-                                <!-- Title and Description -->
-                                <div class="caption">
-                                    <div class="blog-inner-title">
-                                        <a href="blog-inner.html">
-                                            <h3>Duis in tortor tortor magna euismod id rutrum eros</h3>
-                                        </a>
-                                    </div>
-                                    <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>                    
-                                    <div class="blog-meta">
-                                        <span><i class="fa fa-calendar"></i> <a href="blog-inner.html">April 01, 2014</a></span>
-                                        <span><i class="fa fa-comment"></i> <a href="blog-inner.html">03 Comments</a></span>
-                                        <span><i class="fa fa-eye"></i> 84 Views</span>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>                        
+                    <?php endforeach ?>                
 
                     </div><!-- /row -->
                 </div><!-- /container -->
 
                 <!-- All Posts Button -->
                 <div class="text-center padding-top padding-bottom">
-                    <a href="blog.html" class="btn black-btn">See All Posts</a>
+                    <a href="blog" class="btn black-btn">See All Posts</a>
                 </div>                
             </section>
             <!-- End From blog -->
