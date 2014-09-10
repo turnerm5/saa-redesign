@@ -3,6 +3,7 @@
 ###High Priority
 -	Make images on project page adaptive, so they aren't constrained to 800x600. This may involve implementing a jQuery library that does this automatically, or it may be as simple as changing a line of CSS.
 -	Finish project pages. Find if there is a way to automate it, somehow.
+-	Automate the project generation
 
 ###Standard Priority
 -	Make standard pages (About Us, Services) dynamic and linked to Kirby.
