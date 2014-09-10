@@ -1,0 +1,9 @@
+name: Shazi Tharian
+----
+bio: Shazi is an awesome author with years of experience
+----
+email: shazi@saarch.com
+----
+website: http://john.doe.com
+----
+twitter: http://twitter.com/johndoe

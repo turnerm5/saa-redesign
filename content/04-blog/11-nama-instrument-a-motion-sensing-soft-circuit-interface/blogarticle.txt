@@ -2,7 +2,7 @@ Title: Nama Instrument: A Motion-Sensing Soft-Circuit Interface
 ----
 Date: 24 Jan 2013 18:43:48
 ----
-Author: Marshall Turner
+Author: marshall-turner
 ----
 Text: This combination of a soft interface, motion-sensing hardware and generative music software is incredible.
 

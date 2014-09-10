@@ -2,7 +2,7 @@ Title: Quick 3D Site Models with Grasshopper
 ----
 Date: 30 Jan 2014 00:07:09
 ----
-Author: Marshall Turner
+Author: marshall-turner
 ----
 Text: We were inspired recently by a post by Alex Webb on [his blog](http://blog.alexwebb.com/?p=1343) about grabbing open-source map data from <a href="http://www.openstreetmap.org/">OpenStreetMap</a>, and using it inside of Grasshopper. By using the Elk plugin for Grasshopper, we are able to parse the OSM data and use it to do things like draw the outlines of buildings and roads. give us a 3D site model, suitable for renderings, massing diagrams, or shading studies.
 

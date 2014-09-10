@@ -18,6 +18,7 @@
                     <?php $articles = $page->children()->visible()->flip()->paginate(6) ?>
 
                     <?php foreach($articles as $article): ?>
+                        <?php $author = $pages->find('authors/' . $article->author()) ?>
 
                         <!-- Blog Post (image, title, date and description of post) --> 
                         <div class="col-sm-6 col-md-6">
@@ -36,7 +37,7 @@
                                     <!-- Date -->
                                     <div class="blog-meta">
                                         <span><i class="fa fa-calendar"></i> <a href="#"> <?php echo $article->date('Y-m-d') ?></a></span>
-                                        <span><i class="fa fa-user"></i> <a href="#"> <?php echo $article->author() ?></a></span>
+                                        <span><i class="fa fa-user"></i> <a href="#"> <?php echo $author->name() ?></a></span>
                                     </div>
                                     <!-- Description -->
                                     <p><?php echo excerpt($article->text(), 300) ?></p>                    

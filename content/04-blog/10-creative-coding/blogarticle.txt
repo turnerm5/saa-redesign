@@ -2,7 +2,7 @@ Title: Creative Coding
 ----
 Date: 14 Jun 2012 17:38:52
 ----
-Author: Marshall Turner
+Author: marshall-turner
 ----
 Text: I'll be using this section of our blog in a continued exploration of the role of computers, algorithmic models, and generative systems in the design field. Scripting, and the use of complex algorithms have enabled designers to create complex organic shapes that would not be possible with traditional drafting methods. You can call this parametric modeling, creative coding, or generative design, but the key component is the same. The role of the designer has shifted into one where they build and manipulate the system that does the drawing, instead of actually taking pen to paper. A series of simple rules, iterated thousands of times with slightly shifting parameters and an element of randomness, can produce emergent organic forms. A very great overview of generative design can be found at <a href="http://www.cadalyst.com/cad/building-design/generative-design-is-changing-face-architecture-12948">Cadalyst</a>.
 

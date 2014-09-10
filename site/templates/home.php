@@ -315,6 +315,7 @@
                     <?php $articles = $pages->find('blog')->children()->visible()->flip()->paginate(3) ?>
 
                     <?php foreach($articles as $article): ?>
+                    <?php $author = $pages->find('authors/' . $article->author()) ?>
 
                         <!-- Blog Item (image, title, description, link and date for your blog post) -->
                         <div class="col-sm-4 col-md-4">
@@ -333,7 +334,7 @@
                                     <p><?php echo excerpt($article->text(), 150) ?></p>                        
                                     <div class="blog-meta">
                                         <span><i class="fa fa-calendar"></i> <a href="<?php echo $article->url() ?>"><?php echo $article->date('Y-m-d') ?></a></span>
-                                        <span><i class="fa fa-user"></i> <a href="<?php echo $article->url() ?>"><?php echo $article->author() ?></a></span>
+                                        <span><i class="fa fa-user"></i> <a href="<?php echo $article->url() ?>"><?php echo $author->name() ?></a></span>
                                     </div>
                                 </div>
                             </div>

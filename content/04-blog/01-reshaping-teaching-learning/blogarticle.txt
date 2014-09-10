@@ -2,7 +2,7 @@ Title: Reshaping Teaching & Learning
 ----
 Date: 23 Jul 2012 23:22:33
 ----
-Author: Cima Malek-Aslani
+Author: cima-malek-aslani
 ----
 Text: Massive Open Online Courses (MOOCs) are on their way to changing the delivery of higher education. Just last week Coursera, the for-profit startup that currently offers MOOCs for free, announced that twelve major research universities including University of Washington had joined their open courseware venture. Again, articles in the press used the words "seismic shift" and "tsunami" relative to the effect MOOCs are having on higher education. In May when the Harvard/MIT open courseware project was announced, planners at the University of Washington voiced guarded interest and noted the many questions surrounding MOOCs ability to truly disrupt higher education. Two months later, however, the UW is partnering with Coursera to deliver courses via MOOCs. With the UW and other major research universities joining the open courseware movement "seismic shift" still sounds extreme but it is clear that change is accelerating.
 

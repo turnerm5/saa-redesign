@@ -2,11 +2,9 @@ Title: BIM Philosophy
 ----
 Date: 04 Jan 2013 23:34:53
 ----
-Author: Evan Bourquard
+Author: evan-bourquard
 ----
 Text: When a small firm undertakes a big change, such as changing the way they document their projects, great care must be taken to execute that upgrade without fundamentally altering the way they practice or affecting the quality of their documentation. I thought I might take a moment to share a few thoughts on the "fun" part of the changeover process at Schacht Aslani Architects: developing our office philosophy towards the use of Building Information Modeling (BIM) and how fellow staff member Casey Borgen and I wrote the office manual for the use of REVIT.
-
-
 
 Like many firms, over the last decade our office has charged forward into the Building Information Modeling arena. Building Information Modeling (BIM) is a real paradigm shift in the way architects think about and document design projects in development. Unlike other 3D visualization software that emerged a decade or so ago (like Sketchup and 3D Studio MAX), a true BIM model allows architects to fully model 3D elements of a building in real time. We construct the building using intelligent components that contain real information (like materials or identity data) and that interact intelligently with one another. From this virtual model or database, we then extract the traditional 2D representations of a project (plans, sections, elevations, and details) that we need to communicate with the contractor and upon which our contractual obligations are based. From a user standpoint this is an amazing transformation, as we now use more of our time "building" a project, and less time executing rote drawing operations.
 

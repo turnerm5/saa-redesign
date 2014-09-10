@@ -2,7 +2,7 @@ Title: More Generative Music Madness!
 ----
 Date: 29 Jan 2013 00:44:04
 ----
-Author: Marshall Turner
+Author: marshall-turner
 ----
 Text: Expanding on <a href="http://saarch.com/blog/index.php/2013/01/24/nama-instrument-a-motion-sensing-soft-circuit-interface/">last week's post about the Nama Instrument</a>, here are two more generative music projects that I find completely fascinating, pushing the boundaries between art and technology.
 

@@ -1,0 +1,9 @@
+name: Cima Malek-Aslani
+----
+bio: Cima is an awesome author with years of experience.
+----
+email: cima@saarch.com
+----
+website: http://john.doe.com
+----
+twitter: http://twitter.com/johndoe

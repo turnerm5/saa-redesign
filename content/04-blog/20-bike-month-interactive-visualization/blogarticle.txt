@@ -2,7 +2,7 @@ Title: Bike Month Interactive Visualization
 ----
 Date: 28 Apr 2014 23:52:12
 ----
-Author: Marshall Turner
+Author: marshall-turner
 ----
 Text: We wanted a fun way to view our stats for Cascade Bicycle Club's <a href="http://www.cascade.org/bikemonth">Bike Month</a>. It needed to be automatic, where we could run the program, and it would grab the most recent data from Cascade's site without any extra steps. We also wanted it to be interactive, and respond to user input in a fun and creative way. Here's what we came up with.
 

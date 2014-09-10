@@ -2,7 +2,7 @@ Title: The Impact of Online Learning on Planning & Design
 ----
 Date: 07 Aug 2012 23:26:05
 ----
-Author: Cima Malek-Aslani
+Author: cima-malek-aslani
 ----
 Text: Our approach to the campus master plan for Lower Columbia College and the design of a new arts and health occupations building at Olympic College reflect the impact of Massive Open Online Courses (MOOCs) on higher education. Lower Columbia's master plan considers changing role of the campus in education as the capacity of open, online courses to reduce the need for lecture-based classes to take place at the College. Spaces that accommodate experiential learning will become a focus of the campus. In workforce education, for example, general content will probably be delivered online. Vocational labs will be designed to simulate workplace environments, enabling students to engage in skills development allows them to prepare for employment.
 

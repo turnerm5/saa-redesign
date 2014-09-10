@@ -7,6 +7,9 @@
             <!-- Blog Inner -->
             <div class="container">   
                     
+                    <?php $author = $pages->find('authors/' . $page->author()) ?>
+
+
                     <!-- Post Information (image, title, date and description of post) -->       
                     <div class="blog-inner">
                         <div class="row">
@@ -19,9 +22,12 @@
                         <div class="row">
                             <!-- Date, Comments, Views -->
                             <div class="col-md-4 col-md-push-8 blog-meta-inner">
-                                <span><i class="fa fa-calendar"></i> <?php echo $page->date('Y-m-d') ?></span>
-                                <br>
-                                <span><i class="fa fa-user"></i> <?php echo $page->author() ?></span>
+                                <h5>Date Published</h5>
+                                <p><?php echo $page->date('D, M d, Y') ?></p>
+                                <h5>Author</h5>
+                                <a href="mailto:<?php echo $author->email() ?>"><?php echo $author->name() ?></a>
+                                <h5>Bio</h5>
+                                <p><?php echo $author->bio() ?></p>
                             </div>
 
                             <!-- Blog Text -->

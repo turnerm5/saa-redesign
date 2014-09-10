@@ -2,7 +2,7 @@ Title: Simulating Student Movement Around Campus
 ----
 Date: 21 Feb 2014 23:23:09
 ----
-Author: Marshall Turner
+Author: marshall-turner
 ----
 Text: 
 

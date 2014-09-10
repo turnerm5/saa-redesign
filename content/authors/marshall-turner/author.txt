@@ -1,0 +1,9 @@
+name: Marshall Turner
+----
+bio: Marshall is an awesome author with years of experience
+----
+email: marshall@saarch.com
+----
+website: http://john.doe.com
+----
+twitter: http://twitter.com/johndoe

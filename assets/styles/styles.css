@@ -618,17 +618,24 @@ a:focus {
 .blog-meta-inner i{
   color: #ff5733;
   margin-bottom: 8px;
-  padding-right: 5px;
+  padding-right: 15px;
 }
 
 .blog-meta-inner a {
-  padding-left: 5px;
+  padding-left: 0px;
 }
 
 .blog-meta-inner span{
   color: #c0c0c0;
   font-size: 14px;
   margin-right: 7px;
+}
+
+.blog-meta-inner h5{
+  font-weight: 600;
+  color: #ff5733;
+  margin-bottom: 3px;
+  margin-top: 10px;
 }
 
 .blog-inner-title a{
