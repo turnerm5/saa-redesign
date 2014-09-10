@@ -2,14 +2,14 @@ Title: Maier Hall
 ----
 Client: Peninsula College
 ----
-Location: Address Here
+Location: 1502 E Lauridsen Blvd, Port Angeles, WA 98362
 ----
-Date: 2011/10/30
+Date: 2011/01/01
+----
+SF: 65,000
 ----
 Tags: education, new-building
 ----
-Text: 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras non leo est. Nunc sed urna vitae metus luctus ultricies non ac arcu. Phasellus laoreet ligula metus, a imperdiet risus viverra non. Aenean sit amet tempus lacus. Interdum et malesuada fames ac ante ipsum primis in faucibus. Suspendisse eget neque pretium, volutpat lectus fringilla, tincidunt nibh. Cras non ipsum non augue ultrices ultrices sed sit amet eros. Sed ultrices, velit eget blandit ultricies, mi justo viverra massa, ac ultrices mi leo et risus. Curabitur ultricies molestie nulla, vitae luctus purus luctus eget. Maecenas a urna eget felis pellentesque efficitur ut nec dui. Mauris elit nibh, dictum eget tellus sit amet, tempus semper enim. Morbi convallis ipsum vitae eleifend rutrum. Vestibulum porta sit amet nunc a semper. Integer turpis nisl, faucibus a nunc quis, fermentum faucibus sem.
+Text: Duis placerat blandit velit eu maximus. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Sed tristique dui ac leo pharetra pulvinar. Maecenas id sodales ipsum. Proin placerat quam sed ligula varius tempus. Aliquam erat volutpat. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
 
-
-Suspendisse sit amet lacus odio. Morbi lobortis interdum mauris, venenatis interdum ex porttitor id. Pellentesque in risus varius, porta velit sed, tincidunt ligula. Morbi quis urna et risus cursus pellentesque. Nulla facilisi. Mauris cursus, metus ut convallis posuere, lorem ante aliquet ipsum, vel viverra dui leo at lectus. Maecenas ornare velit at tellus dignissim, in fermentum eros consectetur. Aliquam fringilla sem non est vestibulum finibus. Nullam sit amet orci pharetra, consectetur leo quis, feugiat risus. Nulla aliquet, tellus gravida condimentum auctor, neque magna maximus magna, ac tincidunt tortor diam hendrerit ante. Proin augue lorem, cursus at purus quis, aliquam pharetra nibh. Curabitur pharetra nisl leo, in luctus justo interdum id. Cras volutpat cursus felis eu vestibulum. Proin suscipit ultricies efficitur.
+Sed consequat, nibh ut interdum consequat, est metus placerat neque, sed ultricies sapien est vitae risus. Fusce viverra sapien neque, eu tempor leo iaculis at. Nunc tincidunt felis id aliquam volutpat. Sed vel libero eu libero lacinia consequat. Sed maximus augue enim, sit amet semper mi imperdiet et. Curabitur felis risus, scelerisque id magna a, aliquam sollicitudin ligula. Donec vel dui nec odio iaculis aliquet. Vestibulum molestie tortor et scelerisque scelerisque. Donec sagittis at urna at dignissim. Nulla facilisi. Aliquam vulputate ante in nunc aliquet, nec pulvinar lectus v

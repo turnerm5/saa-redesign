@@ -40,27 +40,30 @@
 
                         <?php foreach($page->children()->visible() as $project): ?>
                             
-                            <?php $image = $project->images()->find('01.jpg') ?>                        
                             <?php $tags = $project->tags() ?>
                             <?php $tags_stripped = str_replace(',','', $tags)?>
 
-                            <div class="col-sm-6 col-md-4 project-item mix <?php echo $tags_stripped ?>">
-                                <div class="thumbnail projects-thumbnail">
-                                    <a href="<?php echo $project->url() ?>">
-                                        <img src="<?php echo $image->url() ?>" alt="<?php echo html($project->title()) ?>">                                                                   
-                                    </a>         
-                                </div>
-                                <div class="project-inner-caption">
-                                    <!-- Title -->
-                                    <div class="project-title">                    
-                                            <h3><?php echo html($project->title()) ?></h3>                                
-                                    </div>
-                                    <!-- City and Date -->
-                                    <p><i class="fa fa-map-marker"></i> <?php echo html($project->client()) ?></p>             
-                                </div>
-                            </div>
+                                <div class="col-sm-6 col-md-4 project-item mix <?php echo $tags_stripped ?>">
+                                    <div class="thumbnail projects-thumbnail">
+                                        <a href="<?php echo $project->url() ?>">
+                                            <?php if ($project->hasImages()): ?>
 
-                            <!-- Else, use placeholder image. Don't forget the tags! -->
+                                                <?php $image = $project->images()->find('01.jpg') ?>
+                                                <img src="<?php echo $image->url() ?>" alt="<?php echo html($project->title()) ?>">
+                                            <?php else: ?>
+                                                <img src="http://www.placehold.it/800x600" alt="Placeholder text">  
+                                            <?php endif ?>                                                     
+                                        </a>         
+                                    </div>
+                                    <div class="project-inner-caption">
+                                        <!-- Title -->
+                                        <div class="project-title">                    
+                                                <h3><?php echo html($project->title()) ?></h3>                                
+                                        </div>
+                                        <!-- City and Date -->
+                                        <p><i class="fa fa-map-marker"></i> <?php echo html($project->client()) ?></p>             
+                                    </div>
+                                </div>
 
                         <?php endforeach ?>
 
