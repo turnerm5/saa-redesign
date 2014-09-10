@@ -1,0 +1,68 @@
+Title: Creative Coding
+----
+Date: 14 Jun 2012 17:38:52
+----
+Author: Marshall Turner
+----
+Text: I'll be using this section of our blog in a continued exploration of the role of computers, algorithmic models, and generative systems in the design field. Scripting, and the use of complex algorithms have enabled designers to create complex organic shapes that would not be possible with traditional drafting methods. You can call this parametric modeling, creative coding, or generative design, but the key component is the same. The role of the designer has shifted into one where they build and manipulate the system that does the drawing, instead of actually taking pen to paper. A series of simple rules, iterated thousands of times with slightly shifting parameters and an element of randomness, can produce emergent organic forms. A very great overview of generative design can be found at <a href="http://www.cadalyst.com/cad/building-design/generative-design-is-changing-face-architecture-12948">Cadalyst</a>.
+
+This first week, I’ll be taking a look at the leading platforms for creative coding and generative design. By no way is this an exhaustive list, but should be helpful for someone with no experience in the field. I'll give examples of the type of work that has been done with each platform, and the best way to approach that platform. Once again, I don't intend for this to be a comprehensive guide, but rather a very brief introduction that will be expanded in the weeks and months to come.
+<blockquote>"Generative design is a morphogenetic process using algorithms structured as not-linear systems for endless unique and un-repeatable results performed by an idea-code, as in Nature."
+
+Celestino Soddu, 1992</blockquote>
+<h3></h3>
+<h3>Processing</h3>
+<a href="http://processing.org/">Processing</a> is a great introduction for those looking to experiment with generative design, as it has very low barriers to entry, a detailed set of tutorials and examples, and an active and helpful user base. One of the stated aims of Processing is to act as a tool to get non-programmers started with programming, through the instant gratification of visual feedback. The language builds on the Java language, but uses a simplified syntax and graphics programming model. Users can jump in and produce visual output within minutes of starting the program. If you’re interested in a great, detailed overview of Processing, and computational art in general, I recommend Processing, by Ira Greenberg.
+
+There are libraries available that allow Processing to communicate with the outside world, using video, networked data sets, and I/O interfaces such as the Arduino and Kinect. (I’ll focus in more detail on the role of the Kinect in a later article, and the profound impact it has had on the democratization of natural user interfaces.) While it’s not necessarily the ideal platform for it, Processing can also work into a fabrication pipeline through the DXF library, allowing sketches to be brought into AutoCAD for manipulation.
+
+Despite the fact that Processing was designed as an entry-level platform, some very advanced projects have been developed with it.
+
+http://vimeo.com/38840688
+
+Unnamed Soundsculpture by <a href="http://wearechopchop.com/%E2%80%9Cunnamed-soundsculpture%E2%80%9D/">Daniel Franke &amp; Cedric Kiefer</a>
+
+The basic idea of the project is built upon the consideration of creating a moving sculpture from the recorded motion data of a real person. For our work we asked a dancer to visualize a musical piece (Kreukeltape by Machinenfabriek) as closely as possible by movements of her body. She was recorded by three depth cameras (Kinect), in which the intersection of the images was later put together to a three-dimensional volume (3d point cloud), so we were able to use the collected data throughout the further process. The three-dimensional image allowed us a completely free handling of the digital camera, without limitations of the perspective. The camera also reacts to the sound and supports the physical imitation of the musical piece by the performer. She moves to a noise field, where a simple modification of the random seed can consistently create new versions of the video, each offering a different composition of the recorded performance. The multi-dimensionality of the sound sculpture is already contained in every movement of the dancer, as the camera footage allows any imaginable perspective.
+
+http://www.youtube.com/watch?v=rKhbUjVyKIc
+
+My Little Piece of Privacy by <a href="http://www.niklasroy.com/project/88/my-little-piece-of-privacy/">Niklas Roy</a>
+
+Nicklas Roy's workshop is located in an old storefront with a big window facing towards the street. In an attempt to create more privacy inside, he decided to install a small but smart curtain in that window. The curtain is smaller than the window, but an additional surveillance camera and an old laptop provide it with intelligence: The computer sees the pedestrians and locates them. With a motor attached, it positions the curtain exactly where the pedestrians are.
+
+<a href="http://labstudio.org/arselectronica.html"><img src="/images/blog/ars-electronica-front.jpg" alt="" width="600" /></a>
+
+Branching Morphogenis by <a href="http://labstudio.org/arselectronica.html">LabStudio</a>
+
+Branching Morphogenesis explores fundamental processes in living systems and their potential application in architecture. The project investigates part-to-whole relationships revealed during the generation of branched structures formed in real-time by interacting lung endothelial cells placed within a 3D matrix environment. The installation materializes five slices in time that capture the force network exerted by interacting vascular cells upon their matrix environment. The time lapses manifest as five vertical, interconnected layers made from over 75,000 cable zip ties. Gallery visitors are invited to walk around and in-between the layers, and immerse themselves within an organic and newly created "Datascape" fusing dynamic cellular change with the body and human occupation, all through the constraints of a ready-made.
+<h3>Cinder</h3>
+Along the same lines as Processing is the <a href="http://libcinder.org/">Cinder library</a>. Cinder is a library for C++ that allow for complex creative applications. Cinder was not designed for entry-level creative coding, and requires an understanding of advanced programming concepts. However, with that complexity, Cinder provides a powerful, intuitive toolbox for programming graphics, audio, video, networking, image processing and computational geometry.
+
+<a href="http://nocte.co.uk/work/the_company.php"><img src="/images/blog/the_company.jpg" alt="" width="600" /></a>
+
+The Company by <a href="http://nocte.co.uk/work/the_company.php">Nocte</a>
+
+A suspended surface of 76 tungsten lamps form a catenary arch, playing host to live performances and revisiting the sounds of the 19th century East River industrial icons. Live adaptation of the soundscape reintroduces routine and mechanical process to the space. The piece intends to bring back an atmosphere informed by the architectural legacy, a machine being delivered to occupy the space that was once a bustling industrial environment. By either producing sounds or just reactive to the inputs from the environment, The Company is a sound reactive light installation.
+
+<a href="http://roberthodgin.com/cymatic-ferrofluid/"><img src="/images/blog/ferrofluid.png" alt="" width="600" /></a>
+
+<a href="http://roberthodgin.com/cymatic-ferrofluid/"> </a>
+
+<a href="http://roberthodgin.com/cymatic-ferrofluid/">Cymatic Ferrofluid by </a><a href="http://roberthodgin.com/cymatic-ferrofluid/">Robert Hodgin</a>
+
+Cymatics is the study of visible sound and vibration, a subset of modal phenomena. Typically the surface of a plate, diaphragm, or membrane is vibrated, and regions of maximum and minimum displacement are made visible in a thin coating of particles, paste, or liquid. Different patterns emerge in the exitatory medium depending on the geometry of the plate and the driving frequency.
+<h3>Rhino + Grasshopper + Python</h3>
+Rhino is a traditional 3D modeling program that is a bit more focused on production and fabrication than interactive art. What makes it unique in the generative design field is the integration of a scripting language and parametric plugins, especially <a href="http://www.grasshopper3d.com/">Grasshopper</a>. Grasshopper provides a framework to develop parametric models without the need for scripting. Complex 3D geometries can be designed and adjusted through sets of parameters in a graphic environment. One of the great benefits of Grasshopper is that is opens up generative design to non-programmers. The following examples show
+
+<a href="http://matsysdesign.com/category/projects/chrysalis-iii/"><img src="/images/blog/chrysalis.jpg" alt="" width="600" /></a>
+
+Chrysalis (III) by <a href="http://matsysdesign.com/category/projects/chrysalis-iii/">Andrew Kudless</a>
+
+The latest in a series of projects exploring cellular morphologies, Chrysalis (III) investigates the self-organization of barnacle-like cells across an underlying substrate surface. The cells shift and slide across the surface as they attempt to find a more balanced packed state through the use of a relaxed spring network constrained to the surface. Each cell is composed of two parts: a cone-like outer surface made from cherry veneer and a non-planer inner plate made from poplar veneer that stresses the outer cone into shape. Each of the 1000 cell components are unfolded flat in the digital model, digitally fabricated, and hand assembled.
+
+<a href="http://www.grasshopper3d.com/photo/hygroscope-back-side?context=user"><img src="/images/blog/HygroScope.jpg" alt="" width="600" /></a>
+
+Hygroscope by <a href="http://www.grasshopper3d.com/photo/hygroscope-back-side?context=user">Achim Menges &amp; Steffen Reichert</a>
+
+The project explores a novel mode of responsive architecture based on the combination of material inherent behaviour and computational morphogenesis. The dimensional instability of wood in relation to moisture content is employed to construct a climate responsive architectural morphology. Suspended within a humidity controlled glass case the model opens and closes in response to climate changes with no need for any technical equipment or energy. Mere fluctuations in relative humidity trigger the silent movement. The material structure itself is the machine.
+----

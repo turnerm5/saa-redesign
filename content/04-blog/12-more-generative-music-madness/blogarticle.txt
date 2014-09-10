@@ -1,0 +1,19 @@
+Title: More Generative Music Madness!
+----
+Date: 29 Jan 2013 00:44:04
+----
+Author: Marshall Turner
+----
+Text: Expanding on <a href="http://saarch.com/blog/index.php/2013/01/24/nama-instrument-a-motion-sensing-soft-circuit-interface/">last week's post about the Nama Instrument</a>, here are two more generative music projects that I find completely fascinating, pushing the boundaries between art and technology.
+
+http://vimeo.com/49484255
+
+<strong>An Instrument for the Sonification of Everyday Things</strong> by <a href="http://dennisppaul.de/">Dennis P Paul</a>
+<blockquote>This is a serious musical instrument. It rotates everyday things, scans their surfaces, and transforms them into audible frequencies. A variety of everyday objects can be mounted into the instrument. Their silhouettes define loops, melodies and rhythms. Thus mundane things are reinterpreted as musical notation. Playing the instrument is a mixture of practice, anticipation, and serendipity. The instrument was built from aluminum tubes, white POM, black acrylic glass, a high precision distance measuring laser ( with the kind support of Micro-Epsilon ), a stepper motor, and a few bits and bobs.
+
+A custom programmed translator and controller module, written in processing, transforms the measured distance values into audible frequencies, notes, and scales. It also precisely controlls the stepper-motor’s speed to sync with other instruments and musicians.</blockquote>
+http://vimeo.com/54882144
+
+<strong>Firewall </strong>by <a title="Aaron Sherwood" href="http://aaron-sherwood.com/works/firewall/">Aaron Sherwood &amp; Mike Allison</a>
+<blockquote>A stretched sheet of spandex acts as a membrane interface sensitive to depth that people can push into and create fire-like visuals and expressively play music. The piece was made using Processing, Max/MSP, Arduino and a Kinect. The Kinect measures the average depth of the spandex from the frame it is mounted on. If the spandex is not being pressed into nothing happens. When someone presses into it the visuals react around where the person presses, and the music is triggered. An algorithm created with Max allows the music to speed up and slow down and get louder and softer, based on the depth. This provides a very expressive musical playing experience, even for people who have never played music before. A switch is built into the frame which toggles between two modes. The second mode is a little more aggressive than the first.</blockquote>
+----

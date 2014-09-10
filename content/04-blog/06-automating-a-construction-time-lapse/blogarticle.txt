@@ -1,0 +1,24 @@
+Title: Automating a Construction Time-Lapse
+----
+Date: 20 Nov 2012 00:55:44
+----
+Author: Marshall Turner
+----
+Text: The great IT staff at North Seattle Community College recently set up <a href="https://northseattle.edu/about-north/new-construction">three webcams</a> watching the construction of the new Technology Building. The building renovation will provide space for labs and classrooms for the College's health, medical and science programs: creating a Human Biology and Science Center including a lab for anatomy, physiology and biology with an intergraded prep area; a Learning Center to centralize and consolidate the College's tutoring programs and promote student success; a Food Services function; and space for student gathering.
+
+We wanted to use these cameras to assemble of a time-lapse of the entire construction, without spending extra money or having to work with the College to get things set up. After some research, we found out a quick and simple way to automate the process. We'd like to share what we found, in case anyone is looking to do the same.
+
+The problem is that the AXIS webcam that the College uses outputs the image in MJPG format, which doesn't save single frames nicely. We could parse the raw image data and extract one from there, but that would be a lot of work. After some research, we found that the webcam had a "snapshot" feature that would give a single JPEG. Unfortunately, the College hadn't turned the feature on, so the button to do so was missing. Digging through the webcam manual, we learned we could append "/axis-cgi/jpg/image.cgi" to force-trigger the snapshot, and kick out the JPEG. Next, we had to set up our computer to grab the image daily, preferably at the same time. We wrote a batch file, containing the following lines:
+<blockquote>wget http://axis-cam1.northseattle.edu/axis-cgi/jpg/image.cgi -O C:\\Users\\marshall\\Documents\\timelapse\\%date:~10,4%%date:~4,2%%date:~7,2%-camera1.jpg wget http://axis-cam2.northseattle.edu/axis-cgi/jpg/image.cgi -O C:\\Users\\marshall\\Documents\\timelapse\\%date:~10,4%%date:~4,2%%date:~7,2%-camera2.jpg wget http://axis-cam3.northseattle.edu/axis-cgi/jpg/image.cgi -O C:\\Users\\marshall\\Documents\\timelapse\\%date:~10,4%%date:~4,2%%date:~7,2%-camera3.jpg</blockquote>
+Here's a quick breakdown, so you can use this on your own. The "wget" is a command that tells the computer to grab the image at the address that follows. The "-O" flag tells wget to output the image to the path that follows. The "%date:~10,4%%date:~4,2%%date:~7,2%" is a set of variables that outputs the date in YYYYMMDD format, and appends "-camera#.jpg" at the end. Windows Task Manager then was set up to trigger the script at noon every day. At the end, we'll compile those into the complete time lapse. Hopefully this helps if you're looking to do something similar.
+
+<em><strong>**Update**</strong></em>
+
+I also realized it'd be helpful to document how we assembled the images into a movie. We used the freeware utility <a href="http://www.ffmpeg.org/">ffmpeg</a> to take the single images that were outputted by the script above, and stich them into one movie. This command-line utility is our go-to for any heavy-duty video conversion, and it can do much much more than we're illustrating here.
+
+The program works well when the images are labeled sequentially, so we used the awesome freeware <a href="http://www.bulkrenameutility.co.uk/Main_Intro.php">Bulk Rename Utility</a> to do so. Once the images were labeled "image001.jpg, image002.jpg, etc...", we started the command prompt.
+
+After navigating to the folders with the images, we ran the following command.
+<blockquote>ffmpeg -f image2 -r 6 -bufsize 500k -i image%d.jpg camera1.mp4</blockquote>
+I won't go into too much detail about what the command does, but did want to highlight the "-r" flag. That is the framerate flag, and it tells ffmpeg to limit the movie to 6 frames a second. Otherwise, the time-lapse would zip by too quickly. That can be adjusted depending on your needs. We ran that for each folder of images, and it kicked out three separate movies.
+----

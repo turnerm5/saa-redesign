@@ -1,0 +1,35 @@
+Title: Quick 3D Site Models with Grasshopper
+----
+Date: 30 Jan 2014 00:07:09
+----
+Author: Marshall Turner
+----
+Text: We were inspired recently by a post by Alex Webb <a href="http://blog.alexwebb.com/?p=1343">on his blog</a> about grabbing open-source map data from <a href="http://www.openstreetmap.org/">OpenStreetMap</a>, and using it inside of Grasshopper. By using the <a href="http://www.grasshopper3d.com/group/elk">Elk</a> plugin for Grasshopper, we are able to parse the OSM data and use it to do things like draw the outlines of buildings and roads. give us a 3D site model, suitable for renderings, massing diagrams, or shading studies.
+
+Here's the finished product in Rhino, suitable for export to any other 3D application. I just grabbed a few block radius around my house to have some data to work with. This definition should work with any OSM data, though you may need to tweak some things within the definition if it kicks back errors.
+
+<a href="http://saarch.com/images/blog/grasshopper_elk/site_model.jpg"><img class="alignnone" title="Site Model" src="http://saarch.com/images/blog/grasshopper_elk/site_model.jpg" alt="Site Model in Grasshopper" width="500" height="312" /></a>
+
+First, we'll generate the roads. We separate the data into major roads and minor roads. We only have two types, but this could easily grab the tertiary roads, alleys, etc. and use each of them differently. The road is just a polyline, so we offset it by a certain amount in each direction on the XY plane. The major roads are offset more than the minor ones. We draw lines from the start and end of each offset, then join all those lines to create one shape. For simplicity's sake in this demonstration, we region union all of the shapes together to create one shape. We then use a boundary surface to create a surface from that edge. We also get the boundary box of that surface and create a surface from that, so the roads have something to sit on top of. If you were using a topo, instead of a flat surface, you would skip this.
+
+<a href="http://saarch.com/images/blog/grasshopper_elk/roads.png"><img class="alignnone" title="Road Definition" src="http://saarch.com/images/blog/grasshopper_elk/roads.png" alt="" width="500" height="241" /></a>
+
+Now, we'll make the buildings. This definition is a bit simpler. Use a filter to select only the "Building" type from our Generic OSM list. Create a polyline from that output. Grasshopper complains a bit because we have a few buildings that are cut off on the edges, but we won't worry about that. Extrude each building a random height (sort of a hack, could be more refined), and cap the holes. Preview each building in white.
+
+<a href="http://saarch.com/images/blog/grasshopper_elk/buildings.png"><img class="alignnone" title="Building Definition" src="http://saarch.com/images/blog/grasshopper_elk/buildings.png" alt="" width="500" height="241" /></a>
+
+To make things easy to read, we'll add some nice 3D labels. Get the road names, move them a bit in the Z-direction, create text outlines, extrude and cap. Preview as a nice red.
+
+<a href="http://saarch.com/images/blog/grasshopper_elk/text.png"><img title="Building Definition" src="http://saarch.com/images/blog/grasshopper_elk/text.png" alt="" width="500" height="241" /></a>
+
+<h3>Limitations:</h3>
+
+<ul>
+<li>The OSM file format has the capability to include building height, but the data isn't there yet. The buildings are extruded to random heights in this definition, which is sort of cheating. You could always use this as a starting point and then extrude them by hand.</li>
+<li>The definition has been tweaked for this specific map export (North Beacon Hill), and may not work in every case. It is very easy though to adapt the definition to work for other areas, but this is my warning that things may not work right out of the box. The roads are the first to get messed up, because your map export might not have the same roads as this one. Maybe you have a highway, or train tracks in your scene. Just modify the existing definition to tell Grasshopper what to do with it if that's the case.</li>
+<li>We haven't included topo data yet, but as Alex Webb notes in his tutorial, this is relatively easy to include. We'll get around to updating the definition sooner or later.</li>
+</ul>
+Here's the rough definition, for you to experiment with. <a href="https://dl.dropboxusercontent.com/u/1114009/grasshopper_elk/schacht_aslani_architects-street_model_generator_v0.1.gh" target="_blank">schacht_aslani_architects-street_model_generator_v0.1.gh</a>
+
+Some sample data, if you don't want to grab it off OpenStreetMap. <a href="https://dl.dropboxusercontent.com/u/1114009/grasshopper_elk/map.osm" target="_blank">map.osm</a>
+----

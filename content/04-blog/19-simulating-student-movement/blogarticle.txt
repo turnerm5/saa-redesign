@@ -1,0 +1,40 @@
+Title: Simulating Student Movement Around Campus
+----
+Date: 21 Feb 2014 23:23:09
+----
+Author: Marshall Turner
+----
+Text: <p>We've been researching more into using <a href="http://www.processing.org">Processing</a> to help us visualize large sets of data, particularly for planning projects. Inspired by <a href="http://lmnts.lmnarchitects.com/parametrics/people-as-particles/">this post</a> and Daniel Shiffman's framework for autonomous agents, we wanted to simulate how students move around a college campus during the day. Being able to visualize these large data sets can help us to see where changes might occur when we propose new design options.</p>
+
+<p>Our immediate goal is to use real data from the College, including student schedules, to visualize movement around campus. We want to identify the popular corridors and the most-utilized buildings on campus, determine how parking lots get used at different times of the day, and visualize how students adapt to building reconfiguration.</p>
+
+<p>We are currently working on the Campus Master Plan for Edmonds Community College, and the College staff has kindly provided us with anonymous student schedules from the previous year. Here is a single day during fall quarter, 2013.</p>
+
+<iframe src="//player.vimeo.com/video/87302331" width="564" height="650" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe> <p><a href="http://vimeo.com/87302331">Simulating Student Movement Around Campus</a></p>
+
+<p>We track parking lot capacity, so we can see exactly when those lots fill up. The circle size corresponds to the number of students in that building. The graph at the bottom tracks the number of students on campus.</p>
+
+<p>With this data, we can test new campus layouts to determine how students will react. If we build a new science building at the north end of campus, how does that impact how students flow during the day? If we add a new cafe in a building, can we predict how many students would use it? Where might we add new parking?</p>
+
+<p>To give an idea of the logic behind each student, I'll walk through the algorithm used that determines their behavior. I'll also outline the assumptions we have to make, and where there is room for improvement. </p>
+
+<p>Each student is completely autonomous. Here is the algorithm the student follows during the day.</p>
+
+<ul>
+<li>Get their class schedule.</li>
+<li>Arrive at class anywhere from 5 to 30 minutes before first class.</li>
+<li>Park in the closest lot to their first class, if it has parking spaces available.</li>
+<li>If there are no parking spots available, take the bus or get dropped off.</li>
+<li>Go to their first class.</li>
+<li>Go to their next class. If they have a break longer than 20 minutes, go to either the student study areas, the coffeeshop, cafeteria, or the bookstore. If it is around lunchtime, prioritize the cafeteria.</li>
+<li>Continue through their class schedule until they have no more classes.</li>
+<li>When they have no more classes, return to their car or bus stop. A small percentage of students stay on campus to study.</li>
+</ul>
+
+<p>There are some other limitations right now (other than the <a href="http://www.amazon.com/dp/0262012707">inherent inaccuracy of any simulation</a>). First, we need to write in object avoidance. Right now, they just walk through the buildings and over planter beds. We need to specify that they should really stick to a path. We have a rudimentary version of this set up with <a href="https://www.google.com/search?q=vector+fields&amp;source=lnms&amp;tbm=isch&amp;sa=X&amp;ei=adkHU--aJc_ooAS5moL4AQ&amp;ved=0CAoQ_AUoAg&amp;biw=1680&amp;bih=935">vector fields</a> that are created from a map of the campus paths. The problem we found is that the students sort of bump into the walls until they get to their target. </p>
+
+<p>Also, right now, they don't interact with each other. We could write in that code, but it would be computationally expensive and we don't really see the benefit of it. While it would look cool to see the students flock around campus, it probably doesn't tell us anything. I already wrote in a function to make them run away from the mouse, so anything more would be gratuitous.</p>
+
+<p>If you find this interesting, or have specific questions, please get in touch with us by <a href="mailto:marshall@saarch.com">email</a> or by leaving a comment on the video above.</p>
+
+----

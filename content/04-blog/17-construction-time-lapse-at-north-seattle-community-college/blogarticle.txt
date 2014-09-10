@@ -1,0 +1,16 @@
+Title: Construction Time-Lapse at North Seattle Community College
+----
+Date: 09 Jul 2013 17:18:51
+----
+Author: Marshall Turner
+----
+Text: We've put together a quick time-lapse video showing the construction progress at North Seattle Community College's <a href="http://saarch.com/projects/nscc_tech.php" target="_blank">Allied Health &amp; Technology Building</a>. Thanks to the whole project team at North Seattle, automating this time-lapse was remarkably easy. If you're looking to do something similar, we've put together a walkthrough on <a href="http://saarch.com/blog/index.php/2012/11/19/automating-a-construction-time-lapse/">how we did it here</a>.
+
+
+<h3>Camera 1</h3>
+http://www.youtube.com/watch?v=24cH1-ZSxhs
+<h3>Camera 2</h3>
+http://www.youtube.com/watch?v=PH0QtpgM1l0
+<h3>Camera 3</h3>
+http://www.youtube.com/watch?v=L4Hk_3B93oo
+----
