@@ -60,6 +60,8 @@
                                 </div>
                             </div>
 
+                            <!-- Else, use placeholder image. Don't forget the tags! -->
+
                         <?php endforeach ?>
 
                     </div>

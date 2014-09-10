@@ -32,6 +32,8 @@
                                 <?php endforeach ?>
                             <?php endif ?>
 
+                            <!-- Put in the else statement here. If there are no images, put 4 placeholder images. -->
+
                         </ul>
                     </div>
 
@@ -51,7 +53,7 @@
 
                                 <!-- Date -->
                                 <li>
-                                    <b>Date:</b> <?php echo $page->date('Y-m-d') ?>
+                                    <b>Date:</b> <?php echo $page->date('Y') ?>
                                 </li>
 
                                 <!-- Category -->
