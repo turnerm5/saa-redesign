@@ -20,7 +20,7 @@
                             <!-- Image -->
 
                             <?php if($page->hasImages()): ?> 
-                                  <?php foreach($page->images() as $image): ?>             
+                                <?php foreach($page->images() as $image): ?>             
                                     
                                     <!-- Image -->
 
@@ -30,6 +30,34 @@
                                         </a>
                                     </li>
                                 <?php endforeach ?>
+
+                            <?php else: ?>    
+                            
+                                <li>
+                                    <a href="http://placehold.it/800x600" data-lightbox="project_photos" data-title="Placeholder Caption">
+                                        <img src="http://placehold.it/800x600" alt="Placeholder Image">
+                                    </a>
+                                </li>
+
+                                <li>
+                                    <a href="http://placehold.it/800x600" data-lightbox="project_photos" data-title="Placeholder Caption">
+                                        <img src="http://placehold.it/800x600" alt="Placeholder Image">
+                                    </a>
+                                </li>
+
+                                <li>
+                                    <a href="http://placehold.it/800x600" data-lightbox="project_photos" data-title="Placeholder Caption">
+                                        <img src="http://placehold.it/800x600" alt="Placeholder Image">
+                                    </a>
+                                </li>
+
+                                <li>
+                                    <a href="http://placehold.it/800x600" data-lightbox="project_photos" data-title="Placeholder Caption">
+                                        <img src="http://placehold.it/800x600" alt="Placeholder Image">
+                                    </a>
+                                </li>
+
+
                             <?php endif ?>
 
                             <!-- Put in the else statement here. If there are no images, put 4 placeholder images. -->
