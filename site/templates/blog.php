@@ -15,7 +15,9 @@
                 <div class="row">
 
 
-                    <?php foreach($page->children()->visible()->flip() as $article): ?>
+                    <?php $articles = $page->children()->visible()->flip()->paginate(6) ?>
+
+                    <?php foreach($articles as $article): ?>
 
                         <!-- Blog Post (image, title, date and description of post) --> 
                         <div class="col-sm-6 col-md-6">
@@ -34,6 +36,7 @@
                                     <!-- Date -->
                                     <div class="blog-meta">
                                         <span><i class="fa fa-calendar"></i> <a href="#"> <?php echo $article->date('Y-m-d') ?></a></span>
+                                        <span><i class="fa fa-user"></i> <a href="#"> <?php echo $article->author() ?></a></span>
                                     </div>
                                     <!-- Description -->
                                     <p><?php echo excerpt($article->text(), 300) ?></p>                    
@@ -42,19 +45,25 @@
                         </div>
 
                     <?php endforeach ?>          
+                
+                    <?php if($articles->pagination()->hasPages()): ?>
+                        <div class="col-lg-12 text-center padding-bottom">
+                            <ul class="pagination">
+                                <?php if($articles->pagination()->hasPrevPage()): ?>
+                                    <li><a href="<?php echo $articles->pagination()->prevPageURL() ?>">«</a></li>
+                                <?php endif ?>
 
-                    <!-- Pagination -->
-                    <div class="col-lg-12 text-center padding-bottom">
-                        <ul class="pagination">
-                            <li class="disabled"><a href="#">«</a></li>
-                            <li class="active"><a href="#">1</a></li>
-                            <li><a href="#">2</a></li>
-                            <li><a href="#">3</a></li>
-                            <li><a href="#">4</a></li>
-                            <li><a href="#">5</a></li>
-                            <li><a href="#">»</a></li>
-                        </ul>
-                    </div>        
+                                <?php foreach($articles->pagination()->range(6) as $paging): ?>
+                                    <li<?php if($articles->pagination()->page() == $paging) echo html(' class=active') ?>><a href="<?php echo $articles->pagination()->pageURL($paging); ?>"><?php echo $paging; ?></a></li>
+                                <?php endforeach ?>
+                                
+                                <?php if($articles->pagination()->hasNextPage()): ?>
+                                    <li><a href="<?php echo $articles->pagination()->nextPageURL() ?>">»</a></li>
+                                <?php endif ?>
+
+                            </ul>
+                        </div>
+                    <?php endif ?>           
 
                 </div><!-- /row -->    
             </div><!-- /container -->

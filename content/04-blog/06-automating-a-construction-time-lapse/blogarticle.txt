@@ -4,7 +4,7 @@ Date: 20 Nov 2012 00:55:44
 ----
 Author: Marshall Turner
 ----
-Text: The great IT staff at North Seattle Community College recently set up <a href="https://northseattle.edu/about-north/new-construction">three webcams</a> watching the construction of the new Technology Building. The building renovation will provide space for labs and classrooms for the College's health, medical and science programs: creating a Human Biology and Science Center including a lab for anatomy, physiology and biology with an intergraded prep area; a Learning Center to centralize and consolidate the College's tutoring programs and promote student success; a Food Services function; and space for student gathering.
+Text: The great IT staff at North Seattle Community College recently set up <a href="https://northseattle.edu/about-north/new-construction">three webcams</a> watching the construction of the new Technology Building. The building renovation will provide space for labs and classrooms for the College's health, medical and science programs: creating a Human Biology and Science Center including a lab for anatomy, physiology and biology with an intergraded prep area; a Learning Center to centralize and consolidate the College's tutoring programs and promote student success; a Food Services function; and space for student gathering.
 
 We wanted to use these cameras to assemble of a time-lapse of the entire construction, without spending extra money or having to work with the College to get things set up. After some research, we found out a quick and simple way to automate the process. We'd like to share what we found, in case anyone is looking to do the same.
 

@@ -6,5 +6,5 @@ Author: Marshall Turner
 ----
 Text: We wanted a fun way to view our stats for Cascade Bicycle Club's <a href="http://www.cascade.org/bikemonth">Bike Month</a>. It needed to be automatic, where we could run the program, and it would grab the most recent data from Cascade's site without any extra steps. We also wanted it to be interactive, and respond to user input in a fun and creative way. Here's what we came up with.
 
-http://vimeo.com/93202735
+(vimeo: http://vimeo.com/93202735)
 ----

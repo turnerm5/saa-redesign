@@ -4,7 +4,9 @@ Date: 07 Feb 2013 00:47:21
 ----
 Author: Marshall Turner
 ----
-Text: We encourage everyone to go read the <a href="http://arcadenw.org/">latest issue</a> of ARCADE,  especially Mischa Willett's <a href="http://arcadenw.org/article/things-in-the-new-now">article</a> about the rising standards of aesthetic acceptability.
-<blockquote>All this good design sense can be blinding, breed complacency, etc., especially here in the Northwest, where even government buildings – libraries, fire stations, city halls – once the bastion of the bland, are so dedicated to graceful, progressive monumentality, that it is hard to keep in mind that there is nothing “natural” about these choices, that it wasn’t always this way, that, as the poet Jane Kenyon writes, “It might have been / otherwise.”</blockquote>
-We also noticed a familiar <a href="http://saarch.com/projects/fs30.php">fire station</a> floating around between “The Outer Realm of Nothings” and “Things Semi-Real” in the illustration by Ryan Diaz.
+Text: We encourage everyone to go read the <a href="http://arcadenw.org/">latest issue</a> of ARCADE,  especially Mischa Willett's <a href="http://arcadenw.org/article/things-in-the-new-now">article</a> about the rising standards of aesthetic acceptability.
+
+"All this good design sense can be blinding, breed complacency, etc., especially here in the Northwest, where even government buildings \- libraries, fire stations, city halls - once the bastion of the bland, are so dedicated to graceful, progressive monumentality, that it is hard to keep in mind that there is nothing "natural" about these choices, that it wasn't always this way, that, as the poet Jane Kenyon writes, "It might have been / otherwise.""
+
+We also noticed a familiar fire station floating around between "The Outer Realm of Nothings" and "Things Semi-Real" in the illustration by Ryan Diaz. ""
 ----
