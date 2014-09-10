@@ -1,6 +1,0 @@
-Title: And another. This is easy!
-----
-Date: 2012-01-05
-----
-Text: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec scelerisque nisi laoreet dolor commodo dapibus. Vivamus ut justo eros. Fusce lacus diam, semper a cursus eget, euismod vel magna. Vestibulum vel ante metus. Nullam suscipit nisl ac neque pellentesque, venenatis luctus ipsum varius. Nunc pellentesque congue urna, non vulputate erat facilisis id. Fusce tristique porttitor molestie. Suspendisse viverra iaculis cursus. Suspendisse nec ipsum quis lectus porta suscipit. Nulla facilisi. Proin urna risus, elementum sit amet pharetra id, pharetra ac magna. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nam a egestas tortor. Nam fringilla arcu ante, sit amet mattis augue interdum eu. Ut maximus vestibulum ligula, vel consectetur mi tempus a. Curabitur convallis bibendum enim sagittis sodales.
-----
