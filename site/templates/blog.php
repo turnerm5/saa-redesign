@@ -51,7 +51,8 @@
                         </div>
 
                     <?php endforeach ?>          
-                
+                </div> <!-- end row -->
+                <div class="row">
                     <?php if($articles->pagination()->hasPages()): ?>
                         <div class="col-lg-12 text-center padding-bottom">
                             <ul class="pagination">
