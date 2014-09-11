@@ -24,7 +24,7 @@
                                     <?php foreach($page->images() as $image): ?>        
                                         <!-- Image -->
 
-                                        <div class="post-box col-md-4 col-lg-4 col-sm-4 col-xs-2">
+                                        <div class="post-box col-md-6 col-lg-6 col-sm-6 col-xs-3">
                                             <li>
                                                 <a href="<?php echo $image->url() ?>" data-lightbox="project_photos" data-title="<?php echo $image->caption() ?>">
                                                     <img class="img-responsive" src="<?php echo $image->url() ?>" alt="<?php echo html($page->title()) ?>" width="<?php echo $image->width() ?>" height="<?php echo $image->height() ?>">
@@ -138,78 +138,30 @@
 
                 <div class="container-fluid">
                     <div class="row">        
-
-                        <!-- Project Item (image,link and description for your project) -->
-                        <div class="col-sm-6 col-md-3">
-                            <div class="project-inner">
-                                <a href="#">   
-                                    <!-- Image -->                 
-                                    <img src="/assets/img/portfolio/auburn_library_01.jpg" alt="Specifie an alternate text for an image" >                    
-                                    <div class="project-caption">
-                                        <!-- Title and Date -->
-                                        <div class="project-details">
-                                            <p><i class="fa fa-plus fa-lg"></i></p>
-                                            <h3>Auburn Library</h3>
-                                            <p><small>King County Library System</small></p>                                                
+                        <?php foreach(related($page->related()) as $related): ?>
+                            <!-- Project Item (image,link and description for your project) -->
+                            <div class="col-sm-6 col-md-3">
+                                <div class="project-inner">
+                                    <a href="<?php echo $related->url() ?>">   
+                                        <!-- Image -->                 
+                                        <?php if ($related->hasImages()): ?>
+                                        <?php $image = $related->images()->find('01.jpg') ?>                 
+                                            <img src="<?php echo $image->url() ?>" alt="Placeholder" >
+                                        <?php else: ?>
+                                            <img src="http://www.placehold.it/800x600" alt="Placeholder text">  
+                                        <?php endif ?>                   
+                                        <div class="project-caption">
+                                            <!-- Title and Date -->
+                                            <div class="project-details">
+                                                <p><i class="fa fa-plus fa-lg"></i></p>
+                                                <h3><?php echo html($related->title()) ?></h3>
+                                                <p><small><?php echo html($related->client()) ?></small></p>                                                
+                                            </div>
                                         </div>
-                                    </div>
-                                </a>
+                                    </a>
+                                </div>
                             </div>
-                        </div>
-
-                        <!-- Project Item (image,link and description for your project) -->
-                        <div class="col-sm-6 col-md-3">
-                            <div class="project-inner">
-                                <a href="#">  
-                                    <!-- Image -->                  
-                                    <img src="/assets/img/portfolio/ocee_01.jpg" alt="Specifie an alternate text for an image">                    
-                                    <div class="project-caption">
-                                        <!-- Title and Date -->
-                                        <div class="project-details">
-                                            <p><i class="fa fa-plus fa-lg"></i></p>
-                                            <h3>Opportunity Center</h3>
-                                            <p><small>North Seattle College</small></p>                                                
-                                        </div>
-                                    </div>
-                                </a>
-                            </div>
-                        </div>
-
-                        <!-- Project Item (image,link and description for your project) -->
-                        <div class="col-sm-6 col-md-3">
-                            <div class="project-inner">
-                                <a href="#">        
-                                    <!-- Image -->            
-                                    <img src="/assets/img/portfolio/fs20_01.jpg" alt="Specifie an alternate text for an image">                    
-                                    <div class="project-caption">
-                                        <!-- Title and Date -->
-                                        <div class="project-details">
-                                            <p><i class="fa fa-plus fa-lg"></i></p>
-                                            <h3>Fire Station 20</h3>
-                                            <p><small>City of Seattle</small></p>                                                    
-                                        </div>
-                                    </div>
-                                </a>
-                            </div>
-                        </div>            
-
-                        <!-- Project Item (image,link and description for your project) -->
-                        <div class="col-sm-6 col-md-3">
-                            <div class="project-inner">
-                                <a href="#">    
-                                    <!-- Image -->                    
-                                    <img src="/assets/img/portfolio/douglass_truth_01.jpg" alt="Specifie an alternate text for an image">                        
-                                    <div class="project-caption">
-                                        <!-- Title and Date -->
-                                        <div class="project-details">
-                                            <p><i class="fa fa-plus fa-lg"></i></p>
-                                            <h3>Douglass-Truth Branch</h3>
-                                            <p><small>The Seattle Public Library</small></p>                                                    
-                                        </div>
-                                    </div>
-                                </a>
-                            </div>
-                        </div>             
+                        <?php endforeach ?> 
 
                     </div><!-- /row -->
                 </div><!-- /container -->
