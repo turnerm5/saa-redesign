@@ -207,7 +207,12 @@
                             <div class="thumbnail blog-post">
                                 <!-- Image -->                    
                                 <a href="<?php echo $article->url() ?>">
-                                    <img src="http://placehold.it/800x600" alt="Specifie an alternate text for an image">
+                                    <?php if ($article->hasImages()): ?>
+                                    <?php $image = $article->images()->find('01.jpg') ?>                 
+                                    <img src="<?php echo $image->url() ?>" alt="Placeholder" >
+                                    <?php else: ?>
+                                        <img src="http://www.placehold.it/800x600" alt="Placeholder text">  
+                                    <?php endif ?>
                                 </a>
                                 <!-- Title and Description -->
                                 <div class="caption">

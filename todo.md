@@ -6,6 +6,7 @@
 -	Make related projects dynamic. Search by project tag. If all match, rank #1, if two match, rank #2. If none match, default to ???
 
 ###Standard Priority
+-	If image has only one, make it take up the whole column.
 -	Make standard pages (About Us, Services) dynamic and linked to Kirby.
 -	Make team page dynamic, with its own folder, similar to the project folder. WS/CMA/JC/EA should be 01-04, so they are pulled first. The about us template would just pull the first four people in the folder.
 -	Make "Our Clients" list dynamic.
