@@ -8,7 +8,7 @@ Date: tbd/01/01
 ----
 SF: 5,850
 ----
-Tags: education, tenant-improvement
+Tags: education, tenant-improvement, in-progress
 ----
 Text: Duis placerat blandit velit eu maximus. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Sed tristique dui ac leo pharetra pulvinar. Maecenas id sodales ipsum. Proin placerat quam sed ligula varius tempus. Aliquam erat volutpat. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
 

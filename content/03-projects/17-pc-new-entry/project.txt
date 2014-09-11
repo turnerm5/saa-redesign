@@ -1,4 +1,4 @@
-Title: New Entry
+Title: New Campus Entry
 ----
 Client: Peninsula College
 ----
