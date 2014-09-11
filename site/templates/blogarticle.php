@@ -7,7 +7,7 @@
             <!-- Blog Inner -->
             <div class="container">   
                     
-                    <?php $author = $pages->find('authors/' . $page->author()) ?>
+                    <?php $author = $pages->find('team/' . $page->author()) ?>
 
 
                     <!-- Post Information (image, title, date and description of post) -->       

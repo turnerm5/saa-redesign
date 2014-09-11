@@ -68,7 +68,8 @@
                 </div>
                 <div class="container">
                     <div class="row">  
-
+                    <?php $team = $pages->find('team')->children()->visible()->paginate(4) ?>
+                    <?php foreach($team as $member): ?>
                         <!-- Team Item (name, information about, image, social icons) -->                      
                         <div class="col-sm-6 col-md-3 team-item">
                             <!-- Image -->
@@ -78,74 +79,21 @@
                             <div class="team-caption">
                                     <!-- Name -->
                                     <div class="team-title">         
-                                        <h3>WALTER SCHACHT</h3>
-                                        <h4>FAIA</h4>                            
+                                        <h3><?php echo $member->name() ?></h3>
+                                        <h4><?php echo $member->title() ?></h4>                            
                                     </div>
                                     <!-- Info -->
-                                    <h5>Principal</h5> 
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Omnis recusandae, aspernatur nihil quibusdam hic pariatur atque, nemo tempore doloribus unde fuga dicta blanditiis quos, iusto voluptates eum! Eius, nemo nihil.</p>
+                                    <h5><?php echo $member->role() ?></h5> 
+                                    <p><?php echo $member->bio() ?></p>
                             </div>
                         </div>
-
-                        <!-- Team Item (name, information about, image, social icons) -->                      
-                        <div class="col-sm-6 col-md-3 team-item">
-                            <!-- Image -->
-                            <div class="thumbnail team-inner">
-                                <img src="http://www.placehold.it/700x700" alt="Specifie an alternate text for an image">                                
-                            </div>
-                            <div class="team-caption">
-                                    <!-- Name -->
-                                    <div class="team-title">         
-                                        <h3>CIMA MALEK-ASLANI</h3>
-                                        <h4>AIA</h4>
-                                    </div>
-                                    <!-- Info -->
-                                    <h5>Principal</h5>  
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eius dolore iste ipsa, deleniti qui, beatae minima cupiditate illo non id harum optio nesciunt tenetur, illum. Molestias voluptate libero praesentium? Praesentium?</p>        
-                            </div>
-                        </div>            
-
-                        <!-- Team Item (name, information about, image, social icons) -->                      
-                        <div class="col-sm-6 col-md-3 team-item">
-                            <!-- Image -->
-                            <div class="thumbnail team-inner">
-                                <img src="http://www.placehold.it/700x700" alt="Specifie an alternate text for an image">                                
-                            </div>
-                            <div class="team-caption">
-                                    <!-- Name -->
-                                    <div class="team-title">     
-                                        <h3>JEAN-CLAUDE LETOURNEAU</h3>
-                                        <h4>AIA, LEED AP BD+C, Assoc. DBIA, CSBA</h4>
-                                    </div>
-                                    <!-- Info -->
-                                    <h5>Senior Associate</h5>
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Natus voluptatibus architecto, fugit! Soluta molestiae nisi, vero quae dolores sunt, ducimus voluptates itaque aliquid eos eum consectetur, alias rerum nostrum quidem?</p>             
-                            </div>
-                        </div>            
-
-                        <!-- Team Item (name, information about, image, social icons) -->                      
-                        <div class="col-sm-6 col-md-3 team-item">
-                            <!-- Image -->
-                            <div class="thumbnail team-inner">
-                                <img src="http://www.placehold.it/700x700" alt="Specifie an alternate text for an image">                                
-                            </div>
-                            <div class="team-caption">
-                                    <!-- Name -->
-                                    <div class="team-title">                             
-                                        <h3>ERIC AMAN</h3>
-                                        <h4>AIA, LEED AP BD+C</h4>
-                                    </div>
-                                    <!-- Info -->
-                                    <h5>Senior Associate</h5>
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magnam voluptas dolore veritatis perferendis minima ea consequatur ipsa eaque delectus dolorum mollitia sapiente est quaerat, eos deserunt dicta natus voluptates amet?</p>             
-                            </div>
-                        </div>            
+                    <?php endforeach ?>
 
                     </div><!-- /row -->
 
                     <!-- View All Team Members Button -->  
                     <div class="padding-top padding-bottom">  
-                        <a href="team.html" class="btn black-btn">
+                        <a href="team" class="btn black-btn">
                             View All Team Members
                         </a>
                     </div>

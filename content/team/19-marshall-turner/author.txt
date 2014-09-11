@@ -1,0 +1,13 @@
+name: Marshall Turner
+----
+bio: Marshall is the marketing manager at Schacht Aslani Architects. When he's not helping the firm win work, he's interested in coding, design and digital art of all forms.
+----
+title:
+----
+role: Marketing Manager
+----
+email: marshall@saarch.com
+----
+website: http://john.doe.com
+----
+twitter: http://twitter.com/turnerm5

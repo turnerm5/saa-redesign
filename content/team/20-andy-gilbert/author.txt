@@ -1,0 +1,13 @@
+name: Andy Gilbert
+----
+bio: Andy is an awesome author with years of experience
+----
+title: 
+----
+role: Business Manager
+----
+email: andy@saarch.com
+----
+website: http://john.doe.com
+----
+twitter: http://twitter.com/johndoe

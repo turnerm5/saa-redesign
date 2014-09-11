@@ -1,0 +1,13 @@
+name: Cima Malek-Aslani
+----
+title: AIA
+----
+role: Principal
+----
+bio: Cima bio here. Lorem ipsum blah blah blah.
+----
+email: cima@saarch.com
+----
+website: http://john.doe.com
+----
+twitter: http://twitter.com/johndoe

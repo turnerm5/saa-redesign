@@ -19,7 +19,7 @@
                     <div class="carousel-caption header-carousel-caption">
                         <h1>We design memorable places that bring people together.</h1>
                         <!-- Project Link -->
-                        <a href="project-inner.html" class="btn white-btn">View Project</a>                                                    
+                        <a href="projects" class="btn white-btn">View Project</a>                                                    
                     </div>
                 </div>
 
@@ -31,7 +31,7 @@
                     <div class="carousel-caption header-carousel-caption">
                         <h1>We design memorable places that bring people together.</h1>
                         <!-- Project Link -->
-                        <a href="project-inner.html" class="btn white-btn">View Project</a>                                                    
+                        <a href="projects" class="btn white-btn">View Project</a>                                                    
                     </div>
                 </div>
 
@@ -43,7 +43,7 @@
                     <div class="carousel-caption header-carousel-caption">
                         <h1>We design memorable places that bring people together.</h1>
                         <!-- Project Link -->
-                        <a href="project-inner.html" class="btn white-btn">View Project</a>                                                    
+                        <a href="projects" class="btn white-btn">View Project</a>                                                    
                     </div>
                 </div>
                        
@@ -200,7 +200,7 @@
                     <?php $articles = $pages->find('blog')->children()->visible()->flip()->paginate(3) ?>
 
                     <?php foreach($articles as $article): ?>
-                    <?php $author = $pages->find('authors/' . $article->author()) ?>
+                    <?php $author = $pages->find('team/' . $article->author()) ?>
 
                         <!-- Blog Item (image, title, description, link and date for your blog post) -->
                         <div class="col-sm-4 col-md-4">

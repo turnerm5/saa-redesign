@@ -1,0 +1,13 @@
+name: Walter Schacht
+----
+title: FAIA
+----
+role: Principal
+----
+bio: Walter bio here. Lorem ipsum blah blah blah.
+----
+email: walter@saarch.com
+----
+website: http://john.doe.com
+----
+twitter: http://twitter.com/johndoe

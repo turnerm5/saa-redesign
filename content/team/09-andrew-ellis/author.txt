@@ -1,0 +1,13 @@
+name: Andrew Ellis
+----
+bio: Andrew is an awesome author with years of experience
+----
+title: LEED AP BD+C
+----
+role: Design Staff
+----
+email: arielle@saarch.com
+----
+website: http://john.doe.com
+----
+twitter: http://twitter.com/johndoe

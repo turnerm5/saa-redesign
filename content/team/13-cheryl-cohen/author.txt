@@ -1,0 +1,13 @@
+name: Cheryl Cohen
+----
+bio: Cheryl is an awesome author with years of experience
+----
+title: AIA
+----
+role: Project Manager
+----
+email: cherylc@saarch.com
+----
+website: http://john.doe.com
+----
+twitter: http://twitter.com/johndoe

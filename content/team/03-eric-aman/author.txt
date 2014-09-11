@@ -1,0 +1,13 @@
+name: Eric Aman
+----
+title: AIA, LEED AP BD+C
+----
+role: Senior Associate
+----
+bio: Eric bio here. Lorem ipsum blah blah blah.
+----
+email: eric@saarch.com
+----
+website: http://john.doe.com
+----
+twitter: http://twitter.com/johndoe

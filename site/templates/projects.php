@@ -32,45 +32,45 @@
                 </div>
 
                 
-                    
+                <div class="row">    
                     <!-- Project Item (image, title, city, date and description of project)-->
-                <div id="Container">
+                    <div id="Container">
 
-                        <?php $counter = 0; ?>
+                            <?php $counter = 0; ?>
 
-                        <?php foreach($page->children()->visible() as $project): ?>
-                            
-                            <?php $tags = $project->tags() ?>
-                            <?php $tags_stripped = str_replace(',','', $tags)?>
+                            <?php foreach($page->children()->visible() as $project): ?>
+                                
+                                <?php $tags = $project->tags() ?>
+                                <?php $tags_stripped = str_replace(',','', $tags)?>
 
-                                <div class="col-sm-6 col-md-4 project-item mix <?php echo $tags_stripped ?>">
-                                    <div class="thumbnail projects-thumbnail">
-                                        <a href="<?php echo $project->url() ?>">
-                                            <?php if ($project->hasImages()): ?>
+                                    <div class="col-sm-6 col-md-4 project-item mix <?php echo $tags_stripped ?>">
+                                        <div class="thumbnail projects-thumbnail">
+                                            <a href="<?php echo $project->url() ?>">
+                                                <?php if ($project->hasImages()): ?>
 
-                                                <?php $image = $project->images()->find('01.jpg') ?>
-                                                <img src="<?php echo $image->url() ?>" alt="<?php echo html($project->title()) ?>" width="<?php echo $image->width() ?>" height="<?php echo $image->height() ?>">
-                                            <?php else: ?>
-                                                <img src="http://www.placehold.it/800x600" alt="Placeholder text">  
-                                            <?php endif ?>                                                     
-                                        </a>         
-                                    </div>
-                                    <div class="project-inner-caption">
-                                        <!-- Title -->
-                                        <div class="project-title">                    
-                                                <h3><?php echo html($project->title()) ?></h3>                                
+                                                    <?php $image = $project->images()->find('01.jpg') ?>
+                                                    <img src="<?php echo $image->url() ?>" alt="<?php echo html($project->title()) ?>" width="<?php echo $image->width() ?>" height="<?php echo $image->height() ?>">
+                                                <?php else: ?>
+                                                    <img src="http://www.placehold.it/800x600" alt="Placeholder text">  
+                                                <?php endif ?>                                                     
+                                            </a>         
                                         </div>
-                                        <!-- City and Date -->
-                                        <p><i class="fa fa-map-marker"></i> <?php echo html($project->client()) ?></p>             
+                                        <div class="project-inner-caption">
+                                            <!-- Title -->
+                                            <div class="project-title">                    
+                                                    <h3><?php echo html($project->title()) ?></h3>                                
+                                            </div>
+                                            <!-- City and Date -->
+                                            <p><i class="fa fa-map-marker"></i> <?php echo html($project->client()) ?></p>             
+                                        </div>
                                     </div>
-                                </div>
 
-                        <?php endforeach ?>
+                            <?php endforeach ?>
 
-                    </div>
+                        </div>
 
-                </div> <!-- End Mix Container -->
-
+                    </div> <!-- End Mix Container -->
+                </div>
             </div><!-- /container -->
             <!-- End Projects -->
         </div><!-- /site-wrapper -->

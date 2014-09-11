@@ -1,0 +1,13 @@
+name: Casey Borgen
+----
+Title: AIA
+----
+bio: Casey bio here. Lorem ipsum blah blah blah.
+----
+role: Job Captain
+----
+email: casey@saarch.com
+----
+website: http://john.doe.com
+----
+twitter: http://twitter.com/johndoe

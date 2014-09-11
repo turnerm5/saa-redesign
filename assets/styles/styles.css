@@ -680,6 +680,12 @@ a:focus {
   padding: 0;
   margin: 0;  
 }
+
+.team-item{
+  margin-bottom: 30px;
+}
+
+
 .team-inner a{
   margin-right: 10px;
 }

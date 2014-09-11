@@ -1,0 +1,13 @@
+name: Melanie Stepanicich
+----
+bio: Melanie is an awesome author with years of experience
+----
+title: 
+----
+role: Design Staff
+----
+email: melanie@saarch.com
+----
+website: http://john.doe.com
+----
+twitter: http://twitter.com/johndoe

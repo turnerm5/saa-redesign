@@ -1,0 +1,13 @@
+name: Carl Dominguez
+----
+bio: Carl is an awesome author with years of experience
+----
+title: AIA, LEED AP BD+C
+----
+role: Job Captain
+----
+email: carl@saarch.com
+----
+website: http://john.doe.com
+----
+twitter: http://twitter.com/johndoe

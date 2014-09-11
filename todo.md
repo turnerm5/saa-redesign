@@ -1,9 +1,10 @@
 ##The official saarch.com to-do list
 
 ###High Priority
--	Make placeholder images work with the masonry plugin. This shouldn't be too tough, but my brain is relatively fried.
--	Figure out why masonry isn't working on the first load. Document.ready should address this, right?
--	Make 8 project images on main page dynamic, pulled from the first 8 projects on the project list. Maybe randomize it? Or, have projects tagged "Featured", and have Kirby look for that?
+-	Fix all links on home page, so they refer to Kirby pages, not static HTML pages.
+-	Make top-level featured projects dynamic as well. Tag line, big photo, link to page.
+-	Make related projects dynamic. Search by project tag. If all match, rank #1, if two match, rank #2. If none match, default to ???
+
 
 ###Standard Priority
 -	Make standard pages (About Us, Services) dynamic and linked to Kirby.

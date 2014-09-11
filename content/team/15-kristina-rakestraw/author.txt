@@ -1,0 +1,13 @@
+name: Kristina Rakestraw
+----
+bio: Kristina is an awesome author with years of experience
+----
+title: 
+----
+role: Design Staff
+----
+email: kristina@saarch.com
+----
+website: http://john.doe.com
+----
+twitter: http://twitter.com/johndoe

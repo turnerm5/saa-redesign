@@ -1,0 +1,13 @@
+name: Adam Stoeckle
+----
+bio: Adam is an awesome author with years of experience
+----
+title: Assoc. AIA
+----
+role: Design Staff
+----
+email: adams@saarch.com
+----
+website: http://john.doe.com
+----
+twitter: http://twitter.com/johndoe

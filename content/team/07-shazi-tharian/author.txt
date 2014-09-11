@@ -1,0 +1,13 @@
+name: Shazi Tharian
+----
+bio: Shazi is an awesome author with years of experience
+----
+title: AIA, LEED AP BD+C
+----
+role: Project Manager
+----
+email: shazi@saarch.com
+----
+website: http://john.doe.com
+----
+twitter: http://twitter.com/johndoe

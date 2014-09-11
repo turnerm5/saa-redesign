@@ -1,0 +1,13 @@
+name: Arielle Crowder
+----
+bio: Arielle is an awesome author with years of experience
+----
+title: AIA
+----
+role: Interior Designer
+----
+email: arielle@saarch.com
+----
+website: http://john.doe.com
+----
+twitter: http://twitter.com/johndoe

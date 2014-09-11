@@ -18,14 +18,19 @@
                     <?php $articles = $page->children()->visible()->flip()->paginate(6) ?>
 
                     <?php foreach($articles as $article): ?>
-                        <?php $author = $pages->find('authors/' . $article->author()) ?>
+                        <?php $author = $pages->find('team/' . $article->author()) ?>
 
                         <!-- Blog Post (image, title, date and description of post) --> 
                         <div class="col-sm-6 col-md-6">
                             <div class="thumbnail blog-inner">
                                 <!-- Image -->
                                 <a href="<?php echo $article->url() ?>">
-                                    <img src="http://www.placehold.it/800x600" alt="Specifie an alternate text for an image">
+                                    <?php if ($article->hasImages()): ?>
+                                    <?php $image = $article->images()->find('01.jpg') ?>                 
+                                    <img src="<?php echo $image->url() ?>" alt="Placeholder" >
+                                    <?php else: ?>
+                                        <img src="http://www.placehold.it/800x600" alt="Placeholder text">  
+                                    <?php endif ?>
                                 </a>        
                                 <div class="caption">
                                     <!-- Title -->

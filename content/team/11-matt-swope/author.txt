@@ -1,0 +1,13 @@
+name: Matthew Swope
+----
+bio: Matt is an awesome author with years of experience
+----
+title: Assoc. AIA, LEED AP BD+C
+----
+role: Project Manager
+----
+email: matthew@saarch.com
+----
+website: http://john.doe.com
+----
+twitter: http://twitter.com/johndoe

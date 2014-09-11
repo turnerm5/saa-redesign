@@ -1,0 +1,13 @@
+name: Neil Parrish
+----
+bio: Neil is an awesome author with years of experience
+----
+title: LEED AP BD+C
+----
+role: Job Captain
+----
+email: neil@saarch.com
+----
+website: http://john.doe.com
+----
+twitter: http://twitter.com/johndoe
