@@ -49,7 +49,7 @@
                                             <?php if ($project->hasImages()): ?>
 
                                                 <?php $image = $project->images()->find('01.jpg') ?>
-                                                <img src="<?php echo $image->url() ?>" alt="<?php echo html($project->title()) ?>">
+                                                <img src="<?php echo $image->url() ?>" alt="<?php echo html($project->title()) ?>" width="<?php echo $image->width() ?>" height="<?php echo $image->height() ?>">
                                             <?php else: ?>
                                                 <img src="http://www.placehold.it/800x600" alt="Placeholder text">  
                                             <?php endif ?>                                                     

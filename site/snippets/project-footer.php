@@ -33,6 +33,7 @@
         <script src="/assets/js/jquery.mixitup.js"></script>
         <!-- Js Theme  -->
         <script src="/assets/js/app.js"></script>
+        <script src="/assets/js/masonry.js"></script>
         <script src="/assets/js/project_filter.js"></script>
 
         <!-- Randomize Our Starting Slide -->

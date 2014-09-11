@@ -9,5 +9,9 @@ jQuery(document).ready(function(){
 	    filter: filterOnLoad
 	  }
 	});
-	
+
+	$('#masonry ul').masonry({
+		itemSelector: '.post-box',
+        columnWidth: '.post-box',
+	});
 });

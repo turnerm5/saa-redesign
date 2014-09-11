@@ -15,58 +15,69 @@
                 <div class="row">
 
                     <!-- Project Image Gallery (for more images in your gallery, image width can be changed in styles.css class gallery-inner) -->
-                    <div class="col-sm-7">
-                        <ul class="gallery-inner">
-                            <!-- Image -->
+                    <div class="col-sm-8 col-md-8">
+                        <div id="masonry">    
+                            <ul>
+                                <!-- Image -->
 
-                            <?php if($page->hasImages()): ?> 
-                                <?php foreach($page->images() as $image): ?>             
-                                    
-                                    <!-- Image -->
+                                <?php if($page->hasImages()): ?> 
+                                    <?php foreach($page->images() as $image): ?>        
+                                        <!-- Image -->
 
+                                        <div class="post-box col-md-4 col-lg-4 col-sm-4 col-xs-4">
+                                            <li>
+                                                <a href="<?php echo $image->url() ?>" data-lightbox="project_photos" data-title="<?php echo $image->caption() ?>">
+                                                    <img class="img-responsive" src="<?php echo $image->url() ?>" alt="<?php echo html($page->title()) ?>" width="<?php echo $image->width() ?>" height="<?php echo $image->height() ?>">
+                                                </a>
+                                            </li>
+                                        </div>
+                                    <?php endforeach ?>
+
+                                <?php else: ?>    
+                                
                                     <li>
-                                        <a href="<?php echo $image->url() ?>" data-lightbox="project_photos" data-title="<?php echo $image->caption() ?>">
-                                            <img src="<?php echo $image->url() ?>" alt="<?php echo html($page->title()) ?>">
+                                        <a href="http://placehold.it/800x600" data-lightbox="project_photos" data-title="Placeholder Caption">
+                                            <img src="http://placehold.it/800x600" alt="Placeholder Image">
                                         </a>
                                     </li>
-                                <?php endforeach ?>
 
-                            <?php else: ?>    
-                            
-                                <li>
-                                    <a href="http://placehold.it/800x600" data-lightbox="project_photos" data-title="Placeholder Caption">
-                                        <img src="http://placehold.it/800x600" alt="Placeholder Image">
-                                    </a>
-                                </li>
+                                    <li>
+                                        <a href="http://placehold.it/800x600" data-lightbox="project_photos" data-title="Placeholder Caption">
+                                            <img src="http://placehold.it/800x600" alt="Placeholder Image">
+                                        </a>
+                                    </li>
 
-                                <li>
-                                    <a href="http://placehold.it/800x600" data-lightbox="project_photos" data-title="Placeholder Caption">
-                                        <img src="http://placehold.it/800x600" alt="Placeholder Image">
-                                    </a>
-                                </li>
+                                    <li>
+                                        <a href="http://placehold.it/800x600" data-lightbox="project_photos" data-title="Placeholder Caption">
+                                            <img src="http://placehold.it/800x600" alt="Placeholder Image">
+                                        </a>
+                                    </li>
 
-                                <li>
-                                    <a href="http://placehold.it/800x600" data-lightbox="project_photos" data-title="Placeholder Caption">
-                                        <img src="http://placehold.it/800x600" alt="Placeholder Image">
-                                    </a>
-                                </li>
+                                    <li>
+                                        <a href="http://placehold.it/800x600" data-lightbox="project_photos" data-title="Placeholder Caption">
+                                            <img src="http://placehold.it/800x600" alt="Placeholder Image">
+                                        </a>
+                                    </li>
 
-                                <li>
-                                    <a href="http://placehold.it/800x600" data-lightbox="project_photos" data-title="Placeholder Caption">
-                                        <img src="http://placehold.it/800x600" alt="Placeholder Image">
-                                    </a>
-                                </li>
+                                    <li>
+                                        <a href="http://placehold.it/800x600" data-lightbox="project_photos" data-title="Placeholder Caption">
+                                            <img src="http://placehold.it/800x600" alt="Placeholder Image">
+                                        </a>
+                                    </li>
 
 
-                            <?php endif ?>
 
-                            <!-- Put in the else statement here. If there are no images, put 4 placeholder images. -->
 
-                        </ul>
+                                <?php endif ?>
+
+                                <!-- Put in the else statement here. If there are no images, put 4 placeholder images. -->
+
+                            </ul>
+                        </div>
                     </div>
 
                     <!-- Project Information (location, date, category some information about your project) -->
-                    <div class="col-sm-5">
+                    <div class="col-sm-4">
                         <div class="project-info">
                             <ul>
                                 <!-- Customer -->

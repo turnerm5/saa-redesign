@@ -32,6 +32,7 @@
         <script src="/assets/js/jquery.mixitup.js"></script>
         <!-- Js Theme  -->
         <script src="/assets/js/app.js"></script>
+
         <!-- Randomize Our Starting Slide -->
         <script>
             var randomSlide = Math.floor(Math.random() * 3);

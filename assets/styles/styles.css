@@ -937,3 +937,21 @@ p.filter_list{
   margin-bottom: 20px;
 }
 
+
+#masonry {
+  overflow: hidden;
+  width: 100%;
+}
+#masonry ul {
+  width: 100%;
+  padding: 0px;
+}
+#masonry li {
+  float: left;
+  list-style: none;
+  line-height: 0;
+}
+
+.post-box {
+  padding: 3px;
+}

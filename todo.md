@@ -1,7 +1,8 @@
 ##The official saarch.com to-do list
 
 ###High Priority
--	Make images on project page adaptive, so they aren't constrained to 800x600. This may involve implementing a jQuery library that does this automatically, or it may be as simple as changing a line of CSS.
+-	Make placeholder images work with the masonry plugin. This shouldn't be too tough, but my brain is relatively fried.
+-	Figure out why masonry isn't working on the first load. Document.ready should address this, right?
 -	Make 8 project images on main page dynamic, pulled from the first 8 projects on the project list. Maybe randomize it? Or, have projects tagged "Featured", and have Kirby look for that?
 
 ###Standard Priority
@@ -13,3 +14,4 @@
 ###Low Priority
 -	Send out templates to everyone, asking for a one-sentence description.
 -	Take headshots. Make these interactive, somehow. Animated gifs, that are randomly loaded?
+-	Fix images from blog. Add all images from previous posts.
