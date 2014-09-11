@@ -24,50 +24,66 @@
                                     <?php foreach($page->images() as $image): ?>        
                                         <!-- Image -->
 
-                                        <div class="post-box col-md-4 col-lg-4 col-sm-4 col-xs-4">
+                                        <div class="post-box col-md-4 col-lg-4 col-sm-4 col-xs-2">
                                             <li>
                                                 <a href="<?php echo $image->url() ?>" data-lightbox="project_photos" data-title="<?php echo $image->caption() ?>">
                                                     <img class="img-responsive" src="<?php echo $image->url() ?>" alt="<?php echo html($page->title()) ?>" width="<?php echo $image->width() ?>" height="<?php echo $image->height() ?>">
                                                 </a>
                                             </li>
                                         </div>
+
                                     <?php endforeach ?>
 
                                 <?php else: ?>    
-                                
-                                    <li>
-                                        <a href="http://placehold.it/800x600" data-lightbox="project_photos" data-title="Placeholder Caption">
-                                            <img src="http://placehold.it/800x600" alt="Placeholder Image">
-                                        </a>
-                                    </li>
 
-                                    <li>
-                                        <a href="http://placehold.it/800x600" data-lightbox="project_photos" data-title="Placeholder Caption">
-                                            <img src="http://placehold.it/800x600" alt="Placeholder Image">
-                                        </a>
-                                    </li>
+                                    <div class="post-box col-md-4 col-lg-4 col-sm-4 col-xs-2">
+                                        <li>
+                                            <a href="http://placehold.it/800x600" data-lightbox="project_photos" data-title="Placeholder Image">
+                                                <img class="img-responsive" src="http://placehold.it/800x600" alt="Placeholder Image" width="800" height="600">
+                                            </a>
+                                        </li>
+                                    </div>
 
-                                    <li>
-                                        <a href="http://placehold.it/800x600" data-lightbox="project_photos" data-title="Placeholder Caption">
-                                            <img src="http://placehold.it/800x600" alt="Placeholder Image">
-                                        </a>
-                                    </li>
+                                    <div class="post-box col-md-4 col-lg-4 col-sm-4 col-xs-2">
+                                        <li>
+                                            <a href="http://placehold.it/600x800" data-lightbox="project_photos" data-title="Placeholder Image">
+                                                <img class="img-responsive" src="http://placehold.it/600x800" alt="Placeholder Image" width="600" height="800">
+                                            </a>
+                                        </li>
+                                    </div>
 
-                                    <li>
-                                        <a href="http://placehold.it/800x600" data-lightbox="project_photos" data-title="Placeholder Caption">
-                                            <img src="http://placehold.it/800x600" alt="Placeholder Image">
-                                        </a>
-                                    </li>
+                                    <div class="post-box col-md-4 col-lg-4 col-sm-4 col-xs-2">
+                                        <li>
+                                            <a href="http://placehold.it/600x800" data-lightbox="project_photos" data-title="Placeholder Image">
+                                                <img class="img-responsive" src="http://placehold.it/600x800" alt="Placeholder Image" width="600" height="800">
+                                            </a>
+                                        </li>
+                                    </div>
 
-                                    <li>
-                                        <a href="http://placehold.it/800x600" data-lightbox="project_photos" data-title="Placeholder Caption">
-                                            <img src="http://placehold.it/800x600" alt="Placeholder Image">
-                                        </a>
-                                    </li>
+                                    <div class="post-box col-md-4 col-lg-4 col-sm-4 col-xs-2">
+                                        <li>
+                                            <a href="http://placehold.it/600x800" data-lightbox="project_photos" data-title="Placeholder Image">
+                                                <img class="img-responsive" src="http://placehold.it/600x800" alt="Placeholder Image" width="600" height="800">
+                                            </a>
+                                        </li>
+                                    </div>
 
+                                    <div class="post-box col-md-4 col-lg-4 col-sm-4 col-xs-2">
+                                        <li>
+                                            <a href="http://placehold.it/800x600" data-lightbox="project_photos" data-title="Placeholder Image">
+                                                <img class="img-responsive" src="http://placehold.it/800x600" alt="Placeholder Image" width="800" height="600">
+                                            </a>
+                                        </li>
+                                    </div>
 
-
-
+                                    <div class="post-box col-md-4 col-lg-4 col-sm-4 col-xs-2">
+                                        <li>
+                                            <a href="http://placehold.it/800x600" data-lightbox="project_photos" data-title="Placeholder Image">
+                                                <img class="img-responsive" src="http://placehold.it/800x600" alt="Placeholder Image" width="800" height="600">
+                                            </a>
+                                        </li>
+                                    </div>
+                                                                                                
                                 <?php endif ?>
 
                                 <!-- Put in the else statement here. If there are no images, put 4 placeholder images. -->

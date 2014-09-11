@@ -10,8 +10,4 @@ jQuery(document).ready(function(){
 	  }
 	});
 
-	$('#masonry ul').masonry({
-		itemSelector: '.post-box',
-        columnWidth: '.post-box',
-	});
 });

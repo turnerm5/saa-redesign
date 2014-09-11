@@ -73,152 +73,37 @@
             <!-- Projects -->            
             <div class="container-fluid projects padding-top">
                 <div class="row">
+                    
+                    <?php $projects = $pages->find('projects')->children()->paginate(8) ?>
+                    <?php foreach($projects as $project): ?>
 
                     <!-- Project Item (image, link and description for your project) -->
                     <div class="col-xs-10 col-xs-offset-1 col-sm-6 col-md-3 col-md-offset-0 col-sm-offset-0">
                         <div class="project-inner">
-                            <a href="project-inner.html">  
-                                <!-- Image -->                  
-                                <img src="assets/img/portfolio/hssr_01.jpg" alt="Health Sciences Building" >                    
+                            <a href="<?php echo $project->url() ?>">  
+                                <!-- Image --> 
+                                
+                                <?php if ($project->hasImages()): ?>
+                                    <?php $image = $project->images()->find('01.jpg') ?>                 
+                                    <img src="<?php echo $image->url() ?>" alt="Placeholder" >                    
+                                
+                                <?php else: ?>
+                                    <img src="http://www.placehold.it/800x600" alt="Placeholder text">  
+                                <?php endif ?>
+
                                 <div class="project-caption">
                                     <!-- Title and Date -->
                                     <div class="project-details">
                                         <p><i class="fa fa-plus fa-lg"></i></p>     
-                                        <h3>Health Sciences Building</h3>
-                                        <p><small>North Seattle College</small></p>                                               
+                                        <h3><?php echo $project->title() ?></h3>
+                                        <p><small><?php echo $project->client() ?></small></p>                                               
                                     </div>
                                 </div>
                             </a>
                         </div>
-                    </div>   
+                    </div>
 
-                    <!-- Project Item (image, link and description for your project) -->
-                    <div class="col-xs-10 col-xs-offset-1 col-sm-6 col-md-3 col-md-offset-0 col-sm-offset-0">
-                        <div class="project-inner">
-                            <a href="project-inner.html">  
-                                <!-- Image -->                  
-                                <img src="assets/img/portfolio/maier_hall_01.jpg" alt="Maier Hall" >                    
-                                <div class="project-caption">
-                                    <!-- Title and Date -->
-                                    <div class="project-details">
-                                        <p><i class="fa fa-plus fa-lg"></i></p>     
-                                        <h3>Maier Hall</h3>
-                                        <p><small>Peninsula College</small></p>                                               
-                                    </div>
-                                </div>
-                            </a>
-                        </div>
-                    </div>   
-
-                    <!-- Project Item (image, link and description for your project) -->
-                    <div class="col-xs-10 col-xs-offset-1 col-sm-6 col-md-3 col-md-offset-0 col-sm-offset-0">
-                        <div class="project-inner">
-                            <a href="project-inner.html">  
-                                <!-- Image -->                  
-                                <img src="assets/img/portfolio/fs30_01.jpg" alt="Fire Station 30" >                    
-                                <div class="project-caption">
-                                    <!-- Title and Date -->
-                                    <div class="project-details">
-                                        <p><i class="fa fa-plus fa-lg"></i></p>     
-                                        <h3>Fire Station 30</h3>
-                                        <p><small>City of Seattle</small></p>                                               
-                                    </div>
-                                </div>
-                            </a>
-                        </div>
-                    </div>   
-
-                    <!-- Project Item (image, link and description for your project) -->
-                    <div class="col-xs-10 col-xs-offset-1 col-sm-6 col-md-3 col-md-offset-0 col-sm-offset-0">
-                        <div class="project-inner">
-                            <a href="project-inner.html">  
-                                <!-- Image -->                  
-                                <img src="assets/img/portfolio/culinary_academy_01.jpg" alt="Culinary Academy" >                    
-                                <div class="project-caption">
-                                    <!-- Title and Date -->
-                                    <div class="project-details">
-                                        <p><i class="fa fa-plus fa-lg"></i></p>     
-                                        <h3>Culinary Academy</h3>
-                                        <p><small>Seattle Central College</small></p>                                               
-                                    </div>
-                                </div>
-                            </a>
-                        </div>
-                    </div>   
-
-                    <!-- Project Item (image, link and description for your project) -->
-                    <div class="col-xs-10 col-xs-offset-1 col-sm-6 col-md-3 col-md-offset-0 col-sm-offset-0">
-                        <div class="project-inner">
-                            <a href="project-inner.html">  
-                                <!-- Image -->                  
-                                <img src="assets/img/portfolio/ocee_01.jpg" alt="Opportunity Center" >                    
-                                <div class="project-caption">
-                                    <!-- Title and Date -->
-                                    <div class="project-details">
-                                        <p><i class="fa fa-plus fa-lg"></i></p>     
-                                        <h3>Opportunity Center</h3>
-                                        <p><small>North Seattle College</small></p>                                               
-                                    </div>
-                                </div>
-                            </a>
-                        </div>
-                    </div>   
-
-                    <!-- Project Item (image, link and description for your project) -->
-                    <div class="col-xs-10 col-xs-offset-1 col-sm-6 col-md-3 col-md-offset-0 col-sm-offset-0">
-                        <div class="project-inner">
-                            <a href="project-inner.html">  
-                                <!-- Image -->                  
-                                <img src="assets/img/portfolio/auburn_library_01.jpg" alt="Auburn Library" >                    
-                                <div class="project-caption">
-                                    <!-- Title and Date -->
-                                    <div class="project-details">
-                                        <p><i class="fa fa-plus fa-lg"></i></p>     
-                                        <h3>Auburn Library</h3>
-                                        <p><small>King County Library System</small></p>                                               
-                                    </div>
-                                </div>
-                            </a>
-                        </div>
-                    </div>   
-
-                    <!-- Project Item (image, link and description for your project) -->
-                    <div class="col-xs-10 col-xs-offset-1 col-sm-6 col-md-3 col-md-offset-0 col-sm-offset-0">
-                        <div class="project-inner">
-                            <a href="project-inner.html">  
-                                <!-- Image -->                  
-                                <img src="assets/img/portfolio/fs20_01.jpg" alt="Fire Station 20" >                    
-                                <div class="project-caption">
-                                    <!-- Title and Date -->
-                                    <div class="project-details">
-                                        <p><i class="fa fa-plus fa-lg"></i></p>     
-                                        <h3>Fire Station 20</h3>
-                                        <p><small>City of Seattle</small></p>                                               
-                                    </div>
-                                </div>
-                            </a>
-                        </div>
-                    </div>   
-
-                    <!-- Project Item (image, link and description for your project) -->
-                    <div class="col-xs-10 col-xs-offset-1 col-sm-6 col-md-3 col-md-offset-0 col-sm-offset-0">
-                        <div class="project-inner">
-                            <a href="project-inner.html">  
-                                <!-- Image -->                  
-                                <img src="assets/img/portfolio/douglass_truth_01.jpg" alt="Douglass-Truth Branch" >                    
-                                <div class="project-caption">
-                                    <!-- Title and Date -->
-                                    <div class="project-details">
-                                        <p><i class="fa fa-plus fa-lg"></i></p>     
-                                        <h3>Douglass-Truth Branch</h3>
-                                        <p><small>The Seattle Public Library</small></p>                                               
-                                    </div>
-                                </div>
-                            </a>
-                        </div>
-                    </div>   
-
-             
+                    <?php endforeach ?>                
 
                 </div><!-- /row -->
             </div><!-- /container -->

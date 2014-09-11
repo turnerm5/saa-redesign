@@ -34,7 +34,24 @@
         <!-- Js Theme  -->
         <script src="/assets/js/app.js"></script>
         <script src="/assets/js/masonry.js"></script>
+        <script src="/assets/js/imagesloaded.min.js"></script>
         <script src="/assets/js/project_filter.js"></script>
+        <script>
+        
+        $(document).ready(function() {
+
+            var $container = $('#masonry ul');
+
+            $container.imagesLoaded( function() {
+                $('#masonry ul').masonry({
+                    itemSelector: '.post-box',
+                    columnWidth: '.post-box',
+                });
+            });
+
+        });
+
+        </script>
 
         <!-- Randomize Our Starting Slide -->
     </body>
