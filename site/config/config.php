@@ -23,7 +23,7 @@ http://getkirby.com/license
 
 c::set('license', 'your license key');
 
-
+c::set('disqus-shortname', 'saarch');
 /* 
 
 ---------------------------------------

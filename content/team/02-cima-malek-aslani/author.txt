@@ -4,7 +4,7 @@ title: AIA
 ----
 role: Principal
 ----
-bio: Cima bio here. Lorem ipsum blah blah blah.
+bio: Cima bio here.
 ----
 email: cima@saarch.com
 ----

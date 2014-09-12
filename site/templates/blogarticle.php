@@ -39,9 +39,17 @@
                                     <p><a href="<?php echo url('blog') ?>">Back…</a></p>
                                 </div>
                             </div> <!-- /text -->
+                        </div>
 
+                        <div class="row">
+                            <div class="col-md-8">
+                                <?php snippet('disqus', array('disqus_shortname' => 'saarchstaging', 'disqus_developer' => true)) ?>
+                            </div>
+                        </div>
 
-                                <!-- Post Description -->
+                            <!-- Post Description -->
+
+                            
                         </div> <!-- /row -->
                     </div>        
 

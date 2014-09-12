@@ -63,7 +63,7 @@
                 </div>
                 <div class="row">
                   <!-- Section Description -->
-                  <div class="col-md-10 col-md-offset-1 col-xs-10 col-xs-offset-1">
+                  <div class="col-md-6 col-md-offset-3 col-xs-6 col-xs-offset-3">
                     <p>Our projects for academic, cultural and religious organizations express the unique nature and serve the specific needs of each institution.</p>    
                   </div>          
                 </div><!-- /row -->       
@@ -125,7 +125,9 @@
                     <div class="title-devider"></div>
                 </div>  
                 <!-- Section Description -->             
-                <p>To support our clients’ needs, we provide comprehensive project management, helping them with communications strategies, project budgeting, fund-raising and other activities essential to building consensus and implementing the work.</p>    
+                <div class="col-md-6 col-md-offset-3 col-xs-6 col-xs-offset-3 padding-bottom">
+                    <p>To support our clients’ needs, we provide comprehensive project management, helping them with communications strategies, project budgeting, fund-raising and other activities essential to building consensus and implementing the work.</p>    
+                </div>
                 <div class="row padding-top"> 
 
                     

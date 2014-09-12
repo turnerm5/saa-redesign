@@ -4,7 +4,7 @@ title: AIA, LEED AP BD+C
 ----
 role: Senior Associate
 ----
-bio: Eric bio here. Lorem ipsum blah blah blah.
+bio: Eric bio here.
 ----
 email: eric@saarch.com
 ----

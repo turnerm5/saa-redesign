@@ -4,7 +4,7 @@ title: FAIA
 ----
 role: Principal
 ----
-bio: Walter bio here. Lorem ipsum blah blah blah.
+bio: Walter bio here.
 ----
 email: walter@saarch.com
 ----

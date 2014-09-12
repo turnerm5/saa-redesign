@@ -2,7 +2,7 @@ name: JC Letourneau
 ----
 Title: AIA, LEED AP BD+C, CSBA, Assoc. DBIA
 ----
-bio: JC bio here. Lorem ipsum blah blah blah.
+bio: JC bio here.
 ----
 role: Senior Associate
 ----

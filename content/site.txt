@@ -7,3 +7,5 @@ Description: Schacht Aslani Architects is an award-winning design firm based in 
 Keywords: seattle, architect, education, fire stations, libraries, science, design
 ----
 Copyright: © Schacht Aslani Architects 1996-(date: Year)
+----
+shortname: saarch
