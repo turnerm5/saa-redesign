@@ -16,11 +16,15 @@
                     <div class="col-md-10 col-md-offset-1">
                         <!-- Description -->
                         <div class="col-md-6">                            
-                            <p><?php echo kirbytext($page->column1()) ?></p>
+                            <p>This should be all about how we work in the office. Integrated teams, pin-up boards on the wall, design crits. It should be appealing to both work here, and to hire us.</p> 
+                            <p>It wouldn't hurt to get images of folks at work, at a crit, out and about. Snippets of humanity.</p>    
+                            <p>Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi.</p>
                         </div>
                         <!-- Description -->
                         <div class="col-md-6">
-                            <p><?php echo kirbytext($page->column2()) ?></p>
+                            <p>Nam liber tempor cum soluta nobis eleifend option congue nihil imperdiet doming id quod mazim placerat facer possim assum.</p> 
+                            <p>Typi non habent claritatem insitam; est usus legentis in iis qui facit eorum claritatem. Investigationes demonstraverunt lectores legere me lius quod ii legunt saepius.</p>    
+                            <p>Mirum est notare quam littera gothica, quam nunc putamus parum claram, anteposuerit litterarum formas humanitatis per seacula quarta decima et quinta decima. </p>
                         </div>
                     </div>        
 
@@ -102,11 +106,17 @@
             <!-- End Our Team -->
             
             <!-- Our Clients -->           
+<<<<<<< HEAD
             <section>
                 
                 <!-- Awards Title -->
                 <div class="general-title bg-color text-center">
                     <h2>Awards</h2>
+=======
+            <div class="container padding-top padding-bottom">
+                <div class="general-title">
+                    <h2>Awards & Publications</h2>
+>>>>>>> parent of daf67e8... Little fixes.
                     <div class="title-devider"></div>
                 </div><!--  /.general-title -->
                 

@@ -18,17 +18,16 @@
                         <div class="col-xs-10 col-xs-offset-1 col-sm-6 col-md-3 col-md-offset-0 col-sm-offset-0 team-item">
                             <!-- Image -->
                             <div class="thumbnail team-inner">
-                                <img class="img-responsive" src="http://www.placehold.it/700x700" alt="Specifie an alternate text for an image">                                
+                                <img src="http://www.placehold.it/700x700 alt="Specifie an alternate text for an image">                                
                             </div>
                             <div class="team-caption">
                                     <!-- Name -->
                                     <div class="team-title">         
                                         <h3><?php echo $member->name() ?></h3>
-                                        <h4><?php echo $member->title() ?></h4>                      
-                                        <h5><?php echo $member->role() ?></h5>
-                                        <p><a href="mailto:<?php echo $member->email() ?>"><?php echo $member->email() ?></a></p>
-
-                                    </div> 
+                                        <h4><?php echo $member->title() ?></h4>                          
+                                    </div>
+                                    <!-- Info -->
+                                    <h5><?php echo $member->role() ?></h5> 
                             </div>
                         </div>
 

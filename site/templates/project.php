@@ -138,7 +138,6 @@
 
                 <div class="container-fluid">
                     <div class="row">        
-
                         <?php foreach(related($page->related()) as $related): ?>
                             <!-- Project Item (image,link and description for your project) -->
                             <div class="col-sm-6 col-md-3">
@@ -169,7 +168,7 @@
 
                 <!-- View All Projects Button -->
                 <div class="padding-top padding-bottom text-center">  
-                    <a href="/projects" class="btn black-btn">View all Projects</a>
+                    <a href="projects.html" class="btn black-btn">View all Projects</a>
                 </div>
 
             </section>
