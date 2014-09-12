@@ -17,7 +17,7 @@
                 <div class="row">
                     <div class="col-md-12">
                         <p class="filter_list">
-                            <a href="#" class="filter" data-filter="all">[Show All]</a>
+                            <a href="#" class="filter" data-filter="all">Show All</a>
                             <a href="#" class="filter" data-filter=".education">Education</a>
                             <a href="#" class="filter" data-filter=".civic">Civic</a> 
                             <a href="#" class="filter" data-filter=".cultural">Cultural</a>

@@ -944,6 +944,13 @@ p.filter_list{
   margin-bottom: 20px;
 }
 
+.sort_list, .filter_list{
+  font-weight: 600;
+}
+
+.sort, .filter {
+  cursor: pointer;
+}
 
 #masonry {
   overflow: hidden;
