@@ -298,6 +298,10 @@ class page extends obj {
   function hasImages() {
     return ($this->images()->count() > 0) ? true : false;
   }
+
+  function hasOneImage() {
+    return ($this->images()->count() = 1) ? true : false;
+  }
   
   function videos() {
     return $this->files()->videos();    
