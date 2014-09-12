@@ -3,7 +3,7 @@
 
 <!-- Section General Title -->        
         <div class="general-title bg-color">
-            <h2>The Official SAARCH Blog</h2>
+            <h2><?php echo kirbytext($page->title())?></h2>
             <div class="title-devider"></div>
             <div class="text-center"><p><?php echo kirbytext($page->text())?></p></div>        
         </div>

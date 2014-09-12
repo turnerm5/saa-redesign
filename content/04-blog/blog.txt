@@ -1,4 +1,4 @@
-Title: Blog
+Title: The official SAARCH blog
 ----
 Text: Our explorations of architectural innovation, research, project delivery, and community engagement.
 ----    

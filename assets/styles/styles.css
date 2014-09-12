@@ -85,24 +85,19 @@ Table of Contents:
 .btn{
   border-radius: 0px;
   text-decoration: none;
-  padding: 12px 100px;
+  padding: 12px 18px;
   font-size: 12px;
   line-height: 19px;
-  /*text-transform: uppercase;*/
+  text-transform: uppercase;
   font-family: 'Montserrat', sans-serif;
-  font-weight: 400;
-  letter-spacing: 1px;
+  font-weight: 700;
+  letter-spacing: 3px;
   -webkit-transition: all .2s ease-in-out;
   -moz-transition: all .2s ease-in-out;
   -ms-transition: all .2s ease-in-out;
   -o-transition: all .2s ease-in-out;
   transition: all .2s ease-in-out;
 }
-
-.btn-group{
-  margin-bottom: 15px;
-}
-
 .carousel-indicators li{
   border: 1px solid #da3020;
 }
@@ -277,10 +272,10 @@ a:focus {
   margin-bottom: 40px;
 }
 .padding-top{
-  padding-top: 50px;
+  padding-top: 70px;
 }
 .padding-bottom{
-  padding-bottom: 50px;
+  padding-bottom: 70px;
 }
 .bg-color{
   background-color: #f2f2f2;
@@ -387,7 +382,7 @@ a:focus {
 .site-wrapper{
   min-height: 100%;
   height: auto;
-  padding-top: 50px;
+  padding-top: 60px;
 }
 
 /* ----------------------------------------------------
@@ -937,12 +932,8 @@ acronym{
 }
 
 a.filter{
-  padding-right: 5px;
+  padding-right: 10px;
   color: #666;
-}
-
-a.filter:hover{
-  color: #da3020;
 }
 
 a.divider{
@@ -970,8 +961,4 @@ p.filter_list{
 
 .post-box {
   padding: 3px;
-}
-
-.sort_list, .filter_list {
-  font-weight: 400;
 }

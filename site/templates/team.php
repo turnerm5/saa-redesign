@@ -7,7 +7,7 @@
             <div class="title-devider"></div>
         </div>
 
-        <div class="site-wrapper">
+        <div class="site-wrapper bg-color">
             <div class="container text-center ">
                 
                 <div class="row">  

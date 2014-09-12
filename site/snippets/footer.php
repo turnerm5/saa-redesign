@@ -3,7 +3,7 @@
             <div class="container">   
                 <div class="row"> 
                     <!-- Copyright -->                                    
-                    <div class="col-md-4">
+                    <div class="col-md-4 text-center">
                         <p><?php echo kirbytext($site->copyright()) ?></p>
                     </div>
                     <!-- Footer Social Icons -->
