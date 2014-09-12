@@ -23,8 +23,11 @@
                                 <?php if($page->hasImages()): ?> 
                                     <?php foreach($page->images() as $image): ?>        
                                         <!-- Image -->
-
-                                        <div class="post-box col-md-6 col-lg-6 col-sm-6 col-xs-3">
+                                        <?php if($page->hasOneImage()): ?>
+                                            <div class="post-box col-md-12 col-lg-12 col-sm-12 col-xs-12">
+                                        <?php else: ?>
+                                            <div class="post-box col-md-6 col-lg-6 col-sm-6 col-xs-3">
+                                        <?php endif ?>
                                             <li>
                                                 <a href="<?php echo $image->url() ?>" data-lightbox="project_photos" data-title="<?php echo $image->caption() ?>">
                                                     <img class="img-responsive" src="<?php echo $image->url() ?>" alt="<?php echo html($page->title()) ?>" width="<?php echo $image->width() ?>" height="<?php echo $image->height() ?>">
