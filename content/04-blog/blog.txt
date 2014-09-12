@@ -1,4 +1,4 @@
 Title: Blog
 ----
-Text: This is a nice Demo Blog. 
+Text: Our explorations of architectural innovation, research, project delivery, and community engagement.
 ----    

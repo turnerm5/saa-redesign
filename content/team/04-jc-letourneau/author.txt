@@ -6,7 +6,7 @@ bio: JC bio here.
 ----
 role: Senior Associate
 ----
-email: eric@saarch.com
+email: jc@saarch.com
 ----
 website: http://john.doe.com
 ----
