@@ -14,10 +14,11 @@
             <div class="container">
                 
                 <!-- Row of filter buttons -->
-                <div class="row">
+<!--                 <div class="row">
                     <div class="col-md-12">
                         <p class="filter_list">
-                            <a href="#" class="filter" data-filter="all">[Show All]</a>
+                            Filter by: 
+                            <a href="#" class="filter" data-filter="all">All</a>
                             <a href="#" class="filter" data-filter=".education">Education</a>
                             <a href="#" class="filter" data-filter=".civic">Civic</a> 
                             <a href="#" class="filter" data-filter=".cultural">Cultural</a>
@@ -28,6 +29,24 @@
                             <a href="#" class="filter" data-filter=".new-building">New Building</a>
                             <a href="#" class="filter" data-filter=".in-progress">In Progress</a> 
                         </p>
+                    </div>
+                </div>     -->
+
+                <!-- Row of filter buttons -->
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="btn-group btn-group-xs">
+                            <button type="button" class="filter btn btn-link" data-filter="all">All</button>
+                            <button type="button" class="filter btn btn-link" data-filter=".education">Education</button>
+                            <button type="button" class="filter btn btn-link" data-filter=".civic">Civic</button>
+                            <button type="button" class="filter btn btn-link" data-filter=".cultural">Cultural</button>
+                            <button type="button" class="filter btn btn-link" data-filter=".spiritual">Spiritual</button>
+                            <button type="button" class="filter btn btn-link" data-filter=".planning">Planning</button>
+                            <button type="button" class="filter btn btn-link" data-filter=".tenant-improvement">Tenant Improvement</button>
+                            <button type="button" class="filter btn btn-link" data-filter=".renovation">Renovation</button>
+                            <button type="button" class="filter btn btn-link" data-filter=".new-building">New Building</button>
+                            <button type="button" class="filter btn btn-link" data-filter=".in-progress">In Progress</button>
+                        </div>
                     </div>
                 </div>
 
