@@ -83,14 +83,12 @@ Table of Contents:
 
 
 .btn{
-  border-radius: .5px;
-  border: solid;
-  border-radius: 3px;
+  border-radius: 0px;
   text-decoration: none;
   padding: 12px 100px;
   font-size: 12px;
   line-height: 19px;
-  text-transform: uppercase;
+  /*text-transform: uppercase;*/
   font-family: 'Montserrat', sans-serif;
   font-weight: 400;
   letter-spacing: 1px;
