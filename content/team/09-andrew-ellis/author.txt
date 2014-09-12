@@ -6,7 +6,7 @@ title: LEED AP BD+C
 ----
 role: Design Staff
 ----
-email: arielle@saarch.com
+email: andrew@saarch.com
 ----
 website: http://john.doe.com
 ----

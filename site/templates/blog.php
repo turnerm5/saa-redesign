@@ -3,8 +3,9 @@
 
 <!-- Section General Title -->        
         <div class="general-title bg-color">
-            <h2>SAA Blog</h2>
+            <h2><?php echo kirbytext($page->title())?></h2>
             <div class="title-devider"></div>
+            <div class="text-center"><p><?php echo kirbytext($page->text())?></p></div>        
         </div>
 
         <!-- Site Wrapper -->
@@ -12,6 +13,7 @@
 
             <!-- Blog -->
             <div class="container">
+                
                 <div class="row">
 
 
@@ -21,7 +23,7 @@
                         <?php $author = $pages->find('team/' . $article->author()) ?>
 
                         <!-- Blog Post (image, title, date and description of post) --> 
-                        <div class="col-sm-6 col-md-6">
+                        <div class="col-sm-4 col-md-4">
                             <div class="thumbnail blog-inner">
                                 <!-- Image -->
                                 <a href="<?php echo $article->url() ?>">
