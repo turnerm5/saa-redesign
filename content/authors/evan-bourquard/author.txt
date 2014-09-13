@@ -1,9 +1,0 @@
-name: Evan Bourquard
-----
-bio: Evan is an awesome author with years of experience
-----
-email: evan@saarch.com
-----
-website: http://john.doe.com
-----
-twitter: http://twitter.com/johndoe

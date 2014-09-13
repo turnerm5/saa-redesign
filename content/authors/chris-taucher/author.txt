@@ -1,9 +1,0 @@
-name: Chris Taucher
-----
-bio: Chris is an awesome author with years of experience
-----
-email: chris@saarch.com
-----
-website: http://john.doe.com
-----
-twitter: http://twitter.com/johndoe
