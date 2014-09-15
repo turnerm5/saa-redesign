@@ -12,7 +12,7 @@ Our immediate goal is to use real data from the College, including student sched
 
 We are currently working on the Campus Master Plan for Edmonds Community College, and the College staff has kindly provided us with anonymous student schedules from the previous year. Here is a single day during fall quarter, 2013.
 
-<iframe src="//player.vimeo.com/video/87302331" width="564" height="650" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe> <a href="http://vimeo.com/87302331">Simulating Student Movement Around Campus</a>
+(vimeo: http://vimeo.com/87302331)
 
 We track parking lot capacity, so we can see exactly when those lots fill up. The circle size corresponds to the number of students in that building. The graph at the bottom tracks the number of students on campus.
 

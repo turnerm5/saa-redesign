@@ -26,8 +26,14 @@
                                 <p><?php echo $page->date('D, M d, Y') ?></p>
                                 <h5>Author</h5>
                                 <a href="mailto:<?php echo $author->email() ?>"><?php echo $author->name() ?></a>
-                                <h5>Bio</h5>
-                                <p><?php echo $author->bio() ?></p>
+                                <h5>Author Bio</h5>
+                                <?php echo kirbytext($author->bio()) ?>
+                                
+                                <?php if ($author->favorite() != ""): ?>
+                                    <h5>Author Inspiration</h5>
+                                    <?php echo kirbytext($author->favorite()) ?>
+                                <?php endif ?>
+
                             </div>
 
                             <!-- Blog Text -->
