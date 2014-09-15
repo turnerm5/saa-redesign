@@ -1,6 +1,8 @@
 name: Kristina Rakestraw
 ----
-bio: Kristina is an awesome author with years of experience
+bio: I think architecture can enhance the everyday for anyone. I am interested in architecture as a means of better understanding how people live their lives, how they gather, and how they interact with their environment. I find any project that is built in a way as if “it always belonged on a site” to be inspiring.
+
+My outside interests are drinking too much tea, comedy/story-telling, boat-building, and exploring new places near and far.
 ----
 title: 
 ----
@@ -11,3 +13,6 @@ email: kristina@saarch.com
 website: http://john.doe.com
 ----
 twitter: http://twitter.com/johndoe
+----
+favorite:
+(link:http://www.archdaily.com/418996/ad-classics-saint-benedict-chapel-peter-zumthor/ text: Saint Benedict Chapel by Peter Zumthor)
