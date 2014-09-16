@@ -10,12 +10,13 @@ SF: 9,400
 ----
 Tags: civic, new-building, in-progress
 ----
-Text: Duis placerat blandit velit eu maximus. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Sed tristique dui ac leo pharetra pulvinar. Maecenas id sodales ipsum. Proin placerat quam sed ligula varius tempus. Aliquam erat volutpat. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+Text: 
+In 2004, the City of Seattle embarked on a nine-year journey to upgrade, renovate or completely replace thirty-two neighborhood fire stations throughout the city. Fire Station 20, a new facility located at the base of Queen Anne Hill, is one of the last stations to be developed, and one of the most ambitious from a green infrastructure standpoint. Pulling from lessons learned over the last eight years, the city challenged the design team to create a building that not only meets the criteria for LEED Platinum certification, but also follows the guidelines set in the Architecture 2030 Challenge.
 
-Sed consequat, nibh ut interdum consequat, est metus placerat neque, sed ultricies sapien est vitae risus. Fusce viverra sapien neque, eu tempor leo iaculis at. Nunc tincidunt felis id aliquam volutpat. Sed vel libero eu libero lacinia consequat. Sed maximus augue enim, sit amet semper mi imperdiet et. Curabitur felis risus, scelerisque id magna a, aliquam sollicitudin ligula. Donec vel dui nec odio iaculis aliquet. Vestibulum molestie tortor et scelerisque scelerisque. Donec sagittis at urna at dignissim. Nulla facilisi. Aliquam vulputate ante in nunc aliquet, nec pulvinar lectus v
+The design of the modest, 9,446 square foot building is a response to these goals, the nature of its place in the tough, industrial fabric of its neighborhood, and the unique character of its site. The station is designed to create a civic presence for the Seattle Fire Department and serve as a model of innovative sustainable design.
 ----
 Related:
--projects/sea-fire-station-20
+-projects/sea-fire-station-30
 -projects/spl-douglass-truth-branch
 -projects/scl-technical-training-facility
 -projects/squax-museum-library
