@@ -10,6 +10,17 @@ SF: 9,100
 ----
 Tags: civic, new-building
 ----
-Text: Duis placerat blandit velit eu maximus. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Sed tristique dui ac leo pharetra pulvinar. Maecenas id sodales ipsum. Proin placerat quam sed ligula varius tempus. Aliquam erat volutpat. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+Text:
+This two-story fire station is located at the base of historic Mt. Baker Boulevard, where its civic scale marks the transition between the commercial activity of Rainier Avenue and the primarily residential Mt. Baker neighborhood. The scale and material presence of the building makes it an anchor along Mount Baker Boulevard.
 
-Sed consequat, nibh ut interdum consequat, est metus placerat neque, sed ultricies sapien est vitae risus. Fusce viverra sapien neque, eu tempor leo iaculis at. Nunc tincidunt felis id aliquam volutpat. Sed vel libero eu libero lacinia consequat. Sed maximus augue enim, sit amet semper mi imperdiet et. Curabitur felis risus, scelerisque id magna a, aliquam sollicitudin ligula. Donec vel dui nec odio iaculis aliquet. Vestibulum molestie tortor et scelerisque scelerisque. Donec sagittis at urna at dignissim. Nulla facilisi. Aliquam vulputate ante in nunc aliquet, nec pulvinar lectus v
+The station accommodates both the work regimen and the human comfort needs of its inhabitants. The compact plan and simple form of the building optimize its operational efficiency. Room adjacencies support a place for firefighters to work, relax, rebound and enjoy the camaraderie of station life.
+
+The main level circulation terminates at the beanery, which serves as the kitchen, dining area and primary gathering space within the station. The beanery opens on to an exterior porch area on the south side of the building, allowing for outside gathering and staff respite. Clerestory windows on the south facade admit light into the hose tower and apparatus bay. The plan separates the apparatus bay from the living quarters. A clear path of circulation facilitates quick response times.
+
+Fire Station 30 has received recognition for its clear planning concept, innovative use of materials, and comprehensive sustainable design strategy - exceeding the City's requirements by achieving LEED Gold Certification. We believe it will serve as a model for future fire station design through its thoughtful use of a modest budget to produce an elegant civic building that fits into a neighborhood context.
+----
+Related:
+-projects/sea-fire-station-20
+-projects/spl-douglass-truth-branch
+-projects/scl-technical-training-facility
+-projects/squax-museum-library

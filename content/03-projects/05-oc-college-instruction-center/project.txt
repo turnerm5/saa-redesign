@@ -10,13 +10,17 @@ SF: 75,000
 ----
 Tags: education, new-building, in-progress
 ----
-Text: Duis placerat blandit velit eu maximus. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Sed tristique dui ac leo pharetra pulvinar. Maecenas id sodales ipsum. Proin placerat quam sed ligula varius tempus. Aliquam erat volutpat. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+Text:
+The College Instruction Center houses a 270-seat theater and instructional space for Fine Art, Music and Health Occupations. It is a pivotal project in the realization of the College's master plan. Located at the main entry to campus, the building joins the new Library, Science & Tech and Humanities Buildings to create a central quadrangle. Two city streets will be vacated as part of the project to complete the campus pedestrian spine and create a formal vehicular entry and drop off.
 
-Sed consequat, nibh ut interdum consequat, est metus placerat neque, sed ultricies sapien est vitae risus. Fusce viverra sapien neque, eu tempor leo iaculis at. Nunc tincidunt felis id aliquam volutpat. Sed vel libero eu libero lacinia consequat. Sed maximus augue enim, sit amet semper mi imperdiet et. Curabitur felis risus, scelerisque id magna a, aliquam sollicitudin ligula. Donec vel dui nec odio iaculis aliquet. Vestibulum molestie tortor et scelerisque scelerisque. Donec sagittis at urna at dignissim. Nulla facilisi. Aliquam vulputate ante in nunc aliquet, nec pulvinar lectus v
+The building's two-story atrium opens into the campus spine, serving as a lobby for the theater, providing student gathering space and creating a sense of community for the multiple programs housed in the facility. Student study and breakout spaces are arranged on multiple levels around the lobby to create a hub of spaces that foster student interaction, encouraging engagement and collaboration.
+
+Active learning classrooms provide a state-of-the art instructional resource based on an innovative model that was pioneered by the University of Minnesota. Round study tables with space for eight students are arranged so that each table has its own LCD wall display and white board. The configuration allows instructors to lecture to the entire class or assign group projects. The video displays are linked so that solutions and discoveries made by one group can be shared with the entire class. The room can accommodate 90 students or be subdivided into two, 45 seat spaces.
+
+Innovative mechanical and electrical systems, including 90% heat recovery and a 100kw solar array, contribute to the building's ambitious sustainable design agenda.
 ----
 Related:
-
--projects/nsc-health-sciences-building
--projects/pc-library-media-center
--projects/oc-bremerton-campus-master-plan
+-projects/pc-maier-hall
 -projects/pc-allied-health-center
+-projects/nsc-health-sciences-building
+-projects/oc-bremerton-campus-master-plan

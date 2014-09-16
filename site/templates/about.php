@@ -13,7 +13,7 @@
             <!-- About Us -->
             <div class="container">
 
-                <!-- Our Studio (your studio information and images for slider) -->
+                <!-- Our Studio (studio information and images for slider) -->
                 <div class="row padding-bottom">        
                     <div class="col-md-10 col-md-offset-1">
                         <!-- Description -->
@@ -152,7 +152,7 @@
             </div><!-- /container -->
             <!-- End Our Clients -->
 
-        </div><!-- /site-wrapper -->
+        </div>
         <!-- End Site Wrapper -->   
 
 <?php snippet('about-footer') ?>

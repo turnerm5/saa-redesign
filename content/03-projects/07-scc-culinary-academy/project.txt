@@ -10,6 +10,15 @@ SF: 60,000
 ----
 Tags: education, renovation
 ----
-Text: Duis placerat blandit velit eu maximus. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Sed tristique dui ac leo pharetra pulvinar. Maecenas id sodales ipsum. Proin placerat quam sed ligula varius tempus. Aliquam erat volutpat. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+Text: 
+Seattle Central's Culinary Academy is a regionally acclaimed program that draws students, faculty, staff and Seattle residents into the College's main building to enjoy its cafe and dining room. A two-story, daylit atrium connects the Academy's student-operated food venues to student activities inside the building and the surrounding urban neighborhood.
 
-Sed consequat, nibh ut interdum consequat, est metus placerat neque, sed ultricies sapien est vitae risus. Fusce viverra sapien neque, eu tempor leo iaculis at. Nunc tincidunt felis id aliquam volutpat. Sed vel libero eu libero lacinia consequat. Sed maximus augue enim, sit amet semper mi imperdiet et. Curabitur felis risus, scelerisque id magna a, aliquam sollicitudin ligula. Donec vel dui nec odio iaculis aliquet. Vestibulum molestie tortor et scelerisque scelerisque. Donec sagittis at urna at dignissim. Nulla facilisi. Aliquam vulputate ante in nunc aliquet, nec pulvinar lectus v
+The teaching kitchen is a focal point in the dining room. Views into the kitchen are framed by a bamboo paneled wall and service bar giving students an opportunity to demonstrate their skills. Glazed walls in the cafe and dining room connect to the atrium. The cafe's informal environment is designed to feature its menu of espresso, baked goods, pizza and sandwiches. The dining room, which looks out over downtown Seattle, the Space Needle and the Olympic Mountains, provides a formal environment for the Academy's fine cuisine. A changing daily menu features its focus on sustainable foods.
+
+The project includes new academic space for the College's Continuing Education and Instructional Technology programs as well as functional space for receiving and recycling, and offices for the Facilities and Plant Operations departments. It also completes interior pedestrian circulation within the building by creating a public corridor that links the north and south sides of Broadway Edison along Harvard Avenue.
+----
+Related:
+-projects/scc-student-enrollment-services
+-projects/scc-creative-academy
+-projects/tcc-counseling-advising-services
+-projects/esc-rooftop-addition

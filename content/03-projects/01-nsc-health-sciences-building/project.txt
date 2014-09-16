@@ -10,13 +10,18 @@ SF: 46,500
 ----
 Tags: education, renovation
 ----
-Text: Duis placerat blandit velit eu maximus. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Sed tristique dui ac leo pharetra pulvinar. Maecenas id sodales ipsum. Proin placerat quam sed ligula varius tempus. Aliquam erat volutpat. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+Text: 
+Renovation and expansion of the HSSR Building creates a much-needed hub for community gathering in the heart of campus. A two-story, daylit atrium is the physical and spiritual center of the building and the College, fulfilling the vision of the campus master plan. It is surrounded by a cafe and the Tutoring Center on the ground floor, and science labs, a nursing skills lab and classrooms on the upper floor. The atrium gives the multi-use building a shared sense of community.
 
-Sed consequat, nibh ut interdum consequat, est metus placerat neque, sed ultricies sapien est vitae risus. Fusce viverra sapien neque, eu tempor leo iaculis at. Nunc tincidunt felis id aliquam volutpat. Sed vel libero eu libero lacinia consequat. Sed maximus augue enim, sit amet semper mi imperdiet et. Curabitur felis risus, scelerisque id magna a, aliquam sollicitudin ligula. Donec vel dui nec odio iaculis aliquet. Vestibulum molestie tortor et scelerisque scelerisque. Donec sagittis at urna at dignissim. Nulla facilisi. Aliquam vulputate ante in nunc aliquet, nec pulvinar lectus v
+The cafe's service and business model, which is modeled after successful formats at four-year schools like the University of Washington, appeals to the contemporary college community. An espresso bar with grab-and-go service is the focal point of the service area. It is open all day. At lunchtime, service expands to include made-to-order sandwiches and salads, and hot dishes.
+
+Moveable walls allow the cafe to be opened into the atrium to accommodate special events and celebrations such as the College's annual Foundation diner. A large sliding glass wall opens the cafe up to an outdoor space that can be used for dining and gathering.
+
+The form of building relates to the existing campus design vernacular. The light steel framed addition floats over the existing, heavy concrete base. A dramatic, cantilevered roof provides iconic front porch making the building visible from a distance, inviting people in to gather.
 ----
 Related:
 
 -projects/nsc-opportunity-center
--projects/pc-allied-health-center
+-projects/pc-maier-hall
 -projects/oc-college-instruction-center
--projects/ecc-science-engineering-technology
+-projects/ecc-science-engineering-technology-building

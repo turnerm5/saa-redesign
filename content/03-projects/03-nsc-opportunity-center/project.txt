@@ -10,9 +10,12 @@ SF: 45,000
 ----
 Tags: education, renovation
 ----
-Text: Duis placerat blandit velit eu maximus. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Sed tristique dui ac leo pharetra pulvinar. Maecenas id sodales ipsum. Proin placerat quam sed ligula varius tempus. Aliquam erat volutpat. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+Text: 
+The Opportunity Center is a breakthrough project that brings employment and social services agencies together in a central location on the North Seattle Community College campus. The project is an expansion and renovation to the south end of the existing campus, which is made up of post-tensioned concrete buildings built in the 1970s. The project's lightweight steel frame floats over the older, heavier concrete structure tying the buildings together both structurally and visually.
 
-Sed consequat, nibh ut interdum consequat, est metus placerat neque, sed ultricies sapien est vitae risus. Fusce viverra sapien neque, eu tempor leo iaculis at. Nunc tincidunt felis id aliquam volutpat. Sed vel libero eu libero lacinia consequat. Sed maximus augue enim, sit amet semper mi imperdiet et. Curabitur felis risus, scelerisque id magna a, aliquam sollicitudin ligula. Donec vel dui nec odio iaculis aliquet. Vestibulum molestie tortor et scelerisque scelerisque. Donec sagittis at urna at dignissim. Nulla facilisi. Aliquam vulputate ante in nunc aliquet, nec pulvinar lectus v
+The Opportunity Center does not look like a typical employment center. Its transparent south facade invites people in, giving visitors and users a clear sense of access. The interiors are open, airy and integrated with the flow of movement on campus. Floor-to-ceiling glazing and skylights bring daylight to critical task areas, while daylight controls reduce lighting and energy demand. Under-floor air distribution maximizes the energy performance of the building's mechanical system while allowing for flexible, user-controlled workspaces. Operable windows in private areas give building occupants control over their environment.
+
+The building serves as an important link between two major campus parking areas and a main pedestrian avenue of campus. The threestory interior spine that runs the length of the building creates a clear path of circulation between the parking areas and the heart of campus. From the exterior, the three-story, high-performance curtainwall of the central spine is a clear expression of the building's circulation path. Exterior sun shades on the south side of the building reduce unwanted solar heat gain and prevent glare, while the insulated metal panel system creates an energy-efficient building envelope.
 ----
 Related:
 

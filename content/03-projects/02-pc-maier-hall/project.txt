@@ -6,13 +6,16 @@ Location: 1502 E Lauridsen Blvd, Port Angeles, WA 98362
 ----
 Date: 2011/01/01
 ----
-SF: 65,000
+SF: 69,650
 ----
 Tags: education, new-building
 ----
-Text: Duis placerat blandit velit eu maximus. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Sed tristique dui ac leo pharetra pulvinar. Maecenas id sodales ipsum. Proin placerat quam sed ligula varius tempus. Aliquam erat volutpat. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+Text: 
+Maier Hall provides state-of-the-art instructional space for a wide range of educational programs at Peninsula College. It houses the College's Learning Center, provides general purpose classrooms for Math and English and includes studios for Music and the Fine Arts. A 134-seat performance hall is the focal point of the building and serves as a multi-purpose classroom. It can be acoustically tuned for music performance, lecture and film. Designed to create a place for students and faculty to engage in the College's academic community, the new facility serves the College's mission of becoming a regional center for continuing and higher education.
 
-Sed consequat, nibh ut interdum consequat, est metus placerat neque, sed ultricies sapien est vitae risus. Fusce viverra sapien neque, eu tempor leo iaculis at. Nunc tincidunt felis id aliquam volutpat. Sed vel libero eu libero lacinia consequat. Sed maximus augue enim, sit amet semper mi imperdiet et. Curabitur felis risus, scelerisque id magna a, aliquam sollicitudin ligula. Donec vel dui nec odio iaculis aliquet. Vestibulum molestie tortor et scelerisque scelerisque. Donec sagittis at urna at dignissim. Nulla facilisi. Aliquam vulputate ante in nunc aliquet, nec pulvinar lectus v
+The building is sited to connect the community spaces on campus to the surrounding natural environment, while minimizing impacts to sensitive adjacent ecosystems. The site borders virgin forests, wetlands and an ecologically-sensitive ravine. The building form wraps around a first-growth grove of tree and serves as an edge to the existing campus and as a gateway to the wetlands and woodlands beyond. An open-air breezeway allows students to pass through the building from the campus to the forest and leads them to a viewing platform at the wetland edge.
+
+The building is designed for sustainability. All new plantings are native species requiring no permanent irrigation system. Rainwater is collected and directed to the adjacent wetland, which is lacking water due to the campus' original stormwater system. A roof of native mosses reduces heat island effect, while exterior sun screens reduce glare and unwanted solar heat gain. Heating is provided by a geothermal well field and ground-source heat pumps. The project is designed to exceed the 2011 target of the Architecture 2030 Building Challenge for reducing energy use intensities, greenhouse gas emissions and dependence on fossil fuels.
 ----
 Related:
 
