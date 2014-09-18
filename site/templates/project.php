@@ -114,6 +114,15 @@
                                     <b>Date:</b> <?php echo $page->date('Y') ?>
                                 </li>
 
+                                <!-- SF -->
+                                <li>
+                                    <?php if ($page->sf() != "") : ?>
+                                        <b>Square Feet:</b> <?php echo html($page->sf()) ?>
+                                    <?php else : ?>
+                                        <b>Square Feet:</b> N/A
+                                    <?php endif ?>
+                                </li>
+
                                 <!-- Category -->
                                 <li>
                                     <b>Category:</b> <?php echo html($page->tags()) ?>
