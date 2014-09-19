@@ -125,7 +125,13 @@
 
                                 <!-- Category -->
                                 <li>
-                                    <b>Category:</b> <?php echo html($page->tags()) ?>
+                                    <?php $tags = explode(",",$page->tags()) ?>
+                                    <b>Category: </b>
+                                    <?php foreach ($tags as $tag) : ?>
+                                        <?php $tag_stripped = str_replace(" ", "", $tag)?>
+                                        <?php $tag_formatted = ucwords(str_replace("-", " ", $tag_stripped)) ?>
+                                        <a href="/projects#<?php echo $tag_stripped ?>"><?php echo $tag_formatted ?><?php if (end($tags) != $tag) : ?>,<?php endif ?></a>
+                                    <?php endforeach ?>
                                 </li>
                             </ul>
                         </div>
