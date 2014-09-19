@@ -8,14 +8,17 @@ Date: 2011/01/01
 ----
 SF: 22,500
 ----
-Tags: education, tenant-improvement
+Tags: education, tenant-improvementst
 ----
-Text: Duis placerat blandit velit eu maximus. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Sed tristique dui ac leo pharetra pulvinar. Maecenas id sodales ipsum. Proin placerat quam sed ligula varius tempus. Aliquam erat volutpat. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+Text: 
+Mary Gates Hall is the University of Washington's Center for Undergraduate learning. Four departmental suites for student services were developed around the perimeter of the building's two-story atrium, known as the Commons, in order to meet evolving student needs. The suites provide space for Undergraduate Academic Affairs, the Office of Minority Affairs and Diversity, Disability Resources, and Academic Support Programs. The project enhances the role of the building in the life of the undergraduate community.
 
-Sed consequat, nibh ut interdum consequat, est metus placerat neque, sed ultricies sapien est vitae risus. Fusce viverra sapien neque, eu tempor leo iaculis at. Nunc tincidunt felis id aliquam volutpat. Sed vel libero eu libero lacinia consequat. Sed maximus augue enim, sit amet semper mi imperdiet et. Curabitur felis risus, scelerisque id magna a, aliquam sollicitudin ligula. Donec vel dui nec odio iaculis aliquet. Vestibulum molestie tortor et scelerisque scelerisque. Donec sagittis at urna at dignissim. Nulla facilisi. Aliquam vulputate ante in nunc aliquet, nec pulvinar lectus v
+Each of the departments provides advising and counseling services to its distinct constituency. They also conduct training sessions, orientations, and workshops for students and staff. The design organizes suites so that they are oriented to each other and to the Commons in order to create a sense of share community. They share a large multipurpose room that is designed to accommodate their group learning activities.
+
+The relationship between the suites and the Commons supports the wide range of activities in the building. In the evening, Academic Support Programs runs a tutoring program in the atrium, which fills the space with undergraduates. The lobbies that provide access to four departmental suites by day are designed to double as breakout learning spaces for the nighttime tutoring programs. Their resource computers provide access to information and are also used for small training sessions.
 ----
 Related:
--projects/sea-fire-station-20
--projects/spl-douglass-truth-branch
--projects/scl-technical-training-facility
--projects/squax-museum-library
+-projects/uw-center-for-child-and-family-well-being
+-projects/uw-department-of-comparative-medicine
+-projects/uw-disability-resources-for-students
+-projects/tcc-counseling-advising-services

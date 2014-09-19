@@ -1,14 +1,14 @@
-Title: Early Childhood Center
+Title: Childcare Center
 ----
 Client: Skagit Valley College
 ----
 Location: 2405 E College Way, Mt. Vernon, WA 98273
 ----
-Date: tbd/01/01
+Date: 01/01/2015
 ----
 SF: 4,410
 ----
-Tags: education, new-building
+Tags: education, new-building, in-progress
 ----
 Text: Duis placerat blandit velit eu maximus. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Sed tristique dui ac leo pharetra pulvinar. Maecenas id sodales ipsum. Proin placerat quam sed ligula varius tempus. Aliquam erat volutpat. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
 

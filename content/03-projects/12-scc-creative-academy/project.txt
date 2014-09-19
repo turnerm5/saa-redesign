@@ -10,12 +10,15 @@ SF: 35,000
 ----
 Tags: education, renovation
 ----
-Text: Duis placerat blandit velit eu maximus. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Sed tristique dui ac leo pharetra pulvinar. Maecenas id sodales ipsum. Proin placerat quam sed ligula varius tempus. Aliquam erat volutpat. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+Text: 
+The comprehensive renovation of the fifth floor of the 1972 Broadway Building provides space for Photography, Graphic Design and Publishing Arts. Collocating these disciplines creates cross-disciplinary learning opportunities that emulate the structure of the communications industry. The project contains spaces for collaborative learning as well as individual study space. At the heart of the plan is the Production Lab, a work space in which students from all of the departments can collaborate to create their final products.
 
-Sed consequat, nibh ut interdum consequat, est metus placerat neque, sed ultricies sapien est vitae risus. Fusce viverra sapien neque, eu tempor leo iaculis at. Nunc tincidunt felis id aliquam volutpat. Sed vel libero eu libero lacinia consequat. Sed maximus augue enim, sit amet semper mi imperdiet et. Curabitur felis risus, scelerisque id magna a, aliquam sollicitudin ligula. Donec vel dui nec odio iaculis aliquet. Vestibulum molestie tortor et scelerisque scelerisque. Donec sagittis at urna at dignissim. Nulla facilisi. Aliquam vulputate ante in nunc aliquet, nec pulvinar lectus v
+Common space for display, study and gathering contribute to the collaborative environment. Studios are designed for multiple modes of instruction, including use of digital media as well as traditional drawing. Glazing in the corridors provides visual access to the creative activity and to natural light in a building with a deep floor plate.
+
+The project involved two bid packages, one for demolition and one for the remainder of the renovation. Areas for construction staging and access to the fifth floor for moving construction materials were limited. Schacht Aslani worked with the College and a consulting contractor to identify solutions to these site constraints and incorporated them into the bid documents.
 ----
 Related:
--projects/sea-fire-station-20
--projects/spl-douglass-truth-branch
--projects/scl-technical-training-facility
--projects/squax-museum-library
+-projects/scc-culinary-academy
+-projects/scc-student-enrollment-services
+-projects/uw-mary-gates-hall-1st-floor
+-projects/tcc-counseling-advising-services
