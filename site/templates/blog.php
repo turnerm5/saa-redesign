@@ -16,14 +16,13 @@
                 
                 <div class="row">
 
-
                     <?php $articles = $page->children()->visible()->flip()->paginate(6) ?>
 
                     <?php foreach($articles as $article): ?>
                         <?php $author = $pages->find('team/' . $article->author()) ?>
 
                         <!-- Blog Post (image, title, date and description of post) --> 
-                        <div class="col-sm-4 col-md-4">
+                        <div class="col-sm-4 col-md-4 col-xs-6">
                             <div class="thumbnail blog-inner">
                                 <!-- Image -->
                                 <a href="<?php echo $article->url() ?>">
@@ -51,9 +50,12 @@
                                 </div>
                             </div>
                         </div>
-
                     <?php endforeach ?>          
                 </div> <!-- end row -->
+                
+                
+
+                <!-- Pagination -->
                 <div class="row">
                     <?php if($articles->pagination()->hasPages()): ?>
                         <div class="col-lg-12 text-center padding-bottom">
@@ -74,7 +76,9 @@
                         </div>
                     <?php endif ?>           
 
-                </div><!-- /row -->    
+                </div><!-- /row -->
+                <!-- /Pagination -->
+
             </div><!-- /container -->
             <!-- End Blog -->
 

@@ -63,7 +63,7 @@
                 </div>
                 <div class="row">
                   <!-- Section Description -->
-                  <div class="col-md-6 col-md-offset-3 col-xs-6 col-xs-offset-3">
+                  <div class="col-md-6 col-md-offset-3 col-xs-10 col-xs-offset-1">
                     <p>Our projects for academic, cultural and religious organizations express the unique nature and serve the specific needs of each institution.</p>    
                   </div>          
                 </div><!-- /row -->       
@@ -78,7 +78,7 @@
                     <?php foreach($projects as $project): ?>
 
                     <!-- Project Item (image, link and description for your project) -->
-                    <div class="col-xs-10 col-xs-offset-1 col-sm-6 col-md-3 col-md-offset-0 col-sm-offset-0">
+                    <div class="col-xs-12 col-sm-6 col-md-3">
                         <div class="project-inner">
                             <a href="<?php echo $project->url() ?>">  
                                 <!-- Image --> 
@@ -125,7 +125,7 @@
                     <div class="title-devider"></div>
                 </div>  
                 <!-- Section Description -->             
-                <div class="col-md-6 col-md-offset-3 col-xs-6 col-xs-offset-3 padding-bottom">
+                <div class="col-md-6 col-md-offset-3 col-xs-10 col-xs-offset-1 padding-bottom">
                     <p>To support our clients’ needs, we provide comprehensive project management, helping them with communications strategies, project budgeting, fund-raising and other activities essential to building consensus and implementing the work.</p>    
                 </div>
                 <div class="row padding-top"> 
