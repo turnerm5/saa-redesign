@@ -1,5 +1,7 @@
 Title: Allied Health Center
 ----
+longtitle: Allied Health & Early Childhood Education Center
+----
 Client: Peninsula College
 ----
 Location: 1502 E Lauridsen Blvd, Port Angeles, WA 98362

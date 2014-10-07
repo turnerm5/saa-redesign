@@ -3,7 +3,13 @@
 
 <!-- Section General Title -->
         <div class="general-title bg-color"> 
-            <h2><?php echo html($page->title()) ?></h2>
+            <h2>
+            <?php if($page->longtitle()) : ?>
+                <?php echo html($page->longtitle()) ?>
+            <?php else : ?>
+                <?php echo html($page->title()) ?>
+            <?php endif ?>
+            </h2>
             <div class="title-devider"></div>
         </div>
 

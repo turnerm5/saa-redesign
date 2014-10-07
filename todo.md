@@ -1,7 +1,6 @@
 ##The official saarch.com to-do list
 
 ###High Priority
--	Add short name and long name for each project
 -	Make top-level featured projects on the homepage dynamic as well. Tag line, big photo, link to page.
 -	Make related projects dynamic. Search by project tag. If all match, rank #1, if two match, rank #2. If none match, default to ???
 

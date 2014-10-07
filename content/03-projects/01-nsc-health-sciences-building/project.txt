@@ -1,5 +1,7 @@
 Title: Health Sciences Building
 ----
+longtitle: Health Sciences & Student Resources Building
+----
 Client: North Seattle College
 ----
 Location: 9600 College Way N, Seattle, WA 98103
