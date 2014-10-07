@@ -111,26 +111,26 @@
                 
                 <div class="col-md-4">
                     <h3>Education</h3>
-                    <p>
-                        Peninsula College <br>
-                        Olympic College<br>
-                        Lower Columbia College<br>
-                        Tacoma Community College<br>
-                        Seattle Central Community College<br>
-                        University Of Washington<br>
-                        Seattle University<br>
-                        North Seattle Community College<br>
-                        Whatcom Community College<br>
-                        Grays Harbor College<br>
-                        Skagit Valley College<br>
-                        Washington State University<br>
-                        The Evergreen State College<br> 
-                        Shoreline Community College<br>
-                        Bellingham Technical College<br>
-                        Music Works Northwest<br>
-                        South Seattle Community College<br>
-                        Seattle Vocational Institute
-                    </p>
+                        <p>
+                            Peninsula College <br>
+                            Olympic College<br>
+                            Lower Columbia College<br>
+                            Tacoma Community College<br>
+                            Seattle Central Community College<br>
+                            University Of Washington<br>
+                            Seattle University<br>
+                            North Seattle Community College<br>
+                            Whatcom Community College<br>
+                            Grays Harbor College<br>
+                            Skagit Valley College<br>
+                            Washington State University<br>
+                            The Evergreen State College<br> 
+                            Shoreline Community College<br>
+                            Bellingham Technical College<br>
+                            Music Works Northwest<br>
+                            South Seattle Community College<br>
+                            Seattle Vocational Institute
+                        </p>
                 </div>
                
                 <div class="col-md-4">
