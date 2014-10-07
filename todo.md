@@ -2,11 +2,12 @@
 
 ###High Priority
 -	Add short name and long name for each project
--	Make top-level featured projects dynamic as well. Tag line, big photo, link to page.
+-	Make top-level featured projects on the homepage dynamic as well. Tag line, big photo, link to page.
 -	Make related projects dynamic. Search by project tag. If all match, rank #1, if two match, rank #2. If none match, default to ???
 
 ###Standard Priority
--	Make standard pages (About Us, Services) dynamic and linked to Kirby.
+-	Write short paragraph for "Our Services" sections.
+-	Add popover information for each staff member.
 -	Make "Awards & Publications" list dynamic.
 
 ###Low Priority
