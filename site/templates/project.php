@@ -97,6 +97,11 @@
 
                     <!-- Project Information (location, date, category some information about your project) -->
                     <div class="col-sm-4">
+                        <!-- Description -->
+                        <div class="project-description">
+                            <?php echo kirbytext($page->text()) ?>
+                        </div>
+
                         <div class="project-info">
                             <ul>
                                 <!-- Customer -->
@@ -135,10 +140,7 @@
                                 </li>
                             </ul>
                         </div>
-                        <!-- Description -->
-                        <div class="project-description">
-                            <?php echo kirbytext($page->text()) ?>
-                        </div>
+
                     </div>
 
                 </div><!-- row -->    
@@ -186,7 +188,7 @@
                 </div><!-- /container -->
 
                 <!-- View All Projects Button -->
-                <div class="padding-top padding-bottom text-center">  
+                <div class="padding-top text-center">  
                     <a href="/projects" class="btn black-btn">View all Projects</a>
                 </div>
 

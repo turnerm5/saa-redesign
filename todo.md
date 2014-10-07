@@ -6,6 +6,7 @@
 -	Make related projects dynamic. Search by project tag. If all match, rank #1, if two match, rank #2. If none match, default to ???
 
 ###Standard Priority
+-	What are the 4-6 sections for the "What We Do" section?
 -	Write short paragraph for "Our Services" sections.
 -	Write About Us/Our Practice section.
 -	Add popover information for each staff member.
