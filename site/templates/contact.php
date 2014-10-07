@@ -14,12 +14,8 @@
             <div class="container padding-bottom text-center contact-adress">         
                 <!-- All Contact Information (phone, street, email, website, working hours) -->
                 <div class="row">
-                    <!-- Description -->
-                    <div class="col-md-8 col-md-offset-2">
-                        <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat.</p>
-                    </div> 
                     <!-- Adress -->                       
-                    <div class="col-sm-4 col-md-4">
+                    <div class="col-sm-3 col-md-3">
                         <h3>Address</h3> 
                         <address>                            
                             <p>
@@ -31,7 +27,7 @@
                         </address>                                
                     </div>
                     <!-- Contact Information -->
-                    <div class="col-sm-4 col-md-4">
+                    <div class="col-md-3 col-md-3">
                         <h3>Contact Info</h3>
                         <address>                            
                             <p>
@@ -43,13 +39,23 @@
                         </address>                                
                     </div>
                     <!-- Working Hours -->
-                    <div class="col-sm-4 col-md-4">
+                    <div class="col-md-3 col-md-3">
                         <h3>Office Hours</h3>
                         <address>                            
                             <p>
                                 Monday - Friday: 08:00 - 17:00 <br>
                                 Saturday: Closed<br>   
                                 Sunday: Closed                         
+                            </p>
+                        </address>
+                    </div>      
+                    <!-- Employment -->
+                    <div class="col-md-3 col-md-3">
+                        <h3>Employment</h3>
+                        <address>                            
+                            <p>
+                                We are always on the lookout for talented architects, designers and planners. 
+                                If you are interested in joining our team, get in touch with us below.
                             </p>
                         </address>
                     </div>            
