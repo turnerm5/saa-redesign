@@ -19,7 +19,7 @@
             <!-- Service Item (title, icon and description for your service) -->
             <div class="col-sm-6 col-md-2">  
                 <!-- Icon -->   
-                <a href="#">
+                <a href="projects#new-building">
                     <i class="fa fa-building fa-3x"></i>     
                 </a>    
                 <!-- Title and Description -->
@@ -32,7 +32,7 @@
             <!-- Service Item (title, icon and description for your service) -->
             <div class="col-sm-6 col-md-2">  
                 <!-- Icon -->
-                <a href="#">
+                <a href="projects#tenant-improvement">
                     <i class="fa fa-home fa-3x"></i>     
                 </a>     
                 <!-- Title and Description -->
@@ -45,7 +45,7 @@
             <!-- Service Item (title, icon and description for your service) -->
             <div class="col-sm-6 col-md-2">   
                 <!-- Icon -->  
-                <a href="#">
+                <a href="projects#planning">
                     <i class="fa fa-bars fa-3x"></i>
                 </a>    
                 <!-- Title and Description -->
@@ -58,7 +58,7 @@
             <!-- Service Item (title, icon and description for your service) -->
             <div class="col-sm-6 col-md-2">  
                 <!-- Icon -->
-                <a href="#">
+                <a href="projects#renovation">
                     <i class="fa fa-university fa-3x"></i>
                 </a>  
                 <!-- Title and Description -->
@@ -71,7 +71,7 @@
             <!-- Service Item (title, icon and description for your service) -->
             <div class="col-sm-6 col-md-2">
                 <!-- Icon -->
-                <a href="#">
+                <a href="projects#new-building">
                     <i class="fa fa-leaf fa-3x"></i>
                 </a>  
                 <!-- Title and Description --> 
@@ -84,7 +84,7 @@
             <!-- Service Item (title, icon and description for your service) -->
             <div class="col-sm-6 col-md-2">    
                 <!-- Icon -->
-                <a href="">
+                <a href="projects#planning">
                     <i class="fa fa-users fa-3x"></i>     
                 </a>    
                 <!-- Title and Description -->

@@ -7,8 +7,12 @@
 
 ###Standard Priority
 -	Write short paragraph for "Our Services" sections.
+-	Write About Us/Our Practice section.
 -	Add popover information for each staff member.
 -	Make "Awards & Publications" list dynamic.
+-	Add all project images.
+-	Add office working images. (Crit? Charrette?)
+-	Pick better icons for the Services Section
 
 ###Low Priority
 -	Send out templates to everyone, asking for a one-sentence description.
