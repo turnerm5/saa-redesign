@@ -1,6 +1,6 @@
 Title: Services
 ----
-clients-education:
+clients_education:
 Peninsula College 
 Olympic College
 Lower Columbia College
@@ -20,7 +20,7 @@ Music Works Northwest
 South Seattle Community College
 Seattle Vocational Institute
 ----
-clients-spiritual:
+clients_spiritual:
 Temple Beth Am
 Temple B'Nai Torah
 Congregation Ahavath Beth Israel
@@ -31,7 +31,7 @@ St. Mark's Cathedral
 Temple Beth Hatfiloh
 Wallingford Methodist Church
 ----
-clients-civic-cultural:
+clients_civic_cultural:
 Seattle Public Library
 King County Library System
 Corvallis Benton County Public Library

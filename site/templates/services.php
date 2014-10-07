@@ -111,62 +111,17 @@
                 
                 <div class="col-md-4">
                     <h3>Education</h3>
-                        <p>
-                            Peninsula College <br>
-                            Olympic College<br>
-                            Lower Columbia College<br>
-                            Tacoma Community College<br>
-                            Seattle Central Community College<br>
-                            University Of Washington<br>
-                            Seattle University<br>
-                            North Seattle Community College<br>
-                            Whatcom Community College<br>
-                            Grays Harbor College<br>
-                            Skagit Valley College<br>
-                            Washington State University<br>
-                            The Evergreen State College<br> 
-                            Shoreline Community College<br>
-                            Bellingham Technical College<br>
-                            Music Works Northwest<br>
-                            South Seattle Community College<br>
-                            Seattle Vocational Institute
-                        </p>
+                    <?php echo kirbytext($page->clients_education()) ?>
                 </div>
                
                 <div class="col-md-4">
                     <h3>Spiritual</h3>
-                    <p>
-                        Temple Beth Am<br>
-                        Temple B'Nai Torah<br>
-                        Congregation Ahavath Beth Israel<br>
-                        First Baptist Church, Seattle<br>
-                        First Presbyterian Church, Seattle<br>
-                        Gudwara Singh Saba, Kent<br>
-                        St. Mark's Cathedral<br>
-                        Temple Beth Hatfiloh<br>
-                        Wallingford Methodist Church
-                    </p>
+                    <?php echo kirbytext($page->clients_spiritual()) ?>
                 </div>
                 
                 <div class="col-md-4">
                     <h3>Civic / Cultural</h3>
-                    <p>
-                        Seattle Public Library<br>
-                        King County Library System<br>
-                        Corvallis Benton County Public Library<br>
-                        City Of Seattle<br>
-                        Seattle City Light<br>
-                        Puget Sound Energy <br>
-                        Port Townsend Marine Science Society <br>
-                        Santa Barbara Museum Of Nat. History <br>
-                        The Burke Museum<br>
-                        Seattle Art Museum<br>
-                        Bellevue Art Museum<br>
-                        Tacoma Art Museum<br>
-                        Wing Luke Asian Museum<br>
-                        Seattle Asian Art Museum<br>
-                        Squaxin Island Tribe<br>
-                    </p>
+                    <?php echo kirbytext($page->clients_civic_cultural()) ?>
                 </div>  
             </div><!-- /row -->
         </div><!-- /container -->

@@ -1,3 +1,4 @@
-Title: Error
+Title: Oh dear.
 ----
-Text: The page has not been found
+Text: "We are not rich by what we possess but by what we can do without."
+It seems as if you'll have to do without this page.
