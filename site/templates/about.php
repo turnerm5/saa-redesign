@@ -35,7 +35,16 @@
                                 <li data-target="#studio-carousel" data-slide-to="2"></li>
                             </ol>
                             <div class="carousel-inner">
-                                <!-- Image -->
+                                <?php if($page->hasImages()): ?> 
+                                    <?php foreach($page->images() as $image): ?>        
+                                        <div class="item">
+                                            <img class="img-responsive" src="<?php echo $image->url() ?>" alt="<?php echo html($page->title()) ?>" width="<?php echo $image->width() ?>" height="<?php echo $image->height() ?>">
+                                        </div>
+
+                                    <?php endforeach ?>
+
+                                <?php else: ?>    
+                                    
                                 <div class="item active">
                                     <img src="http://www.placehold.it/1200x600" alt="Specifie an alternate text for an image">
                                 </div>
@@ -47,6 +56,9 @@
                                 <div class="item">
                                     <img src="http://www.placehold.it/1200x600" alt="Specifie an alternate text for an image">
                                 </div>
+                                                                                                
+                                <?php endif ?>
+
                             </div>           
                         </div>
                     </div>    
