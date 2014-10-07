@@ -700,6 +700,7 @@ a:focus {
   text-transform: uppercase;
   font-weight: 600; 
   margin-bottom: 0px;
+  margin-top: 5px;
 }
 
 .team-title h4{
