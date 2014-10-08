@@ -39,8 +39,8 @@
 			animation: {
 				enable: true,
 				effects: 'fade scale',
-				duration: 550,
-				easing: 'cubic-bezier(0.86, 0, 0.07, 1)',
+				duration: 400,
+				easing: 'ease',
 				perspectiveDistance: '3000',
 				perspectiveOrigin: '50% 50%',
 				queue: true,
@@ -48,7 +48,7 @@
 				animateChangeLayout: false,
 				animateResizeContainer: true,
 				animateResizeTargets: false,
-				staggerSequence: false,
+				staggerSequence: true,
 				reverseOut: false
 			},
 				
