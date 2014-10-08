@@ -26,7 +26,7 @@
                 <div class="service-title">  
                     <h3>Architecture</h3>      
                 </div>                
-                <p>Claritas est etiam processus dynamicus, qui sequitur mutationem consuetudium lectorum.</p>            
+                <p>New. Renovations. Historic.</p>            
             </div>  
 
             <!-- Service Item (title, icon and description for your service) -->
@@ -39,7 +39,7 @@
                 <div class="service-title">    
                     <h3>Interior Design</h3>                      
                 </div>
-                <p>Claritas est etiam processus dynamicus, qui sequitur mutationem consuetudium lectorum.</p>            
+                <p>Texture. Color. Material. Light.</p>            
             </div>    
 
             <!-- Service Item (title, icon and description for your service) -->
@@ -52,7 +52,7 @@
                 <div class="service-title">  
                     <h3>Planning</h3>                      
                 </div>
-                <p>Claritas est etiam processus dynamicus, qui sequitur mutationem consuetudium lectorum.</p>            
+                <p>Campus. Facilities. Site.</p>            
             </div>    
 
             <!-- Service Item (title, icon and description for your service) -->
@@ -63,9 +63,9 @@
                 </a>  
                 <!-- Title and Description -->
                 <div class="service-title">       
-                    <h3>Historic <br>Renovations</h3>  
+                    <h3>Renovations</h3>  
                 </div>               
-                <p>Claritas est etiam processus dynamicus, qui sequitur mutationem consuetudium lectorum.</p>            
+                <p>Context. History.</p>            
             </div>           
 
             <!-- Service Item (title, icon and description for your service) -->
@@ -78,7 +78,7 @@
                 <div class="service-title">         
                     <h3>Sustainable <br>Design</h3>  
                 </div>                   
-                <p>Our buildings response to our client’s goals for sustainable programs, maintenance and operations.</p>            
+                <p>LEED. Maintenance. Operations.</p>            
             </div>        
 
             <!-- Service Item (title, icon and description for your service) -->
@@ -89,9 +89,9 @@
                 </a>    
                 <!-- Title and Description -->
                 <div class="service-title">   
-                    <h3>Consensus <br>Building</h3>                      
+                    <h3>People <br> Something</h3>                      
                 </div>
-                <p>Claritas est etiam processus dynamicus, qui sequitur mutationem consuetudium lectorum.</p>            
+                <p>Consensus. Design Thinking.</p>            
             </div>          
         </div><!-- /row -->
     </div><!-- /container -->
