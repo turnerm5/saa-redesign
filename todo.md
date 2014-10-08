@@ -4,19 +4,20 @@
 -	Add all project images
 -	Add all related projects
 -	Add project text
--	Add thumbnails for each project, to pull up on related page and projects page
+-	Add thumbnails for each project, to pull up on related page and projects page (In progress)
 -	What are the 4-6 sections for the "What We Do" section?
 
 ###Standard Priority
 -	Send to test by all staff
--	Add map for project page?
 -	Make links more clear. When do they have an underline? When do they not?
+-	Make filter buttons at top of Projects page a bite more "button-like"
 -	Fix Twitter logo at bottom. Center vertically in footer.
 -	Make top-level featured projects on the homepage dynamic as well. Tag line, big photo, link to page.
 -	Write short paragraph for "Our Services" sections.
 -	Write About Us/Our Practice section.
 -	Add popover information for each staff member.
--	Make "Awards & Publications" list dynamic.
+-	Trim down project text. Two paragraphs at most.
+-	Make "Awards & Publications" list dynamic. (Remove filtering?)
 -	Add office working images. (Crit? Charrette?)
 -	Pick better icons for the Services Section
 -	Fix images from blog. Add all images from previous posts.
