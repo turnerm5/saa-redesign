@@ -63,9 +63,9 @@
                 </div>
                 <div class="row">
                   <!-- Section Description -->
-                  <div class="col-md-6 col-md-offset-3 col-xs-10 col-xs-offset-1">
-                    <p>Our projects for academic, cultural and religious organizations express the unique nature and serve the specific needs of each institution.</p>    
-                  </div>          
+                    <div class="col-md-6 col-md-offset-3 col-xs-10 col-xs-offset-1">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatum ab fugiat aliquid recusandae, adipisci fugit debitis soluta! Quod libero ex nobis ratione porro, iusto, expedita.</p>
+                    </div>          
                 </div><!-- /row -->       
             </div><!-- /container -->                   
             <!-- End Who We Are -->
