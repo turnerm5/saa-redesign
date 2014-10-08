@@ -3,6 +3,7 @@
 ###High Priority
 -	Add all project images
 -	Add all related projects
+-	Add thumbnails for each project, to pull up on related page and projects page
 -	What are the 4-6 sections for the "What We Do" section?
 
 ###Standard Priority

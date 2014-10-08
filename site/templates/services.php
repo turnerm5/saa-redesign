@@ -63,7 +63,7 @@
                 </a>  
                 <!-- Title and Description -->
                 <div class="service-title">       
-                    <h3>Renovations</h3>  
+                    <h3>Renovations</h3> 
                 </div>               
                 <p>Context. History.</p>            
             </div>           
