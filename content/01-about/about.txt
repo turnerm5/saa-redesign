@@ -13,3 +13,32 @@ column2:
 Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. 
 
 In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim. Aliquam lorem ante, dapibus in, viverra quis, feugiat.
+----
+awards:
+AIA WA Council Civic Design Awards, Citation, 2013 | Fire Station 30, City of Seattle
+AIA Washington Council Civic Design Awards, Honor Award, 2012 | Opportunity Center, North Seattle College
+Copper Development Association, Copper In Architecture Award, 2012 | Fire Station 30, City of Seattle
+AIA Project Of The Month, January 2012 | Fire Station 30, City of Seattle
+Masonry Institute of Washington, Merit Award 2012 | Maier Hall, Peninsula College
+Seattle Design Commission, Award For Design Excellence, 2011 | Fire Station 30, City of Seattle
+F.I.E.R.O. Honor Award, 2011 | Fire Station 30, City of Seattle
+AIA Seattle Honor Awards, Commendation, 2011 | Maier Hall, Peninsula College
+American School & University Design Awards, Post-Secondary Citation, 2011 | Maier Hall, Peninsula College
+AIA Washington Council Civic Design Awards, Honor Award, 2010 | Library Media Center, Peninsula College
+American School & University Outstanding Design: Renovation/Modernization, 2010 | Culinary Academy, Seattle Central College
+American School & University Design Awards, Louis I. Kahn Citation, 2009 | Library Media Center, Peninsula College
+AIA Pacific NW Region Awards, Merit Award, 2009 | Douglass-Truth Branch Library, The Seattle Public Library
+Copper Development Association, Copper In Architecture Award, 2009 | Douglass-Truth Branch Library, The Seattle Public Library
+AIA Washington Council Civic Design Awards, Honor Award, 2007 | Douglass-Truth Branch Library, The Seattle Public Library
+AIA Project Of The Month, February 2007 | Douglass-Truth Branch Library, The Seattle Public Library
+Seattle Magazine, Best of Architecture Awards, 2006 | Douglass-Truth Branch Library, The Seattle Public Library
+AIA Washington Council Civic Design Awards, Merit Award, 2004 | Spellman Library, Grays Harbor College
+AIA Washington Council Civic Design Awards, Citation, 2003 | Art Gallery, Tacoma Community College
+AIA Pacific NW Regional Award, Merit Award, 2000 | Temple B'nai Torah
+Masonry Institute Most Artistic Use of Masonry Award, 1998 | Temple B'nai Torah
+AIA Seattle Honor Awards, Merit Award, 1998 | Temple B'nai Torah
+Masonry Institute Honor Award, 1998 | Temple B'nai Torah
+AIA Project of the Month, June 1997 | Student Activities Offices, The Evergreen State College
+AIA Seattle Honor Awards, Merit Award, 1995 | Student Activities Offices, The Evergreen State College
+AIA Seattle Honor Awards, Merit Award, 1993 | College Services Building, Bellingham Technical College
+Bonneville Power Administration/Portland Chapter AIA, Honor Award, 1993 | Student Activities Offices, The Evergreen State College
