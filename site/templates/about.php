@@ -109,22 +109,50 @@
                 </div><!-- /container -->
             </section>
             <!-- End Our Team -->
+            
+            <!-- Our Awards -->  
+            <section class="text-center padding-bottom">         
+                <div class="container padding-top padding-bottom">
+                    <div class="general-title">
+                        <h2>Awards</h2>
+                        <div class="title-devider"></div>
+                    </div>
 
-            <!-- Our Clients -->           
-            <div class="container padding-top padding-bottom">
+                        <div class="row">
+                            <div class="col-md-10 col-md-offset-1 text-center">
+                                <p><?php echo kirbytext($page->awards()) ?></p>
+                            </div>
+                        </div> <!-- End .row -->
+                    </div> <!-- End #Container -->
+                </div><!-- /container -->
+            </section>
+
+            <section class="padding-bottom bg-color text-center">
                 <div class="general-title">
-                    <h2>Awards</h2>
+                    <h2>Our Clients</h2>
                     <div class="title-devider"></div>
                 </div>
-
-                    <div class="row">
-                        <div class="col-md-10 col-md-offset-1 text-center">
-                            <p><?php echo kirbytext($page->awards()) ?></p>
+                <div class="container">
+                    <div class="row">      
+                        
+                        <div class="col-md-4">
+                            <h3>Education</h3>
+                            <?php echo kirbytext($page->clients_education()) ?>
                         </div>
-                    </div> <!-- End .row -->
-                </div> <!-- End #Container -->
+                       
+                        <div class="col-md-4">
+                            <h3>Spiritual</h3>
+                            <?php echo kirbytext($page->clients_spiritual()) ?>
+                        </div>
+                        
+                        <div class="col-md-4">
+                            <h3>Civic / Cultural</h3>
+                            <?php echo kirbytext($page->clients_civic_cultural()) ?>
+                        </div>  
+                    </div><!-- /row -->
             </div><!-- /container -->
-            <!-- End Our Clients -->
+        </section>
+        <!-- End Our Clients -->
 
         </div>
         <!-- End Site Wrapper -->   

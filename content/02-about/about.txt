@@ -42,3 +42,51 @@ AIA Project of the Month, June 1997 | Student Activities Offices, The Evergreen 
 AIA Seattle Honor Awards, Merit Award, 1995 | Student Activities Offices, The Evergreen State College
 AIA Seattle Honor Awards, Merit Award, 1993 | College Services Building, Bellingham Technical College
 Bonneville Power Administration/Portland Chapter AIA, Honor Award, 1993 | Student Activities Offices, The Evergreen State College
+----
+clients_education:
+Peninsula College 
+Olympic College
+Lower Columbia College
+Tacoma Community College
+Seattle Central Community College
+University Of Washington
+Seattle University
+North Seattle Community College
+Whatcom Community College
+Grays Harbor College
+Skagit Valley College
+Washington State University
+The Evergreen State College
+Shoreline Community College
+Bellingham Technical College
+Music Works Northwest
+South Seattle Community College
+Seattle Vocational Institute
+----
+clients_spiritual:
+Temple Beth Am
+Temple B'Nai Torah
+Congregation Ahavath Beth Israel
+First Baptist Church, Seattle
+First Presbyterian Church, Seattle
+Gudwara Singh Saba, Kent
+St. Mark's Cathedral
+Temple Beth Hatfiloh
+Wallingford Methodist Church
+----
+clients_civic_cultural:
+Seattle Public Library
+King County Library System
+Corvallis Benton County Public Library
+City Of Seattle
+Seattle City Light
+Puget Sound Energy 
+Port Townsend Marine Science Society 
+Santa Barbara Museum Of Nat. History 
+The Burke Museum
+Seattle Art Museum
+Bellevue Art Museum
+Tacoma Art Museum
+Wing Luke Asian Museum
+Seattle Asian Art Museum
+Squaxin Island Tribe
