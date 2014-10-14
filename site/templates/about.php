@@ -3,7 +3,7 @@
 
 <!-- Section General Title -->
         <div class="general-title bg-color">
-            <h2>Our Practice</h2>
+            <h2>Practice Philosophy</h2>
             <div class="title-devider"></div>
         </div>
 
@@ -71,7 +71,7 @@
             <section class="bg-color text-center">
                 <!-- Section General Title -->
                 <div class="general-title bg-color">
-                    <h2>Our Team</h2>
+                    <h2>Team</h2>
                     <div class="title-devider"></div>
                 </div>
                 <div class="container">
@@ -129,7 +129,7 @@
 
             <section class="padding-bottom bg-color text-center">
                 <div class="general-title">
-                    <h2>Our Clients</h2>
+                    <h2>Clients</h2>
                     <div class="title-devider"></div>
                 </div>
                 <div class="container">

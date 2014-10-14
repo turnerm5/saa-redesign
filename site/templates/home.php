@@ -181,8 +181,8 @@
 
                 <!-- View All Services Button -->  
                 <div class="padding-top padding-bottom">  
-                    <a href="services" class="btn black-btn">
-                        View all Services
+                    <a href="about" class="btn black-btn">
+                        More About Us
                     </a> 
                 </div>
 
