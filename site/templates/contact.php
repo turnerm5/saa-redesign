@@ -2,16 +2,19 @@
 <?php snippet('menu') ?>
 
 <!-- Section General Title -->
+        
+
+        <!-- Site Wrapper -->
+        <div class="site-wrapper">
+
         <div class="general-title bg-color"> 
             <h2>Contact Us</h2>
             <div class="title-devider"></div>
         </div>
 
-        <!-- Site Wrapper -->
-        <div class="site-wrapper">
 
             <!-- Contact -->
-            <div class="container padding-bottom text-center contact-adress">         
+            <div class="container padding-top padding-bottom text-center contact-adress">         
                 <!-- All Contact Information (phone, street, email, website, working hours) -->
                 <div class="row">
                     <!-- Adress -->                       
@@ -70,7 +73,7 @@
 
         <!-- Contact Form (name, email, phone and message inputs for your email form "should change your email adress in contact.php file") -->
         <div class="bg-color">
-            <div class="container">
+            <div class="container padding-bottom">
                 <div class="col-lg-12" id="contact">                
                     <div id="message"></div>
                     <form method="post" action="/assets/js/contact_form.php" name="contactform" id="contactform">

@@ -2,16 +2,17 @@
 <?php snippet('menu') ?>
 
 <!-- Section General Title -->        
+        
+        <!-- Site Wrapper -->
+        <div class="site-wrapper">
+
         <div class="general-title bg-color">
             <h2>SAARCHBLOG</h2>
             <div class="title-devider"></div>
         </div>
 
-        <!-- Site Wrapper -->
-        <div class="site-wrapper">
-
             <!-- Blog -->
-            <div class="container">
+            <div class="container padding-top padding-bottom">
                 
                 <div class="row">
 
@@ -57,7 +58,7 @@
                 <!-- Pagination -->
                 <div class="row">
                     <?php if($articles->pagination()->hasPages()): ?>
-                        <div class="col-lg-12 text-center padding-bottom">
+                        <div class="col-lg-12 text-center">
                             <ul class="pagination">
                                 <?php if($articles->pagination()->hasPrevPage()): ?>
                                     <li><a href="<?php echo $articles->pagination()->prevPageURL() ?>">«</a></li>

@@ -2,16 +2,18 @@
 <?php snippet('menu') ?>
 
  <!-- Section General Title -->        
+        <!-- Site Wrapper -->
+        <div class="site-wrapper">
+
+
         <div class="general-title bg-color"> 
             <h2>Our Projects</h2>
             <div class="title-devider"></div>
         </div>
 
-        <!-- Site Wrapper -->
-        <div class="site-wrapper">
 
             <!-- Projects -->
-            <div class="container">
+            <div class="container padding-top padding-bottom">
                 
                 <!-- Row of filter buttons -->
                 <div class="row">

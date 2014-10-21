@@ -1,6 +1,10 @@
 <?php snippet('header') ?>
 <?php snippet('menu') ?>
 
+
+<!-- Site Wrapper -->
+<div class="site-wrapper">
+
 <!-- Slider -->
         <div id="header-carousel" class="carousel slide carousel-fade header-carousel" data-ride="carousel"> 
             <!-- Slider Indicators -->
@@ -51,11 +55,9 @@
         </div>
         <!-- End Slider -->
 
-        <!-- Site Wrapper -->
-        <div class="site-wrapper">
 
             <!-- Who We Are -->            
-            <div class="container text-center">
+            <div class="container text-center padding-top">
                 <!-- Section General Title -->
                 <div class="general-title">
                     <h2>Featured Projects</h2>        

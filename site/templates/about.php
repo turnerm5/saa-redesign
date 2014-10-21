@@ -2,19 +2,19 @@
 <?php snippet('menu') ?>
 
 <!-- Section General Title -->
+        <!-- Site Wrapper -->
+        <div class="site-wrapper">
+
         <div class="general-title bg-color">
             <h2>Practice Philosophy</h2>
             <div class="title-devider"></div>
         </div>
 
-        <!-- Site Wrapper -->
-        <div class="site-wrapper">
-
             <!-- About Us -->
             <div class="container">
 
                 <!-- Our Studio (studio information and images for slider) -->
-                <div class="row padding-bottom">        
+                <div class="row padding-top padding-bottom">        
                     <div class="col-md-10 col-md-offset-1">
                         <!-- Description -->
                         <div class="col-md-6">                            
@@ -27,7 +27,7 @@
                     </div>        
 
                     <!-- Slider for images from your studio -->
-                    <div class="col-md-10 col-md-offset-1 padding-top">              
+                    <div class="col-md-10 col-md-offset-1 padding-top padding-bottom">              
                         <div id="studio-carousel" class="carousel slide" data-ride="carousel">
                             <ol class="carousel-indicators about-indicators">
                                 <li data-target="#studio-carousel" data-slide-to="0" class="active"></li>
@@ -111,7 +111,7 @@
             <!-- End Our Team -->
             
             <!-- Our Awards -->  
-            <section class="text-center padding-bottom">         
+            <section class="padding-bottom">         
                 <div class="container padding-top padding-bottom">
                     <div class="general-title">
                         <h2>Awards</h2>
@@ -119,7 +119,7 @@
                     </div>
 
                         <div class="row">
-                            <div class="col-md-10 col-md-offset-1 text-center">
+                            <div class="col-md-10 col-md-offset-1">
                                 <p><?php echo kirbytext($page->awards()) ?></p>
                             </div>
                         </div> <!-- End .row -->

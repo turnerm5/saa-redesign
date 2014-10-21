@@ -1,5 +1,5 @@
         <!-- Header (navigation menu, and logo) -->
-        <nav class="navbar navbar-default header-navbar" role="navigation">
+        <nav class="navbar navbar-default navbar-fixed-top header-navbar" role="navigation">
             <div class="container">
                 <div class="row">
                     <div class="col-md-4">

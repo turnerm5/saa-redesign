@@ -1,14 +1,16 @@
 <?php snippet('header') ?>
 <?php snippet('menu') ?>
 
+
+<div class="site-wrapper">
+
 <!-- Section General Title -->        
 <div class="general-title bg-color"> 
     <h2>Our Team</h2>
     <div class="title-devider"></div>
 </div>
 
-<div class="site-wrapper">
-    <div class="container text-center ">
+    <div class="container padding-top padding-bottom text-center ">
         
         <div class="row">  
             <!-- Only give us employees who still work here -->

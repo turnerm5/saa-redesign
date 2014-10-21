@@ -2,6 +2,9 @@
 <?php snippet('menu') ?>
 
 <!-- Section General Title -->
+        <!-- Site Wrapper -->
+        <div class="site-wrapper">
+
         <div class="general-title bg-color"> 
             <h2>
             <?php if($page->longtitle()) : ?>
@@ -13,11 +16,8 @@
             <div class="title-devider"></div>
         </div>
 
-        <!-- Site Wrapper -->
-        <div class="site-wrapper">
-
             <!-- Project Inner -->
-            <div class="container padding-bottom">
+            <div class="container padding-top padding-bottom">
                 <div class="row">
 
                     <!-- Project Image Gallery (for more images in your gallery, image width can be changed in styles.css class gallery-inner) -->
@@ -162,7 +162,7 @@
 
 
             <!-- Related Projects -->
-            <section class="projects padding-top bg-color">
+            <section class="projects padding-top">
                 <!-- Section General Title -->
                 <div class="general-title"> 
                     <h2>Related Projects</h2>
