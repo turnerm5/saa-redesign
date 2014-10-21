@@ -27,9 +27,9 @@
                                 <!-- Image -->
 
                                 <?php if($page->hasImages()): ?> 
-                                    <?php foreach($page->images() as $image): ?>        
+                                    <?php foreach($page->images()->not('99.jpg') as $image): ?>        
                                         <!-- Image -->
-                                        <?php if($page->hasOneImage()): ?>
+                                        <?php if($page->hasTwoImages()): ?>
                                             <div class="post-box col-md-12 col-lg-12 col-sm-12 col-xs-12">
                                         <?php else: ?>
                                             <div class="post-box col-md-6 col-lg-6 col-sm-6 col-xs-3">
