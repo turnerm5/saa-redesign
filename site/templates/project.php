@@ -17,7 +17,7 @@
         <div class="site-wrapper">
 
             <!-- Project Inner -->
-            <div class="container">
+            <div class="container padding-bottom">
                 <div class="row">
 
                     <!-- Project Image Gallery (for more images in your gallery, image width can be changed in styles.css class gallery-inner) -->
@@ -162,7 +162,7 @@
 
 
             <!-- Related Projects -->
-            <section class="projects padding-top">
+            <section class="projects padding-top bg-color">
                 <!-- Section General Title -->
                 <div class="general-title"> 
                     <h2>Related Projects</h2>
