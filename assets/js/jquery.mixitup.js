@@ -38,7 +38,7 @@
 				
 			animation: {
 				enable: true,
-				effects: 'fade scale',
+				effects: 'fade scale stagger(50ms)',
 				duration: 400,
 				easing: 'ease',
 				perspectiveDistance: '3000',
@@ -48,7 +48,9 @@
 				animateChangeLayout: false,
 				animateResizeContainer: true,
 				animateResizeTargets: false,
-				staggerSequence: true,
+				staggerSequence: function(i){
+					return (2*i) - (5*((i/3) - ((1/3) * (i%3))));
+				},
 				reverseOut: false
 			},
 				
