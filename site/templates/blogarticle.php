@@ -11,16 +11,6 @@
 
             <!-- Post Information (image, title, date and description of post) -->       
             <div class="blog-inner">
-                    
-                <!-- Large Header Image -->
-                <div class="row">
-                    <!-- Image -->
-                    <div class="col-md-12">
-                        <img src="http://www.placehold.it/1200x350" alt="Specifie an alternate text for an image" class="img-responsive">
-                    </div>
-                    
-                </div>
-                <!-- /Large Header Image -->
                 
                 <!-- Blog Content + Sidebar -->
                 <div class="row"> 
