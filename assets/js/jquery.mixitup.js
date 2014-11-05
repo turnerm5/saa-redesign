@@ -39,7 +39,7 @@
 			animation: {
 				enable: true,
 				effects: 'fade scale stagger(50ms)',
-				duration: 400,
+				duration: 600,
 				easing: 'ease',
 				perspectiveDistance: '3000',
 				perspectiveOrigin: '50% 50%',
