@@ -69,13 +69,11 @@
 
                             <?php endforeach ?>
 
-                        </div>
-
-                    </div> <!-- End Mix Container -->
-                </div>
+                    </div> <!-- / Mix Container -->
+                </div> <!-- /row -->
             </div><!-- /container -->
-            <!-- End Projects -->
+            <!-- / Projects -->
         </div><!-- /site-wrapper -->
-        <!-- End Site Wrapper -->
+        <!-- / Site Wrapper -->
 
-<?php snippet('project-footer') ?>
+<?php snippet('project-footer') ?> 
