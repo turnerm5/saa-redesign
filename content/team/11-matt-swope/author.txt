@@ -4,7 +4,7 @@ bio: Matt is an awesome author with years of experience
 ----
 title: Assoc. AIA, LEED AP BD+C
 ----
-role: Project Manager
+role: Associate
 ----
 email: matthew@saarch.com
 ----

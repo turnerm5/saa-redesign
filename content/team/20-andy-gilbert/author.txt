@@ -4,7 +4,7 @@ bio: Andy is an awesome author with years of experience
 ----
 title: 
 ----
-role: Business Manager
+role: Controller
 ----
 email: andy@saarch.com
 ----

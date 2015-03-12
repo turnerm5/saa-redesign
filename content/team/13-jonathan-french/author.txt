@@ -4,7 +4,7 @@ bio: Jonathan is an awesome author with years of experience
 ----
 title: Assoc. AIA
 ----
-role: Design Staff
+role: Intern Architect
 ----
 email: jonathan@saarch.com
 ----

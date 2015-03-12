@@ -2,7 +2,7 @@ name: Evan Bourquard
 ----
 bio: Evan is an awesome author with years of experience
 ----
-role: Project Manager
+role: Associate
 ----
 email: evan@saarch.com
 ----

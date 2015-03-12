@@ -2,9 +2,9 @@ name: Neil Parrish
 ----
 bio: Neil is an awesome author with years of experience
 ----
-title: LEED AP BD+C
+title: AIA, LEED AP BD+C
 ----
-role: Job Captain
+role: Intern Architect
 ----
 email: neil@saarch.com
 ----

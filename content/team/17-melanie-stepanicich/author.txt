@@ -4,7 +4,7 @@ bio: Melanie is an awesome author with years of experience
 ----
 title: 
 ----
-role: Design Staff
+role: Intern Architect
 ----
 email: melanie@saarch.com
 ----

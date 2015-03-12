@@ -1,18 +1,10 @@
 Title: About Us
 ----
 column1: 
-How do we work? What are our practice values?
-
-Who works for us? How can we be the best firm to work for? How do we attract top talent and keep them?
-
-How does each staff role support the very best customer service? 
-
-In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim. Aliquam lorem ante, dapibus in, viverra quis, feugiat.
+Our practice is dedicated to working with communities. We are committed to the cultural diversity of our region. All of our work involves issues of gathering, learning and culture. Projects for academic, cultural and religious organizations express the unique nature and serve the specific needs of each institution.
 ----
 column2:
-Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. 
-
-In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim. Aliquam lorem ante, dapibus in, viverra quis, feugiat.
+Ninety percent of our firm’s work is for public agencies. To support our clients’ needs, we provide comprehensive project management, helping them with communications strategies, project budgeting, fund-raising and other activities essential to building consensus and implementing the work.
 ----
 awards:
 AIA WA Council Civic Design Awards, Citation, 2013 | Fire Station 30, City of Seattle

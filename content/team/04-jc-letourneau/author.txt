@@ -4,7 +4,7 @@ Title: AIA, LEED AP BD+C, CSBA, Assoc. DBIA
 ----
 bio: JC bio here.
 ----
-role: Senior Associate
+role: Principal
 ----
 email: jc@saarch.com
 ----

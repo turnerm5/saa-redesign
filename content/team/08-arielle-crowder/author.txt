@@ -2,9 +2,9 @@ name: Arielle Crowder
 ----
 bio: Arielle is an awesome author with years of experience
 ----
-title: AIA
+title: AIA, IIDA
 ----
-role: Interior Designer
+role: Associate
 ----
 email: arielle@saarch.com
 ----

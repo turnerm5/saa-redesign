@@ -15,42 +15,44 @@
             </ol>   
             <div class="carousel-inner">    
 
+
+
                 <!-- Slider Item (image, link and description for your project in slider) -->        
                 <div class="item active"> 
+                    <!-- Image -->           
+                    <div style="background:url(assets/img/slider-images/image3.jpg) center center; background-size:cover; background-repeat:no-repeat;" class="slider-height"></div>      
+                    <!-- Description -->      
+                    <div class="carousel-caption header-carousel-caption">
+                        <h1>Fire Station 30 description.</h1>
+                        <!-- Project Link -->
+                        <a href="projects/sea-fire-station-30" class="btn white-btn">View Project</a>                                                    
+                    </div>
+                </div>
+
+                <!-- Slider Item (image, link and description for your project in slider) -->        
+                <div class="item"> 
+                    <!-- Image -->           
+                    <div style="background:url(assets/img/slider-images/image2.jpg) center center; background-size:cover; background-repeat:no-repeat;" class="slider-height"></div>       
+                    <!-- Description -->      
+                    <div class="carousel-caption header-carousel-caption">
+                        <h1>Maier Hall description.</h1>
+                        <!-- Project Link -->
+                        <a href="projects/pc-maier-hall" class="btn white-btn">View Project</a>                                                    
+                    </div>
+                </div>
+                       
+                <!-- Slider Item (image, link and description for your project in slider) -->        
+                <div class="item"> 
                     <!-- Image -->           
                     <div style="background:url(assets/img/slider-images/image1.jpg) center center; background-size:cover; background-repeat:no-repeat;" class="slider-height"></div>      
                     <!-- Description -->      
                     <div class="carousel-caption header-carousel-caption">
-                        <h1>We design memorable places that bring people together.</h1>
+                        <h1>Culinary Academy description.</h1>
                         <!-- Project Link -->
-                        <a href="projects" class="btn white-btn">View Project</a>                                                    
+                        <a href="projects/scc-culinary-academy" class="btn white-btn">View Project</a>                                                    
                     </div>
                 </div>
 
-                <!-- Slider Item (image, link and description for your project in slider) -->        
-                <div class="item"> 
-                    <!-- Image -->           
-                    <div style="background:url(assets/img/slider-images/image2.jpg) center center; background-size:cover; background-repeat:no-repeat;" class="slider-height"></div>      
-                    <!-- Description -->      
-                    <div class="carousel-caption header-carousel-caption">
-                        <h1>We design memorable places that bring people together.</h1>
-                        <!-- Project Link -->
-                        <a href="projects" class="btn white-btn">View Project</a>                                                    
-                    </div>
-                </div>
-
-                <!-- Slider Item (image, link and description for your project in slider) -->        
-                <div class="item"> 
-                    <!-- Image -->           
-                    <div style="background:url(assets/img/slider-images/image3.jpg) center center; background-size:cover; background-repeat:no-repeat;" class="slider-height"></div>       
-                    <!-- Description -->      
-                    <div class="carousel-caption header-carousel-caption">
-                        <h1>We design memorable places that bring people together.</h1>
-                        <!-- Project Link -->
-                        <a href="projects" class="btn white-btn">View Project</a>                                                    
-                    </div>
-                </div>
-                       
             </div>   
         </div>
         <!-- End Slider -->
@@ -60,7 +62,7 @@
             <div class="container text-center padding-top">
                 <!-- Section General Title -->
                 <div class="general-title">
-                    <h2>Featured Projects</h2>        
+                    <h2>Featured</h2>        
                     <div class="title-devider"></div>
                 </div>
                 <div class="row">
@@ -128,7 +130,7 @@
                 </div>  
                 <!-- Section Description -->             
                 <div class="col-md-6 col-md-offset-3 col-xs-10 col-xs-offset-1 padding-bottom">
-                    <p>To support our clients’ needs, we provide comprehensive project management, helping them with communications strategies, project budgeting, fund-raising and other activities essential to building consensus and implementing the work.</p>    
+                    <p>Schacht Aslani Architects is an award-winning planning and design firm based in Seattle. We provide a full range of architectural services, including master planning, capital funding requests, site analysis, feasibility studies, design/documentation, interior design and construction administration.</p>    
                 </div>
                 <div class="row padding-top"> 
 

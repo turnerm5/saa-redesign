@@ -2,7 +2,7 @@ name: Eric Aman
 ----
 title: AIA, LEED AP BD+C
 ----
-role: Senior Associate
+role: Principal
 ----
 bio: Eric bio here.
 ----

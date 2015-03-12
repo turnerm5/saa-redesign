@@ -6,7 +6,7 @@
         <div class="site-wrapper">
 
         <div class="general-title bg-color">
-            <h2>Practice Philosophy</h2>
+            <h2>Philosophy</h2>
             <div class="title-devider"></div>
         </div>
 
@@ -24,44 +24,7 @@
                         <div class="col-md-6">
                             <p><?php echo kirbytext($page->column2()) ?></p>
                         </div>
-                    </div>        
-
-                    <!-- Slider for images from your studio -->
-                    <div class="col-md-10 col-md-offset-1 padding-top padding-bottom">              
-                        <div id="studio-carousel" class="carousel slide" data-ride="carousel">
-                            <ol class="carousel-indicators about-indicators">
-                                <li data-target="#studio-carousel" data-slide-to="0" class="active"></li>
-                                <li data-target="#studio-carousel" data-slide-to="1"></li>
-                                <li data-target="#studio-carousel" data-slide-to="2"></li>
-                            </ol>
-                            <div class="carousel-inner">
-                                <?php if($page->hasImages()): ?> 
-                                    <?php foreach($page->images() as $image): ?>        
-                                        <div class="item">
-                                            <img class="img-responsive" src="<?php echo $image->url() ?>" alt="<?php echo html($page->title()) ?>" width="<?php echo $image->width() ?>" height="<?php echo $image->height() ?>">
-                                        </div>
-
-                                    <?php endforeach ?>
-
-                                <?php else: ?>    
-                                    
-                                <div class="item active">
-                                    <img src="http://www.placehold.it/1200x600" alt="Specifie an alternate text for an image">
-                                </div>
-                                <!-- Image -->
-                                <div class="item">
-                                    <img src="http://www.placehold.it/1200x600" alt="Specifie an alternate text for an image"> 
-                                </div>
-                                <!-- Image -->
-                                <div class="item">
-                                    <img src="http://www.placehold.it/1200x600" alt="Specifie an alternate text for an image">
-                                </div>
-                                                                                                
-                                <?php endif ?>
-
-                            </div>           
-                        </div>
-                    </div>    
+                    </div>         
 
                 </div><!-- /row -->
             </div><!-- /container -->
@@ -92,7 +55,7 @@
                                     </div>
                                     <!-- Info -->
                                     <h5><?php echo $member->role() ?></h5> 
-                                    <p><?php echo $member->bio() ?></p>
+                                    <!-- <p><?php echo $member->bio() ?></p> -->
                             </div>
                         </div>
                     <?php endforeach ?>
@@ -110,24 +73,8 @@
             </section>
             <!-- End Our Team -->
             
-            <!-- Our Awards -->  
-            <section class="padding-bottom">         
-                <div class="container padding-top padding-bottom">
-                    <div class="general-title">
-                        <h2>Awards</h2>
-                        <div class="title-devider"></div>
-                    </div>
-
-                        <div class="row">
-                            <div class="col-md-10 col-md-offset-1">
-                                <p><?php echo kirbytext($page->awards()) ?></p>
-                            </div>
-                        </div> <!-- End .row -->
-                    </div> <!-- End #Container -->
-                </div><!-- /container -->
-            </section>
-
-            <section class="padding-bottom bg-color text-center">
+            <!-- Clients -->
+            <section class="padding-bottom text-center">
                 <div class="general-title">
                     <h2>Clients</h2>
                     <div class="title-devider"></div>

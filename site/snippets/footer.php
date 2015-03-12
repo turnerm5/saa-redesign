@@ -34,12 +34,12 @@
         <script src="/assets/js/app.js"></script>
 
         <!-- Randomize Our Starting Slide -->
-        <script>
-            var randomSlide = Math.floor(Math.random() * 3);
+        // <script>
+        //     var randomSlide = Math.floor(Math.random() * 3);
 
-            jQuery(document).ready(function($) {
-                $('.item').removeClass('active').eq(Math.floor((Math.random() * $('.item').length))).addClass("active");
-            });
-        </script>
+        //     jQuery(document).ready(function($) {
+        //         $('.item').removeClass('active').eq(Math.floor((Math.random() * $('.item').length))).addClass("active");
+        //     });
+        // </script>
     </body>
 </html>

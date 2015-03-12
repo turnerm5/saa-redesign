@@ -4,7 +4,7 @@ Title: AIA
 ----
 bio: Casey bio here. Lorem ipsum blah blah blah.
 ----
-role: Job Captain
+role: Associate
 ----
 email: casey@saarch.com
 ----

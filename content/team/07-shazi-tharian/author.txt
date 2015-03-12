@@ -4,7 +4,7 @@ bio: Shazi is an awesome author with years of experience
 ----
 title: AIA, LEED AP BD+C
 ----
-role: Project Manager
+role: Associate
 ----
 email: shazi@saarch.com
 ----
