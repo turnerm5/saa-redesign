@@ -11,9 +11,9 @@
                                 <span class="icon-bar"></span>
                                 <span class="icon-bar"></span>
                             </button>
-                            <a class="navbar-brand" href="/">
-                                <img class="hidden-sm hidden-xs" src="assets/img/logo-header.png" alt="Specifie an alternate text for an image">
-                                <img class="visible-sm visible-xs hidden-md hidden-lg" style="position: absolute; top: 0; left: 15px;" src="/assets/img/logo-header-small.png" alt="Specifie an alternate text for an image">
+                            <a class="navbar-brand" href="<?php echo u() ?>">
+                                <img class="hidden-sm hidden-xs" src="<?php echo u() ?>assets/img/logo-header.png" alt="Specifie an alternate text for an image">
+                                <img class="visible-sm visible-xs hidden-md hidden-lg" style="position: absolute; top: 0; left: 15px;" src="<?php echo u() ?>assets/img/logo-header-small.png" alt="Specifie an alternate text for an image">
                             </a>
                         </div>
                     </div>

@@ -25,17 +25,17 @@
         <!-- End Footer -->
 
         <!-- Js Global Compulsory  -->
-        <script src="assets/plugins/jquery-1.11.1.min.js"></script>
-        <script src="assets/plugins/bootstrap/js/bootstrap.js"></script>
-        <script src="assets/plugins/lightbox/js/lightbox.js"></script>
+        <script src="<?php echo u() ?>assets/plugins/jquery-1.11.1.min.js"></script>
+        <script src="<?php echo u() ?>assets/plugins/bootstrap/js/bootstrap.js"></script>
+        <script src="<?php echo u() ?>assets/plugins/lightbox/js/lightbox.js"></script>
         <!-- Js Implementing Plugins  -->
-        <script src="assets/plugins/moderniz.js"></script>
-        <script src="assets/js/jquery.mixitup.js"></script>
+        <script src="<?php echo u() ?>assets/plugins/moderniz.js"></script>
+        <script src="<?php echo u() ?>assets/js/jquery.mixitup.js"></script>
         <!-- Js Theme  -->
-        <script src="assets/js/app.js"></script>
-        <script src="assets/js/masonry.js"></script>
-        <script src="assets/js/imagesloaded.min.js"></script>
-        <script src="assets/js/project_filter.js"></script>
+        <script src="<?php echo u() ?>assets/js/app.js"></script>
+        <script src="<?php echo u() ?>assets/js/masonry.js"></script>
+        <script src="<?php echo u() ?>assets/js/imagesloaded.min.js"></script>
+        <script src="<?php echo u() ?>assets/js/project_filter.js"></script>
         <script>
         
         $(document).ready(function() {
