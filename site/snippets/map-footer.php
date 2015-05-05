@@ -26,15 +26,15 @@
 
         <!-- Js Global Compulsory  -->
         <script src="https://maps.googleapis.com/maps/api/js?v=3.exp"></script>
-        <script src="/assets/plugins/jquery-1.11.1.min.js"></script>
-        <script src="/assets/plugins/bootstrap/js/bootstrap.js"></script>
-        <script src="/assets/plugins/lightbox/js/lightbox.js"></script>
+        <script src="assets/plugins/jquery-1.11.1.min.js"></script>
+        <script src="assets/plugins/bootstrap/js/bootstrap.js"></script>
+        <script src="assets/plugins/lightbox/js/lightbox.js"></script>
         <!-- Js Implementing Plugins  -->
-        <script src="/assets/plugins/moderniz.js"></script>
-        <script src="/assets/js/jquery.mixitup.js"></script>
+        <script src="assets/plugins/moderniz.js"></script>
+        <script src="assets/js/jquery.mixitup.js"></script>
         <!-- Js Theme  -->
-        <script src="/assets/js/app.js"></script>
-        <script src="/assets/js/google_map.js"></script>
+        <script src="assets/js/app.js"></script>
+        <script src="assets/js/google_map.js"></script>
 
         <!-- Randomize Our Starting Slide -->
     </body>
