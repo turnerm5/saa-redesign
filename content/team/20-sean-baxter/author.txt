@@ -1,12 +1,12 @@
-name: Melanie Stepanicich
+name: Sean Baxter
 ----
-bio: Melanie is an awesome author with years of experience
+bio: Andy is an awesome author with years of experience
 ----
 title: 
 ----
 role: Design Staff
 ----
-email: melanie@saarch.com
+email: sean@saarch.com
 ----
 website: http://john.doe.com
 ----

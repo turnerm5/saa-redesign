@@ -6,9 +6,9 @@
         <!-- Site Wrapper -->
         <div class="site-wrapper">
 
-        <div class="general-title bg-color">
+        <div class="general-title">
             <h2>SAARCHBLOG</h2>
-            <div class="title-devider"></div>
+            <div class="title-divider"></div>
         </div>
 
             <!-- Blog -->

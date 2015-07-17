@@ -13,7 +13,7 @@
                 <?php echo html($page->title()) ?>
             <?php endif ?>
             </h2>
-            <div class="title-devider"></div>
+            <div class="title-divider"></div>
         </div>
 
             <!-- Project Inner -->
@@ -166,7 +166,7 @@
                 <!-- Section General Title -->
                 <div class="general-title"> 
                     <h2>Related Projects</h2>
-                    <div class="title-devider"></div>
+                    <div class="title-divider"></div>
                 </div>
 
                 <div class="container-fluid">

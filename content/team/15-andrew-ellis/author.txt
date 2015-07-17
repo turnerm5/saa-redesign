@@ -4,7 +4,7 @@ bio: Andrew is an awesome author with years of experience
 ----
 title: LEED AP BD+C
 ----
-role: Intern Architect
+role: Design Staff
 ----
 email: andrew@saarch.com
 ----

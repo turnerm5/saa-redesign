@@ -4,7 +4,7 @@ bio: Adam is an awesome author with years of experience
 ----
 title: Assoc. AIA
 ----
-role: Intern Architect
+role: Design Staff
 ----
 email: adams@saarch.com
 ----

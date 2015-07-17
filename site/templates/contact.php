@@ -7,9 +7,9 @@
         <!-- Site Wrapper -->
         <div class="site-wrapper">
 
-        <div class="general-title bg-color"> 
+        <div class="general-title"> 
             <h2>Contact Us</h2>
-            <div class="title-devider"></div>
+            <div class="title-divider"></div>
         </div>
 
 
@@ -72,35 +72,39 @@
         <!-- End Site Wrapper -->
 
         <!-- Contact Form (name, email, phone and message inputs for your email form "should change your email adress in contact.php file") -->
-        <div class="bg-color">
-            <div class="container padding-bottom">
-                <div class="col-lg-12" id="contact">                
-                    <div id="message"></div>
-                    <form method="post" action="/assets/js/contact_form.php" name="contactform" id="contactform">
-                        <fieldset>
-                            <div class="col-md-6"> 
-                                <!-- Name -->
-                                <input name="name" type="text" id="name" size="30" value="" placeholder="Name"/>
-                                <br />
-                                <!-- Email -->
-                                <input name="email" type="text" id="email" size="30" value="" placeholder="Email"/>
-                                <br /> 
-                                <!-- Phone -->
-                                <input name="phone" type="text" id="phone" size="30" value="" placeholder="Phone"/>
-                            </div>
-                            <!-- Message -->
-                            <div class="col-md-6"> 
-                                <textarea name="comments" cols="40" rows="5" id="comments" placeholder="Message"></textarea>
-                            </div>
-                            <!-- Submit Button -->
-                            <div class="col-md-12 text-center">                            
-                                <button type="submit" class="btn btn-default btn-submit submit" id="submit" value="Submit">Submit</button>
-                            </div>
-                        </fieldset>
-                    </form>
-                </div>
-            </div>  
+        <div class="general-title"> 
+            <h2>Send Us A Message</h2>
+            <div class="title-divider"></div>
         </div>
+
+        <div class="container padding-bottom">
+            <div class="col-lg-12" id="contact">                
+                <div id="message"></div>
+                <form method="post" action="/assets/js/contact_form.php" name="contactform" id="contactform">
+                    <fieldset>
+                        <div class="col-md-6"> 
+                            <!-- Name -->
+                            <input name="name" type="text" id="name" size="30" value="" placeholder="Name"/>
+                            <br />
+                            <!-- Email -->
+                            <input name="email" type="text" id="email" size="30" value="" placeholder="Email"/>
+                            <br /> 
+                            <!-- Phone -->
+                            <input name="phone" type="text" id="phone" size="30" value="" placeholder="Phone"/>
+                        </div>
+                        <!-- Message -->
+                        <div class="col-md-6"> 
+                            <textarea name="comments" cols="40" rows="5" id="comments" placeholder="Message"></textarea>
+                        </div>
+                        <!-- Submit Button -->
+                        <div class="col-md-12 text-center">                            
+                            <button type="submit" class="btn black-btn" id="submit" value="Submit">Submit</button>
+                        </div>
+                    </fieldset>
+                </form>
+            </div>
+        </div>  
+        
         <!-- End Contact Form -->
 
         <!-- Google Map (adress on map can be changed in app.js file) -->

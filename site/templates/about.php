@@ -5,9 +5,9 @@
         <!-- Site Wrapper -->
         <div class="site-wrapper">
 
-        <div class="general-title bg-color">
+        <div class="general-title container">
             <h2>Philosophy</h2>
-            <div class="title-devider"></div>
+            <div class="title-divider"></div>
         </div>
 
             <!-- About Us -->
@@ -31,11 +31,11 @@
             <!-- End About Us -->
 
             <!-- Our Team -->
-            <section class="bg-color text-center">
+            <section class="container text-center">
                 <!-- Section General Title -->
-                <div class="general-title bg-color">
-                    <h2>Team</h2>
-                    <div class="title-devider"></div>
+                <div class="general-title">
+                    <h2>Leadership</h2>
+                    <div class="title-divider"></div>
                 </div>
                 <div class="container">
                     <div class="row">  
@@ -45,7 +45,12 @@
                         <div class="col-sm-6 col-md-3 team-item">
                             <!-- Image -->
                             <div class="thumbnail team-inner">
-                                <img src="http://www.placehold.it/700x700" alt="Specifie an alternate text for an image">                                
+                                <?php if ($member->hasImages()): ?>
+                                    <?php $image = $member->images()->find('01.jpg') ?>                 
+                                    <img src="<?php echo $image->url() ?>" alt="Specifie an alternate text for an image">
+                                <?php else: ?>
+                                    <img src="http://www.placehold.it/500x500" alt="Placeholder text">
+                                <?php endif ?>                                
                             </div>
                             <div class="team-caption">
                                     <!-- Name -->
@@ -63,7 +68,7 @@
                     </div><!-- /row -->
 
                     <!-- View All Team Members Button -->  
-                    <div class="padding-top padding-bottom">  
+                    <div class="padding-bottom">  
                         <a href="team" class="btn black-btn">
                             View All Team Members
                         </a>
@@ -74,10 +79,10 @@
             <!-- End Our Team -->
             
             <!-- Clients -->
-            <section class="padding-bottom text-center">
+            <section class="padding-bottom text-center container">
                 <div class="general-title">
                     <h2>Clients</h2>
-                    <div class="title-devider"></div>
+                    <div class="title-divider"></div>
                 </div>
                 <div class="container">
                     <div class="row">      
