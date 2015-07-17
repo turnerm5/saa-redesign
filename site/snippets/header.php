@@ -15,19 +15,19 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
         <!-- Favicon-->
-        <link rel="icon" type="image/png" href="/assets/img/favicon.ico">
+        <link rel="icon" type="image/png" href="assets/img/favicon.ico">
 
         <!-- Css Global Compulsory -->
-        <link rel="stylesheet" href="/assets/plugins/bootstrap/css/bootstrap.css"> 
+        <link rel="stylesheet" href="<?php echo u() ?>assets/plugins/bootstrap/css/bootstrap.css"> 
         <!-- Css Implementing Plugins -->
-        <link rel="stylesheet" href="/assets/plugins/font-awesome/css/font-awesome.min.css">   
+        <link rel="stylesheet" href="<?php echo u() ?>assets/plugins/font-awesome/css/font-awesome.min.css">   
         <!-- Css Theme -->           
 
-        <link rel="stylesheet" href="/assets/plugins/lightbox/css/lightbox.css">
-        <link rel="stylesheet" href="/assets/styles/styles.css">
+        <link rel="stylesheet" href="<?php echo u() ?>assets/plugins/lightbox/css/lightbox.css">
+        <link rel="stylesheet" href="<?php echo u() ?>assets/styles/styles.css">
         <!-- Web Fonts -->
         <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,600&subset;=latin,cyrillic' rel='stylesheet' type='text/css'>
-        <link rel="stylesheet" href="/assets/fonts/montserrat/style.css">
+        <link rel="stylesheet" href="<?php echo u() ?>assets/fonts/montserrat/style.css">
     </head>
     <body>
     

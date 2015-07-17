@@ -23,7 +23,7 @@
                     <div style="background:url(assets/img/slider-images/image3.jpg) center center; background-size:cover; background-repeat:no-repeat;" class="slider-height"></div>      
                     <!-- Description -->      
                     <div class="carousel-caption header-carousel-caption">
-                        <h1>Fire Station 30 description.</h1>
+                        <h1>Designing memorable places that bring people together.</h1>
                         <!-- Project Link -->
                         <a href="projects/sea-fire-station-30" class="btn white-btn">View Project</a>                                                    
                     </div>
@@ -35,7 +35,7 @@
                     <div style="background:url(assets/img/slider-images/image2.jpg) center center; background-size:cover; background-repeat:no-repeat;" class="slider-height"></div>       
                     <!-- Description -->      
                     <div class="carousel-caption header-carousel-caption">
-                        <h1>Maier Hall description.</h1>
+                        <h1>Designing memorable places that bring people together.</h1>
                         <!-- Project Link -->
                         <a href="projects/pc-maier-hall" class="btn white-btn">View Project</a>                                                    
                     </div>
@@ -47,7 +47,7 @@
                     <div style="background:url(assets/img/slider-images/image1.jpg) center center; background-size:cover; background-repeat:no-repeat;" class="slider-height"></div>      
                     <!-- Description -->      
                     <div class="carousel-caption header-carousel-caption">
-                        <h1>Culinary Academy description.</h1>
+                        <h1>Designing memorable places that bring people together.</h1>
                         <!-- Project Link -->
                         <a href="projects/scc-culinary-academy" class="btn white-btn">View Project</a>                                                    
                     </div>

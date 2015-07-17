@@ -25,13 +25,13 @@
         <!-- End Footer -->
 
         <!-- Js Global Compulsory  -->
-        <script src="/assets/plugins/jquery-1.11.1.min.js"></script>
-        <script src="/assets/plugins/bootstrap/js/bootstrap.js"></script>
+        <script src="<?php echo u() ?>assets/plugins/jquery-1.11.1.min.js"></script>
+        <script src="<?php echo u() ?>assets/plugins/bootstrap/js/bootstrap.js"></script>
         <!-- Js Implementing Plugins  -->
-        <script src="/assets/plugins/moderniz.js"></script>
-        <script src="/assets/js/jquery.mixitup.js"></script>
+        <script src="<?php echo u() ?>assets/plugins/moderniz.js"></script>
+        <script src="<?php echo u() ?>assets/js/jquery.mixitup.js"></script>
         <!-- Js Theme  -->
-        <script src="/assets/js/app.js"></script>
+        <script src="assets/js/app.js"></script>
 
         <!-- Randomize Our Starting Slide -->
         // <script>
