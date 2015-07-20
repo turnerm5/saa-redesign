@@ -92,14 +92,15 @@
             <!-- End Who We Are -->
 
             <!-- Projects -->            
-            <div class="container-fluid projects padding-top">
+            <div class="container projects padding-top">
+            <!-- <div class="container-fluid projects padding-top"> -->
                 <div class="row">
                     
-                    <?php $projects = $pages->find('projects')->children()->paginate(8) ?>
+                    <?php $projects = $pages->find('projects')->children()->paginate(6) ?>
                     <?php foreach($projects as $project): ?>
 
                     <!-- Project Item (image, link and description for your project) -->
-                    <div class="col-xs-12 col-sm-6 col-md-3">
+                    <div class="col-xs-12 col-sm-6 col-md-4">
                         <div class="project-inner">
                             <a href="<?php echo $project->url() ?>">  
                                 <!-- Image --> 
@@ -146,10 +147,6 @@
                         <h2>Our Services</h2>        
                         <div class="title-divider"></div>
                     </div>  
-                    <!-- Section Description -->             
-                    <div class="col-md-6 col-md-offset-3 col-xs-10 col-xs-offset-1 padding-bottom">
-                        <p>Schacht Aslani Architects is an award-winning planning and design firm based in Seattle. We provide a full range of architectural services, including master planning, capital funding requests, site analysis, feasibility studies, design/documentation, interior design and construction administration.</p>    
-                    </div>
                     <div class="row padding-top"> 
 
                         

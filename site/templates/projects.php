@@ -23,11 +23,10 @@
                             <a href="#" class="filter" data-filter=".education">Education</a>
                             <a href="#" class="filter" data-filter=".civic">Civic</a> 
                             <a href="#" class="filter" data-filter=".cultural">Cultural</a>
-                            <a href="#" class="filter" data-filter=".spiritual">Spiritual</a> 
                             <a href="#" class="filter" data-filter=".planning">Planning</a>
                             <a href="#" class="filter" data-filter=".tenant-improvement">Tenant Improvement</a>
                             <a href="#" class="filter" data-filter=".renovation">Renovation</a> 
-                            <a href="#" class="filter" data-filter=".new-building">New Building</a>
+                            <a href="#" class="filter" data-filter=".new-building">New Buildings</a>
                             <a href="#" class="filter" data-filter=".in-progress">In Progress</a> 
                         </p>
                     </div>
@@ -63,7 +62,7 @@
                                                     <h3><?php echo html($project->title()) ?></h3>                                
                                             </div>
                                             <!-- City and Date -->
-                                            <p><i class="fa fa-map-marker"></i> <?php echo html($project->client()) ?></p>             
+                                            <p><?php echo html($project->client()) ?></p>             
                                         </div>
                                     </div>
 

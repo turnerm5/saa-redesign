@@ -2,6 +2,8 @@ name: Evan Bourquard
 ----
 bio: Evan is an awesome author with years of experience
 ----
+title: LEED AP BD+C
+----
 role: Associate
 ----
 email: evan@saarch.com

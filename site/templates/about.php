@@ -91,16 +91,18 @@
                             <h3>Education</h3>
                             <?php echo kirbytext($page->clients_education()) ?>
                         </div>
-                       
-                        <div class="col-md-4">
-                            <h3>Spiritual</h3>
-                            <?php echo kirbytext($page->clients_spiritual()) ?>
-                        </div>
                         
                         <div class="col-md-4">
                             <h3>Civic / Cultural</h3>
                             <?php echo kirbytext($page->clients_civic_cultural()) ?>
                         </div>  
+
+                        <div class="col-md-4">
+                            <h3>Spiritual</h3>
+                            <?php echo kirbytext($page->clients_spiritual()) ?>
+                        </div>
+                        
+
                     </div><!-- /row -->
             </div><!-- /container -->
         </section>
