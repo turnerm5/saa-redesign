@@ -7,11 +7,7 @@
 
             <div class="general-title"> 
                 <h2>
-                <?php if($page->longtitle()) : ?>
-                    <?php echo html($page->longtitle()) ?>
-                <?php else : ?>
                     <?php echo html($page->title()) ?>
-                <?php endif ?>
                 </h2>
                 <div class="title-divider"></div>
             </div>
@@ -27,7 +23,7 @@
                                         <div class="post-box col-md-4 col-lg-4 col-sm-4 col-xs-4">
                                         <li>
                                             <a href="<?php echo $image->url() ?>" data-lightbox="project_photos" data-title="<?php echo $image->caption() ?>">
-                                                <img class="img-responsive" src="<?php echo thumb($image, array('width' => 200, 'height' => 200, 'crop' => true)) ?>" alt="<?php echo html($page->title()) ?>" width="<?php echo $image->width() ?>" height="<?php echo $image->height() ?>">
+                                                <img class="img-responsive" src="<?php echo thumb($image, array('width' => 300, 'crop' => false))->url() ?>" alt="<?php echo html($page->title()) ?>" >
                                             </a>
                                         </li>
                                         </div>
