@@ -85,7 +85,7 @@
                 <div class="row">
                   <!-- Section Description -->
                     <div class="col-md-6 col-md-offset-3 col-xs-10 col-xs-offset-1">
-                        <p>What cool stuff have we done recently?</p>
+                        <p>What have we done recently?</p>
                     </div>          
                 </div><!-- /row -->       
             </div><!-- /container -->                   

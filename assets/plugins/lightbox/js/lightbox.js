@@ -13,11 +13,11 @@
 
   var LightboxOptions = (function() {
     function LightboxOptions() {
-      this.fadeDuration                = 200;
+      this.fadeDuration                = 500;
       this.fitImagesInViewport         = true;
-      this.resizeDuration              = 350;
-      this.positionFromTop             = 60;
-      this.showImageNumberLabel        = true;
+      this.resizeDuration              = 200;
+      this.positionFromTop             = 200;
+      this.showImageNumberLabel        = false;
       this.alwaysShowNavOnTouchDevices = false;
       this.wrapAround                  = false;
     }

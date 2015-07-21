@@ -19,7 +19,7 @@
             <!-- Project Inner -->
             <div class="container padding-top padding-bottom">
                 <div class="row">
-                    <div class="col-sm-12 col-md-12">
+                    <div class="col-sm-12 col-md-8 col-md-push-4 padding-bottom">
                         <div id="masonry">    
                             <ul>
                                 <?php if($page->hasImages()): ?> 
@@ -27,70 +27,16 @@
                                         <div class="post-box col-md-4 col-lg-4 col-sm-4 col-xs-4">
                                         <li>
                                             <a href="<?php echo $image->url() ?>" data-lightbox="project_photos" data-title="<?php echo $image->caption() ?>">
-                                                <img class="img-responsive" src="<?php echo $image->url() ?>" alt="<?php echo html($page->title()) ?>" width="<?php echo $image->width() ?>" height="<?php echo $image->height() ?>">
+                                                <img class="img-responsive" src="<?php echo thumb($image, array('width' => 200, 'height' => 200, 'crop' => true)) ?>" alt="<?php echo html($page->title()) ?>" width="<?php echo $image->width() ?>" height="<?php echo $image->height() ?>">
                                             </a>
                                         </li>
                                         </div>
-                                    <?php endforeach ?>
-                                <?php else: ?>    
-                                    <div class="post-box col-md-3 col-lg-3 col-sm-3 col-xs-2">
-                                        <li>
-                                            <a href="http://placehold.it/800x600" data-lightbox="project_photos" data-title="Placeholder Image">
-                                                <img class="img-responsive" src="http://placehold.it/800x600" alt="Placeholder Image" width="800" height="600">
-                                            </a>
-                                        </li>
-                                    </div>
-
-                                    <div class="post-box col-md-4 col-lg-4 col-sm-4 col-xs-2">
-                                        <li>
-                                            <a href="http://placehold.it/600x800" data-lightbox="project_photos" data-title="Placeholder Image">
-                                                <img class="img-responsive" src="http://placehold.it/600x800" alt="Placeholder Image" width="600" height="800">
-                                            </a>
-                                        </li>
-                                    </div>
-
-                                    <div class="post-box col-md-4 col-lg-4 col-sm-4 col-xs-2">
-                                        <li>
-                                            <a href="http://placehold.it/600x800" data-lightbox="project_photos" data-title="Placeholder Image">
-                                                <img class="img-responsive" src="http://placehold.it/600x800" alt="Placeholder Image" width="600" height="800">
-                                            </a>
-                                        </li>
-                                    </div>
-
-                                    <div class="post-box col-md-4 col-lg-4 col-sm-4 col-xs-2">
-                                        <li>
-                                            <a href="http://placehold.it/600x800" data-lightbox="project_photos" data-title="Placeholder Image">
-                                                <img class="img-responsive" src="http://placehold.it/600x800" alt="Placeholder Image" width="600" height="800">
-                                            </a>
-                                        </li>
-                                    </div>
-
-                                    <div class="post-box col-md-4 col-lg-4 col-sm-4 col-xs-2">
-                                        <li>
-                                            <a href="http://placehold.it/800x600" data-lightbox="project_photos" data-title="Placeholder Image">
-                                                <img class="img-responsive" src="http://placehold.it/800x600" alt="Placeholder Image" width="800" height="600">
-                                            </a>
-                                        </li>
-                                    </div>
-
-                                    <div class="post-box col-md-4 col-lg-4 col-sm-4 col-xs-2">
-                                        <li>
-                                            <a href="http://placehold.it/800x600" data-lightbox="project_photos" data-title="Placeholder Image">
-                                                <img class="img-responsive" src="http://placehold.it/800x600" alt="Placeholder Image" width="800" height="600">
-                                            </a>
-                                        </li>
-                                    </div>
-                                                                                                
+                                    <?php endforeach ?>                                                                                                
                                 <?php endif ?>
                             </ul>
                         </div> <!-- /#masonry -->
                     </div> <!-- /.col-sm-12 -->
-                </div> <!-- /.row -->
-                
-                <div class="row padding-top">
-                <!-- Project Information (location, date, category some information about your project) -->
-
-                    <div class="col-sm-8">
+                    <div class="col-md-4 col-sm-12 col-md-pull-8">
 
                         <!-- Description -->
                         <div class="project-description">
@@ -98,12 +44,7 @@
                         </div>
                         <!-- End Description -->
                     
-                        <div class="btn-group btn-group-sm padding-top">
-                            <a href="/projects" class="btn black-btn">Back to All Projects</a>
-                        </div>
-
-                    </div>
-                    <div class="col-sm-4">
+                        
                         <!-- Start Project Info -->
                         <div class="project-info">
                             <ul>
@@ -143,7 +84,14 @@
                                 </li>
                             </ul>
                         </div> <!-- /.project-info -->
+                        <div class="btn-group btn-group-sm">
+                            <a href="/projects" class="btn black-btn">Back to All Projects</a>
+                        </div>
                     </div> <!-- /.col-sm-4 -->
+                    
+                </div> <!-- /.row -->
+            
+
                 </div><!-- /.row -->
             </div> <!-- /.container -->
         </div> <!-- /.site-wrapper -->
