@@ -49,7 +49,7 @@
                                     <?php $image = $member->images()->find('01.jpg') ?>                 
                                     <img src="<?php echo $image->url() ?>" alt="Specifie an alternate text for an image">
                                 <?php else: ?>
-                                    <img src="http://www.placehold.it/500x500" alt="Placeholder text">
+                                    <img src="http://www.placebear.com/500/500" alt="Placeholder text">
                                 <?php endif ?>                                
                             </div>
                             <div class="team-caption">

@@ -27,7 +27,7 @@
                                 <?php $image = $member->images()->find('01.jpg') ?>                 
                                 <img class="img-responsive" src="<?php echo $image->url() ?>" width="500" height="500" alt="Test">
                             <?php else: ?>
-                                <img class="img-responsive" src="http://www.placehold.it/500x500" width="500" height="500" alt="Placeholder text"> 
+                                <img class="img-responsive" src="http://www.placebear.com/500/500" width="500" height="500" alt="Placeholder text"> 
                             <?php endif ?>                                 
                         </div>
                         <!-- End Image -->
