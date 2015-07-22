@@ -263,13 +263,13 @@
                                     <?php endif ?>
                                 </a>
                                 <!-- Title and Description -->
-                                <div class="caption">
+                                <div class="caption text-left">
                                     <div class="blog-inner-title">
                                         <a href="<?php echo $article->url() ?>">
                                             <h3><?php echo html($article->title()) ?></h3>                      
                                         </a>
                                     </div>
-                                    <p><?php echo excerpt($article->text(), 150) ?></p>                        
+                                    <p><?php echo excerpt($article->text(), 250) ?></p>                        
                                     <div class="blog-meta">
                                         <span><i class="fa fa-calendar"></i> <a href="<?php echo $article->url() ?>"><?php echo $article->date('Y-m-d') ?></a></span>
                                         <span><i class="fa fa-user"></i> <a href="<?php echo $article->url() ?>"><?php echo $author->name() ?></a></span>

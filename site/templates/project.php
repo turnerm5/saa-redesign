@@ -88,6 +88,13 @@
                                         <a href="/projects#<?php echo $tag_stripped ?>"><?php echo $tag_formatted ?><?php if (end($tags) != $tag) : ?>,<?php endif ?></a>
                                     <?php endforeach ?>
                                 </li>
+                                
+                                <!-- Awards -->
+                                <?php if ($page->awards() != "") : ?>
+                                    <li class="awards">
+                                        <b>Awards:</b> <?php echo kirbytext($page->awards()) ?>
+                                    </li>
+                                <?php endif ?>
                             </ul>
                         </div> <!-- /.project-info -->
                         <div class="btn-group btn-group-sm">

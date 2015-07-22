@@ -37,14 +37,18 @@
                     <!-- Project Item (image, title, city, date and description of project)-->
                     <div id="Container">
 
-                            <?php $counter = 0; ?>
+                            <?php $count = 0; ?>
 
                             <?php foreach($page->children()->visible() as $project): ?>
                                 
                                 <?php $tags = $project->tags() ?>
                                 <?php $tags_stripped = str_replace(',','', $tags)?>
+                                    
+                                    <?php if ($count % 3 == 0): ?>
+                                        <div class="row">
+                                    <?php endif?>
 
-                                    <div class="col-sm-6 col-md-4 project-item mix <?php echo $tags_stripped ?>">
+                                    <div class="col-sm-4 col-md-4 project-item mix <?php echo $tags_stripped ?>">
                                         <div class="thumbnail projects-thumbnail">
                                             <a href="<?php echo $project->url() ?>">
                                                 <?php if ($project->hasImages()): ?>
@@ -65,7 +69,10 @@
                                             <p><?php echo html($project->client()) ?></p>             
                                         </div>
                                     </div>
-
+                                    <?php $count = $count + 1 ?>
+                                    <?php if ($count % 3 == 0): ?>
+                                        </div>
+                                    <?php endif?>
                             <?php endforeach ?>
 
                     </div> <!-- / Mix Container -->

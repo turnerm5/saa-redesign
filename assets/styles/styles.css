@@ -578,6 +578,10 @@ a:focus {
   transition: all .25s ease-in-out;
 }
 
+.awards li p {
+  margin-bottom: 0px;
+}
+
 /* ----------------------------------------------------
   BLOG STYLES
 ------------------------------------------------------- */
@@ -596,8 +600,9 @@ a:focus {
 
 .blog-post .caption{
   background-color: #fff;
-  padding-left: 25px;
-  padding-right: 25px;
+  padding-left: 0px;
+  padding-right: 0px;
+  padding-top: 0px;
 }
 .blog-post .caption h3{
   font-family: 'Montserrat', sans-serif;
@@ -607,7 +612,7 @@ a:focus {
 }
 .blog-post .caption i{
   color: #da3020;
-  margin-top: 20px;
+  margin-top: 10px;
   margin-bottom: 20px;
   margin-right: 0px;
   margin-left: 5px;
@@ -687,6 +692,10 @@ a:focus {
   color: #da3020;
   margin-bottom: 3px;
   margin-top: 10px;
+}
+
+.blog-inner-title h3{
+  margin-top: 0px;
 }
 
 .blog-inner-title a{

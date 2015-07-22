@@ -15,7 +15,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
         <!-- Favicon-->
-        <link rel="icon" type="image/png" href="assets/img/favicon.ico">
+        <link rel="icon" type="<?php echo u() ?>image/png" href="assets/img/favicon.ico">
 
         <!-- Css Global Compulsory -->
         <link rel="stylesheet" href="<?php echo u() ?>assets/plugins/bootstrap/css/bootstrap.css"> 

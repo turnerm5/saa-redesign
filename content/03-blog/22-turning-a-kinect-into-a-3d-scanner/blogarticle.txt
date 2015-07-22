@@ -1,0 +1,33 @@
+Title: Turning a Kinect into a 3D Scanner
+----
+Date: 27 Mar 2015 23:52:12
+----
+Author: marshall-turner
+----
+Text: Just as we sketch to get away from our computers, we also go the other way, exploring innovative uses for technology in the design process.
+
+One topic that’s fascinated us for a while has been the rise of inexpensive sensors and systems that used to be cost-prohibitive. The Kinect is a classic example. The original Kinect sensor was a milestone achievement in the world of natural human computing. It allowed developers to create solutions that broke through the old barriers of mouse and keyboard interactions. It was also remarkably cheap in 2010, and has only dropped in price.
+
+Using a v1 Kinect , purchased on Craigslist for $30, we figured it would make an ideal lunchtime design exploration, seeing what we could kick out within an hour. There many A/E applications for these low-cost sensors, but this one was just for fun.
+
+We first scanned Adam Riddle’s head, and turned it into a mesh. The scanning took about 30 seconds, and gave us this result.
+
+(image: adam-head-scan.jpg class: img-responsive)
+
+We then cleaned up the holes in the mesh, did some general smoothing, and reduced the number of faces in the model. We then exported it as a PLY file, for import into Rhino. The nice thing about a PLY file is that it brings in the color information as well.
+
+(image: adam-head-model.jpg class: img-responsive)
+
+With the (very shiny!) model in Rhino, it was then referenced in Grasshopper, so we could easily manipulate the 60,000 points of the mesh. I wrote a quick definition to move all of the points onto 16 discrete layers.
+
+(image: adam-head-grasshopper.jpg class: img-responsive)
+
+Then a circle was drawn at each point, and filled with the color that corresponded to the original scan of Adam. Each layer was then saved onto its own layer in Rhino.
+
+(image: adam-head-points.jpg class: img-responsive)
+
+All of the colored circles were then exported to Adobe Illustrator, and then immediately exported from there to Photoshop for animation.
+
+(image: adam_head_animated.gif class: img-responsive)
+
+----
