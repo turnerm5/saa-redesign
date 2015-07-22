@@ -10,6 +10,8 @@ SF: 69,950
 ----
 Tags: education, new-building, in-progress
 ----
+Sustainability: Targeted LEED Gold
+----
 Text: 
 Pre-design site selection responded to the long-range vision for the campus master plan, reinforcing the academic core of campus and allowing for future expansion to the north. The building wraps around the Central Utility Plant and creates a new campus green between itself and Mountlake Terrace.
 

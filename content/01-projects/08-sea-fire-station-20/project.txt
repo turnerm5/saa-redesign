@@ -10,8 +10,12 @@ SF: 9,400
 ----
 Tags: civic, new-building
 ----
+Sustainability: Certified LEED Platinum - with 98 points - the highest LEED score of any new building in the western hemisphere. 
+----
 Text: 
 In 2004, the City of Seattle embarked on a nine-year journey to upgrade, renovate or completely replace thirty-two neighborhood fire stations throughout the city. Fire Station 20, a new facility located at the base of Queen Anne Hill, is one of the last stations to be developed, and one of the most ambitious from a green infrastructure standpoint. Pulling from lessons learned over the last eight years, the city challenged the design team to create a building that not only meets the criteria for LEED Platinum certification, but also follows the guidelines set in the Architecture 2030 Challenge.
+
+In July of 2015, the building was certified LEED Platinum, with the highest score of any new building in the United States, and the second highest score in the world. 
 
 The design of the modest, 9,446 square foot building is a response to these goals, the nature of its place in the tough, industrial fabric of its neighborhood, and the unique character of its site. The station is designed to create a civic presence for the Seattle Fire Department and serve as a model of innovative sustainable design.
 ----

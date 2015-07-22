@@ -10,6 +10,8 @@ SF: 27,500
 ----
 Tags: education, new-building, library
 ----
+Sustainability: Targeted LEED Silver
+----
 Text: 
 The Library Media Center is designed to create a gateway to the Peninsula College campus. The Library is organized around a generous reading room. The design marries the information resources of a 21st century media access center with the spatial qualities of a traditional library. The building accommodates both focused, individual study and group activity. Students are able to take classes in the library on information competency in the use of electronic, print and non print information sources.
 

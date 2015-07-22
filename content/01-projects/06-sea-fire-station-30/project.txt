@@ -10,6 +10,8 @@ SF: 9,100
 ----
 Tags: civic, new-building
 ----
+Sustainability: Certified LEED Gold
+----
 Text:
 This two-story fire station is located at the base of historic Mt. Baker Boulevard, where its civic scale marks the transition between the commercial activity of Rainier Avenue and the primarily residential Mt. Baker neighborhood. The scale and material presence of the building makes it an anchor along Mount Baker Boulevard.
 

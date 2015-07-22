@@ -71,6 +71,13 @@
                                     <?php endif ?>
                                 </li>
 
+                                <!-- SF -->
+                                <?php if ($page->sustainability() != "") : ?>
+                                    <li>
+                                        <b>Sustainability:</b> <?php echo html($page->sustainability()) ?>
+                                    </li>
+                                <?php endif ?>
+
                                 <!-- Category -->
                                 <li>
                                     <?php $tags = explode(",",$page->tags()) ?>

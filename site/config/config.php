@@ -339,8 +339,10 @@ in doubt like:
 
 c::set('yourproject.yourvar', 'yourvalue');
 
-*/
 
+
+*/
+c::set('kirbytext.image.figure',false);
 
 /*
 

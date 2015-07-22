@@ -12,6 +12,8 @@ SF: 40,000
 ----
 Tags: education, new-building, in-progress
 ----
+Sustainability: Targeted LEED Gold
+----
 Text: 
 This project responds to regional workforce demand by providing a state-of-the-art structure for the College's Allied Health departments. The center also houses the Early Childhood Development programs which consist of early childhood education and childcare facilities for toddlers and preschoolers. The building enables these programs to better serve the educational, economic, health and childcare needs of the North Olympic Peninsula community.
 

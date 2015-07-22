@@ -20,14 +20,14 @@
                     <div class="col-md-12">
                         <p class="filter_list">
                             <a href="#" class="filter" data-filter="all">Show All</a>
-                            <a href="#" class="filter" data-filter=".education">Education</a>
-                            <a href="#" class="filter" data-filter=".civic">Civic</a> 
-                            <a href="#" class="filter" data-filter=".cultural">Cultural</a>
-                            <a href="#" class="filter" data-filter=".planning">Planning</a>
-                            <a href="#" class="filter" data-filter=".tenant-improvement">Tenant Improvement</a>
-                            <a href="#" class="filter" data-filter=".renovation">Renovation</a> 
-                            <a href="#" class="filter" data-filter=".new-building">New Buildings</a>
-                            <a href="#" class="filter" data-filter=".in-progress">In Progress</a> 
+                            <a href="#education" class="filter" data-filter=".education">Education</a>
+                            <a href="#civic" class="filter" data-filter=".civic">Civic</a> 
+                            <a href="#cultural" class="filter" data-filter=".cultural">Cultural</a>
+                            <a href="#planning" class="filter" data-filter=".planning">Planning</a>
+                            <a href="#tenant-improvement" class="filter" data-filter=".tenant-improvement">Tenant Improvement</a>
+                            <a href="#renovation" class="filter" data-filter=".renovation">Renovation</a> 
+                            <a href="#new-building" class="filter" data-filter=".new-building">New Buildings</a>
+                            <a href="#in-progress" class="filter" data-filter=".in-progress">In Progress</a> 
                         </p>
                     </div>
                 </div>

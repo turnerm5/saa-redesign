@@ -10,6 +10,8 @@ SF: 75,000
 ----
 Tags: education, new-building, in-progress
 ----
+Sustainability: Targeted LEED Gold
+----
 Text:
 The College Instruction Center houses a 270-seat theater and instructional space for Fine Art, Music and Health Occupations. It is a pivotal project in the realization of the College's master plan. Located at the main entry to campus, the building joins the new Library, Science & Tech and Humanities Buildings to create a central quadrangle. Two city streets will be vacated as part of the project to complete the campus pedestrian spine and create a formal vehicular entry and drop off.
 
