@@ -23,19 +23,19 @@ $phone   = $_POST['phone'];
 $comments = $_POST['comments'];
 
 if(trim($name) == '') {
-	echo '<div class="error_message">You must enter your name.</div>';
+	echo '<div class="error_message text-center">You must enter your name.</div>';
 	exit();
 } else if(trim($email) == '') {
-	echo '<div class="error_message">Please enter a valid email address.</div>';
+	echo '<div class="error_message text-center">Please enter a valid email address.</div>';
 	exit();
 } else if(trim($phone) == '') {
-	echo '<div class="error_message">Please enter a valid phone number.</div>';
+	echo '<div class="error_message text-center">Please enter a valid phone number.</div>';
 	exit();
 } else if(!isPhone($phone)) {
-	echo '<div class="error_message">Please enter a valid phone number.</div>';
+	echo '<div class="error_message text-center">Please enter a valid phone number.</div>';
 	exit();
 } else if(!isEmail($email)) {
-	echo '<div class="error_message">You have enter an invalid e-mail address, try again.</div>';
+	echo '<div class="error_message text-center">Please enter a valid e-mail address.</div>';
 	exit();
 }
 
@@ -87,7 +87,7 @@ if(mail($address, $e_subject, $msg, $headers)) {
 
 	echo "<fieldset>";
 	echo "<div id='success_page'>";
-	echo "<h4 class='highlight'>Thank you $name, your message has been submitted to us. We will get back to you as soon as possible.</h4>";
+	echo "<h4 class='highlight'>Thank you. Your message has been submitted to us. We will get back to you as soon as possible.</h4>";
 	echo "</div>";
 	echo "</fieldset>";
 

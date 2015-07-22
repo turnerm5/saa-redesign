@@ -251,7 +251,8 @@ html {
 }
 body {
   font-family: 'Montserrat', sans-serif;
-  font-weight: 300; 
+  font-weight: 300;
+  font-size: 1.2em; 
   color: #333;
   line-height: 1.6;   
   background-color:#fff;
@@ -621,8 +622,8 @@ a:focus {
 }
 .blog-inner h3{
   font-family: 'Montserrat', sans-serif;
-  font-size: 18px;
-  font-weight: 600; 
+  font-size: 1.3em;
+  font-weight: 400; 
 }
 
 .blog-meta {
@@ -853,10 +854,10 @@ textarea{
 }
 .error_message{
   height: 100%;
-  width: 295px;
+  width: 220px;
   margin: 0 auto; 
   line-height: 22px;
-  padding: 3px 10px 3px 35px;
+  padding: 10px;
   color: #fff;  
   background-color: #da3020;  
   background-position: 10px center;
