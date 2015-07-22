@@ -52,15 +52,39 @@ Table of Contents:
 }
 .carousel-caption h1{
   font-family: 'Montserrat', sans-serif;
+  color: white;
   font-size: 60px;
   font-weight: 700;
   text-transform: uppercase;
   margin-bottom: 50px;
+  -webkit-transition: background-color .2s linear, color .2s linear;
+  -moz-transition: background-color .2s linear, color .2s linear;
+  -o-transition: background-color .2s linear, color .2s linear;
+  -ms-transition: background-color .2s linear, color .2s linear;
+  transition: background-color .2s linear, color .2s linear;
 }
-.carousel-caption{
-  top: 20%;
+
+.carousel-inner p{
+  font-size: 0.9em;
+  position: absolute;
+  color: white;
+  margin-bottom: 0px;
+  text-align: right;
+  right: 15px;
+  bottom: 10px;
   text-shadow: none;
 }
+
+.carousel-inner a {
+  color: white;
+  text-align: right;
+  right: 10px;
+}
+
+.carousel-inner a:hover {
+  color: #da3020;
+}
+
 .panel-group .panel{
   border-radius: 0;
   overflow: hidden;
@@ -98,11 +122,24 @@ Table of Contents:
   -o-transition: all .2s ease-in-out;
   transition: all .2s ease-in-out;
 }
+
+.carousel-indicators {
+  position: absolute;
+  bottom: 10px;
+  left: 50%;
+  z-index: 15;
+  width: 60%;
+  padding-left: 0;
+  margin-left: -30%;
+  text-align: center;
+  list-style: none;
+}
+
 .carousel-indicators li{
-  border: 1px solid #da3020;
+  border: 1px solid #FFFFFF;
 }
 .carousel-indicators .active{
-  background-color: #da3020;
+  background-color: #FFFFFF;
 }
 .nav-pills>li.active>a, .nav-pills>li.active>a:hover, .nav-pills>li.active>a:focus{
   color: #da3020;
@@ -972,4 +1009,10 @@ p.filter_list{
 
 .post-box {
   padding: 3px;
+}
+
+blockquote {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  font-size: 1em;
 }

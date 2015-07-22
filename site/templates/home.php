@@ -16,60 +16,86 @@
                 <li data-target="#header-carousel" data-slide-to="4"></li>   
                 <li data-target="#header-carousel" data-slide-to="5"></li>   
                 <li data-target="#header-carousel" data-slide-to="6"></li>   
-                <li data-target="#header-carousel" data-slide-to="7"></li>   
-                <li data-target="#header-carousel" data-slide-to="8"></li>   
             </ol>   
             <div class="carousel-inner">    
-
-
-
                 <!-- Slider Item (image, link and description for your project in slider) -->        
                 <div class="item active"> 
-                    <!-- Image -->           
-                    <div style="background:url(assets/img/slider-images/image1.jpg) center center; background-size:cover; background-repeat:no-repeat;" class="slider-height"></div>      
+    
+                    <!-- Image -->
+                    <div style="background:url(assets/img/slider-images/image1.jpg) center center; background-size:cover; background-repeat:no-repeat;" class="slider-height">
+                        <p>Fire Station 20<br>
+                        City of Seattle<br>
+                        <a href="projects/sea-fire-station-20">
+                        View Project</p>
+                        </a>
+                    </div>      
                 </div>
-
+                <!-- Slider Item (image, link and description for your project in slider) --> 
+                <div class="item">
+                    <!-- Image -->           
+                    <div style="background:url(assets/img/slider-images/image5.jpg) center center; background-size:cover; background-repeat:no-repeat;" class="slider-height">
+                        <p>Culinary Academy<br>
+                        Seattle Central College<br>
+                        <a href="projects/scc-culinary-academy">
+                        View Project</p>
+                        </a>
+                    </div>       
+                </div>
                 <!-- Slider Item (image, link and description for your project in slider) -->        
                 <div class="item"> 
                     <!-- Image -->           
-                    <div style="background:url(assets/img/slider-images/image2.jpg) center center; background-size:cover; background-repeat:no-repeat;" class="slider-height"></div>       
-                </div>
-
-                <!-- Slider Item (image, link and description for your project in slider) -->        
-                <div class="item"> 
-                    <!-- Image -->           
-                    <div style="background:url(assets/img/slider-images/image3.jpg) center center; background-size:cover; background-repeat:no-repeat;" class="slider-height"></div>       
-                </div>
-                <!-- Slider Item (image, link and description for your project in slider) --> 
-                <div class="item"> 
-                    <!-- Image -->           
-                    <div style="background:url(assets/img/slider-images/image4.jpg) center center; background-size:cover; background-repeat:no-repeat;" class="slider-height"></div>       
+                    <div style="background:url(assets/img/slider-images/image3.jpg) center center; background-size:cover; background-repeat:no-repeat;" class="slider-height">
+                        <p>Maier Hall<br>
+                        Peninsula College<br>
+                        <a href="projects/pc-maier-hall">
+                        View Project</p>
+                        </a>
+                    </div>       
                 </div>
                 <!-- Slider Item (image, link and description for your project in slider) --> 
                 <div class="item"> 
                     <!-- Image -->           
-                    <div style="background:url(assets/img/slider-images/image5.jpg) center center; background-size:cover; background-repeat:no-repeat;" class="slider-height"></div>       
+                    <div style="background:url(assets/img/slider-images/image2.jpg) center center; background-size:cover; background-repeat:no-repeat;" class="slider-height">
+                        <p>Fairwood Library Renovation & Addition<br>
+                        King County Library System<br>
+                        <a href="projects/kcls-fairwood-library">
+                        View Project</p>
+                        </a>
+                    </div>       
                 </div>
                 <!-- Slider Item (image, link and description for your project in slider) --> 
                 <div class="item"> 
                     <!-- Image -->           
-                    <div style="background:url(assets/img/slider-images/image6.jpg) center center; background-size:cover; background-repeat:no-repeat;" class="slider-height"></div>       
+                    <div style="background:url(assets/img/slider-images/image6.jpg) center center; background-size:cover; background-repeat:no-repeat;" class="slider-height">
+                        <p>Creative Academy<br>
+                        Seattle Central College<br>
+                        <a href="projects/scc-creative-academy">
+                        View Project</p>
+                        </a>
+                    </div>       
                 </div>
                 <!-- Slider Item (image, link and description for your project in slider) --> 
                 <div class="item"> 
                     <!-- Image -->           
-                    <div style="background:url(assets/img/slider-images/image7.jpg) center center; background-size:cover; background-repeat:no-repeat;" class="slider-height"></div>       
+                    <div style="background:url(assets/img/slider-images/image7.jpg) center center; background-size:cover; background-repeat:no-repeat;" class="slider-height">
+                        <p>Counseling & Advising Services<br>
+                        Tacoma Community College<br>
+                        <a href="projects/tcc-counseling-advising-services">
+                        View Project</p>
+                        </a>
+                    </div>       
                 </div>          
                 <!-- Slider Item (image, link and description for your project in slider) --> 
                 <div class="item"> 
                     <!-- Image -->           
-                    <div style="background:url(assets/img/slider-images/image8.jpg) center center; background-size:cover; background-repeat:no-repeat;" class="slider-height"></div>       
-                </div>          
-                <!-- Slider Item (image, link and description for your project in slider) --> 
-                <div class="item"> 
-                    <!-- Image -->           
-                    <div style="background:url(assets/img/slider-images/image9.jpg) center center; background-size:cover; background-repeat:no-repeat;" class="slider-height"></div>       
-                </div>                          
+                    <div style="background:url(assets/img/slider-images/image8.jpg) center center; background-size:cover; background-repeat:no-repeat;" class="slider-height">
+                        <p>Fire Station 30<br>
+                        City of Seattle<br>
+                        <a href="projects/sea-fire-station-30">
+                        View Project</p>
+                        </a>
+                    </div>       
+                </div>                                  
             </div>   
         </div>
         <!-- End Slider -->
@@ -85,7 +111,7 @@
                 <div class="row">
                   <!-- Section Description -->
                     <div class="col-md-6 col-md-offset-3 col-xs-10 col-xs-offset-1">
-                        <p>What have we done recently?</p>
+                        <p>We provide a full range of architectural services for our clients, including master planning, capital requests, feasibility studies, interior design and construction administration.</p>
                     </div>          
                 </div><!-- /row -->       
             </div><!-- /container -->                   
@@ -107,10 +133,10 @@
                                 
                                 <?php if ($project->hasImages()): ?>
                                     <?php $image = $project->images()->find('01.jpg') ?>                 
-                                    <img src="<?php echo $image->url() ?>" alt="Placeholder" >                    
+                                    <img src="<?php echo thumb($image, array('width' => 400, 'height' => 300, 'crop' => true))->url() ?>" alt="Placeholder" >                    
                                 
                                 <?php else: ?>
-                                    <img src="http://www.placehold.it/800x600" alt="Placeholder text">  
+                                    <img src="http://www.placehold.it/400x300" alt="Placeholder text">  
                                 <?php endif ?>
 
                                 <div class="project-caption">
@@ -154,7 +180,7 @@
                         <div class="col-sm-4 col-md-4">
                             <!-- Icon -->  
                             <a href="services.html">
-                                <i class="fa fa-building fa-3x"></i>          
+                                <i class="fa fa-pencil-square-o fa-3x"></i>          
                             </a> 
                             <!-- Title -->
                             <div class="service-title">
@@ -183,7 +209,7 @@
                         <div class="col-sm-4 col-md-4">  
                             <!-- Icon -->
                             <a href="services.html">                                
-                                <i class="fa fa-home fa-3x"></i>     
+                                <i class="fa fa-users fa-3x"></i>     
                             </a> 
                             <!-- Title -->  
                             <div class="service-title">      
@@ -231,9 +257,9 @@
                                 <a href="<?php echo $article->url() ?>">
                                     <?php if ($article->hasImages()): ?>
                                     <?php $image = $article->images()->find('01.jpg') ?>                 
-                                    <img src="<?php echo $image->url() ?>" alt="Placeholder" >
+                                    <img src="<?php echo thumb($image, array('width' => 400, 'height' => 300, 'crop' => true))->url() ?>" alt="Blog Thumbnail" >
                                     <?php else: ?>
-                                        <img src="http://www.placehold.it/800x600" alt="Placeholder text">  
+                                        <img src="http://www.placehold.it/400x300" alt="Placeholder text">  
                                     <?php endif ?>
                                 </a>
                                 <!-- Title and Description -->

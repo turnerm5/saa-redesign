@@ -18,7 +18,7 @@
                 <!-- All Contact Information (phone, street, email, website, working hours) -->
                 <div class="row">
                     <!-- Adress -->                       
-                    <div class="col-sm-3 col-md-3">
+                    <div class="col-sm-12 col-md-3">
                         <h3>Address</h3> 
                         <address>                            
                             <p>
@@ -30,19 +30,19 @@
                         </address>                                
                     </div>
                     <!-- Contact Information -->
-                    <div class="col-md-3 col-md-3">
+                    <div class="col-sm-12 col-md-3">
                         <h3>Contact Info</h3>
                         <address>                            
                             <p>
                                 
                                 <a href="mailto:saarch@saarch.com"><i class="fa fa-envelope-o"></i>saarch@saarch.com</a><br>
-                                <a href="https://www.google.com/" target="_blank"><i class="fa fa-desktop"></i>www.saarch.com</a><br>                      
+                                <a href="https://www.saarch.com/" target="_blank"><i class="fa fa-desktop"></i>www.saarch.com</a><br>                      
                                 <i class="fa fa-phone"></i>(206) 743-5741
                             </p>
                         </address>                                
                     </div>
                     <!-- Working Hours -->
-                    <div class="col-md-3 col-md-3">
+                    <div class="col-sm-12 col-md-3">
                         <h3>Office Hours</h3>
                         <address>                            
                             <p>
@@ -53,7 +53,7 @@
                         </address>
                     </div>      
                     <!-- Employment -->
-                    <div class="col-md-3 col-md-3">
+                    <div class="col-sm-12 col-md-3">
                         <h3>Employment</h3>
                         <address>                            
                             <p>

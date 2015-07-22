@@ -49,10 +49,10 @@
                                             <a href="<?php echo $project->url() ?>">
                                                 <?php if ($project->hasImages()): ?>
 
-                                                    <?php $image = $project->images()->find('99.jpg') ?>
-                                                    <img src="<?php echo $image->url() ?>" alt="<?php echo html($project->title()) ?>" width="<?php echo $image->width() ?>" height="<?php echo $image->height() ?>">
+                                                    <?php $image = $project->images()->find('01.jpg') ?>
+                                                    <img src="<?php echo thumb($image, array('width' => 400, 'height' => 300, 'crop' => true))->url() ?>" alt="<?php echo html($project->title()) ?>" width="<?php echo $image->width() ?>" height="<?php echo $image->height() ?>">
                                                 <?php else: ?>
-                                                    <img src="http://www.placehold.it/800x600" alt="Placeholder text">  
+                                                    <img src="http://www.placehold.it/400x300" alt="Placeholder text">  
                                                 <?php endif ?>                                                     
                                             </a>         
                                         </div>

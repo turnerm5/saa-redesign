@@ -6,9 +6,18 @@ Author: marshall-turner
 ----
 Text: This combination of a soft interface, motion-sensing hardware and generative music software is incredible.
 
-http://vimeo.com/57143023
-<blockquote>The Instrument is a textile interface for movement. An open source hardware that has open purpose and usage, being able to be freely folded, twisted, tightened and manipulated in various contexts to generate real time digital data of its movement.
+(vimeo: http://vimeo.com/57143023)
 
-The current setup of the interface has a single Lilypad Arduino, 5 Lilypad Accelerometers, one Xbee Module, and a Lipo battery sewed altogether manually with conductive thread. The interface was originally created to be part of the interactive installation of Nama (<a href="https://vimeo.com/57115948">vimeo.com/57115948</a>), however through the online documentation and open software created it is possible to adapt the interface's setup to multiple other contexts.</blockquote>
-&nbsp;
+> The Instrument is a textile interface for movement. An open source hardware
+> that has open purpose and usage, being able to be freely folded, twisted,
+> tightened and manipulated in various contexts to generate real time digital
+> data of its movement.
+
+> The current setup of the interface has a single Lilypad Arduino, 5 Lilypad 
+> Accelerometers, one Xbee Module, and a Lipo battery sewed altogether 
+> manually with conductive thread. The interface was 
+> originally created to be part of the interactive installation 
+> of Nama, however through the online documentation and open 
+> software created it is possible to adapt the interface's 
+> setup to multiple other contexts.
 ----

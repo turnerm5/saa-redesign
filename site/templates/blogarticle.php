@@ -35,9 +35,11 @@
                     <div class="col-md-8 col-md-pull-4 caption">
                         <div class="blog-title">                                
                             <h3><?php echo html($page->title()) ?></h3>                                
-                            <?php echo kirbytext($page->text()) ?>
-                            <p><a href="<?php echo url('blog') ?>">Back…</a></p>
                         </div>
+                        <?php echo kirbytext($page->text()) ?>
+                        <a href="/blog" class="btn black-btn">
+                            Go Back
+                        </a>
                     </div>
                     <!-- /Blog Text -->
 

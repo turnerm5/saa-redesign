@@ -6,14 +6,13 @@
         <!-- Site Wrapper -->
         <div class="site-wrapper">
 
-        <div class="general-title">
-            <h2>SAARCHBLOG</h2>
-            <div class="title-divider"></div>
-        </div>
+            <div class="general-title">
+                <h2>SAARCHBLOG</h2>
+                <div class="title-divider"></div>
+            </div>
 
             <!-- Blog -->
             <div class="container padding-top padding-bottom">
-                
                 <div class="row">
                     <div id="Container">
                         <?php $articles = $page->children()->visible()->flip()->paginate(6) ?>
@@ -22,15 +21,15 @@
                             <?php $author = $pages->find('team/' . $article->author()) ?>
 
                             <!-- Blog Post (image, title, date and description of post) --> 
-                            <div class="col-sm-4 col-md-4 col-xs-6 mix">
+                            <div class="col-sm-6 col-md-4 col-xs-12">
                                 <div class="thumbnail blog-inner">
                                     <!-- Image -->
                                     <a href="<?php echo $article->url() ?>">
                                         <?php if ($article->hasImages()): ?>
                                         <?php $image = $article->images()->find('01.jpg') ?>                 
-                                        <img src="<?php echo $image->url() ?>" alt="Placeholder" >
+                                        <img src="<?php echo thumb($image, array('width' => 400, 'height' => 300, 'crop' => true))->url() ?>" alt="Placeholder" width="<?php echo thumb($image, array('width' => 400, 'height' => 300, 'crop' => true))->width() ?>" height="<?php echo thumb($image, array('width' => 400, 'height' => 300, 'crop' => true))->height() ?>">
                                         <?php else: ?>
-                                            <img src="http://www.placehold.it/800x600" alt="Placeholder text">  
+                                            <img src="http://www.placehold.it/400x300" alt="Placeholder text">  
                                         <?php endif ?>
                                     </a>        
                                     <div class="caption">
