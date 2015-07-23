@@ -343,7 +343,7 @@ c::set('yourproject.yourvar', 'yourvalue');
 
 */
 c::set('kirbytext.image.figure',false);
-
+c::set('thumbs.driver', 'gd');
 /*
 
 ---------------------------------------

@@ -625,9 +625,6 @@ a:focus {
 /* Inner Blog Styles */
 .blog-inner{
   margin-bottom: 30px;
-}
-
-.blog-inner{
   padding-top: 10px;
 }
 
@@ -640,7 +637,8 @@ a:focus {
   font-size: 1.4em;
   line-height: 1.4em;
   font-weight: 400; 
-}
+  padding-top: 10px
+;}
 
 .blog-meta {
   font-size: 12px;
@@ -663,7 +661,7 @@ a:focus {
 }
 
 .blog-meta-inner {
-  margin-top: 20px;
+  margin-top: 54px;
   padding: 15px 0px 0px 15px;
 }
 
@@ -696,6 +694,7 @@ a:focus {
 
 .blog-inner-title h3{
   margin-top: 0px;
+  margin-bottom: 20px;
 }
 
 .blog-inner-title a{
@@ -703,6 +702,9 @@ a:focus {
 }
 .blog-inner-title a:hover{
   color: #da3020;
+}
+.blog-title h3{
+  margin-bottom: 30px;
 }
 .comments{
   padding-top: 20px;

@@ -20,15 +20,12 @@
                             <ul>
                                 <?php if($page->hasImages()): ?> 
                                     <?php foreach($page->images()->not('99.jpg') as $image): ?>        
-                                        
                                         <div class="post-box col-md-6 col-lg-6 col-sm-6 col-xs-6">
-                                        
-
-                                        <li>
-                                            <a href="<?php echo $image->url() ?>" data-lightbox="project_photos" data-title="<?php echo $image->caption() ?>">
-                                                <img class="img-responsive" src="<?php echo thumb($image, array('width' => 400, 'quality' => 70, 'crop' => false))->url() ?>" alt="<?php echo html($page->title()) ?>" >
-                                            </a>
-                                        </li>
+                                            <li>
+                                                <a href="<?php echo $image->url() ?>" data-lightbox="project_photos" data-title="<?php echo $image->caption() ?>">
+                                                    <img class="img-responsive" src="<?php echo thumb($image, array('width' => 400, 'quality' => 70, 'tosRGB' => true, 'crop' => false))->url() ?>" alt="<?php echo html($page->title()) ?>" >
+                                                </a>
+                                            </li>
                                         </div>
                                     <?php endforeach ?>                                                                                                
                                 <?php endif ?>
